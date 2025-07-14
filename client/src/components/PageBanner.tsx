@@ -31,7 +31,7 @@ export const PageBanner = ({
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
-            <span className="text-green-500">//</span> {title}
+            <span className="text-green-500">"</span> {title} <span className="text-green-500">"</span>
           </h1>
           {subtitle && (
             <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">

@@ -3,12 +3,22 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
-import { MapPin, Mail, Phone, Clock, ExternalLink } from 'lucide-react';
+import { MapPin, Mail, Phone, Clock, ExternalLink, HelpCircle } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export const Contact = () => {
-  const handleViewOnMap = () => {
-    const address = "Kant Helix, Bhoir Colony, Chinchwad, Pune 411033";
-    const mapsUrl = `https://maps.google.com/?q=${encodeURIComponent(address)}`;
+  const locations = [
+    {
+      title: "Pune Office",
+      description: "Our main office located in the heart of Pune.",
+      address: "Kant Helix, Bhoir Colony, Chinchwad, Pune 411033",
+      image: "images/locations/pune.jpg"
+    },
+  ];
+
+  const handleViewOnMap = (address?: string) => {
+    const mapAddress = address || "Kant Helix, Bhoir Colony, Chinchwad, Pune 411033";
+    const mapsUrl = `https://maps.google.com/?q=${encodeURIComponent(mapAddress)}`;
     window.open(mapsUrl, '_blank');
   };
 
@@ -39,10 +49,10 @@ export const Contact = () => {
                     </p>
                   </div>
                 </div>
-                <Button 
-                  variant="outline" 
-                  size="sm" 
-                  onClick={handleViewOnMap}
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={() => handleViewOnMap()}
                   className="ml-4 flex items-center gap-2"
                 >
                   <ExternalLink className="h-4 w-4" />
@@ -105,17 +115,17 @@ export const Contact = () => {
                     <Input id="lastName" placeholder="Your last name" />
                   </div>
                 </div>
-                
+
                 <div>
                   <Label htmlFor="email">Email</Label>
                   <Input id="email" type="email" placeholder="your@email.com" />
                 </div>
-                
+
                 <div>
                   <Label htmlFor="company">Company</Label>
                   <Input id="company" placeholder="Your company name" />
                 </div>
-                
+
                 <div>
                   <Label htmlFor="message">Message</Label>
                   <textarea
@@ -125,7 +135,7 @@ export const Contact = () => {
                     placeholder="Tell us about your project..."
                   />
                 </div>
-                
+
                 <Button type="submit" className="w-full">
                   Send Message
                 </Button>
@@ -134,52 +144,58 @@ export const Contact = () => {
           </Card>
         </div>
 
-        {/* Location Section */}
-        <div className="grid lg:grid-cols-2 gap-12">
-          <div>
-            <h3 className="text-2xl font-bold text-foreground mb-6">Our Location</h3>
-            <div className="space-y-4 mb-6">
-              <p className="text-muted-foreground">
-                Located in the heart of Pune's technology hub, our facility at Kant Helix represents 
-                the future of sustainable energy solutions. We're strategically positioned to serve 
-                clients across India and internationally.
-              </p>
-              <p className="text-muted-foreground">
-                Our state-of-the-art research and development center is equipped with cutting-edge 
-                technology for biomass processing and renewable energy innovation.
-              </p>
-            </div>
-            
-            {/* Office Image */}
-            <div className="rounded-lg overflow-hidden mb-6">
-              <img
-                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Delamore Energy Office"
-                className="w-full h-64 object-cover"
-              />
+        {/* Centered Location Section with FAQ Button */}
+        <div className="flex flex-col items-center justify-center mb-16">
+          <div className="w-full max-w-4xl">
+            <h3 className="text-2xl font-bold text-foreground mb-6 text-center">
+              Our Locations
+            </h3>
+            <div className="grid md:grid-cols-1 gap-8">
+              {locations.map((location, index) => (
+                <Card key={index} className="overflow-hidden">
+                  <div className="relative h-48">
+                    <img
+                      src={location.image}
+                      alt={location.title}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <CardContent className="p-6">
+                    <h4 className="text-xl font-semibold mb-2">{location.title}</h4>
+                    <p className="text-muted-foreground mb-4">{location.description}</p>
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+                        <MapPin className="h-4 w-4" />
+                        <span>{location.address}</span>
+                      </div>
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={() => handleViewOnMap(location.address)}
+                        className="flex items-center gap-2"
+                      >
+                        <ExternalLink className="h-4 w-4" />
+                        View Map
+                      </Button>
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
             </div>
           </div>
 
-          <div className="space-y-6">
-            {/* Map placeholder */}
-            <div className="bg-gray-200 rounded-lg h-64 flex items-center justify-center">
-              <div className="text-center">
-                <MapPin className="h-12 w-12 text-primary mx-auto mb-2" />
-                <p className="text-muted-foreground">Interactive Map</p>
-                <p className="text-sm text-muted-foreground">Kant Helix, Chinchwad, Pune</p>
-              </div>
-            </div>
-
-            {/* Facility Image */}
-            <div className="rounded-lg overflow-hidden">
-              <img
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Delamore Energy Facility"
-                className="w-full h-48 object-cover"
-              />
-            </div>
+          {/* FAQ Button */}
+          <div className="mt-12 text-center">
+            <Button asChild variant="outline" className="gap-2">
+              <Link to="/FAQs">
+                <HelpCircle className="h-5 w-5" />
+                Visit FAQ Page
+              </Link>
+            </Button>
           </div>
         </div>
+
+
       </div>
     </section>
   );
