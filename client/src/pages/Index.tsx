@@ -35,7 +35,7 @@ const Index = () => {
       </div>
 
       <FadeUp>
-        <div className="bg-gradient-to-r from-indigo-50 to-blue-50 py-20">
+        <div className="bg-gradient-to-r from-indigo-50 to-blue-50 py-0">
           <About />
         </div>
       </FadeUp>

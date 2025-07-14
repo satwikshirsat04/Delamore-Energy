@@ -1,3 +1,5 @@
+import { FadeUp } from "./animations/FadeUp";
+
 interface PageBannerProps {
   title: string;
   subtitle?: string;
@@ -33,11 +35,13 @@ export const PageBanner = ({
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
             <span className="text-green-500">"</span> {title} <span className="text-green-500">"</span>
           </h1>
+          <FadeUp>
           {subtitle && (
             <p className="text-xl md:text-xl text-gray-300 max-w-3xl mx-auto">
               {subtitle}
             </p>
           )}
+          </FadeUp>
         </div>
       </div>
     </section>

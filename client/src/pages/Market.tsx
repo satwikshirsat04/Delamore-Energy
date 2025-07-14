@@ -58,10 +58,10 @@ const Market = () => {
         // backgroundImage="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
       />
       
-      <div className="py-20">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      {/* <div className="py-20"> */}
+        {/* <div className="container mx-auto px-4 sm:px-6 lg:px-8"> */}
           {/* Market Statistics */}
-          <div className="mb-16">
+          {/* <div className="mb-16">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-foreground mb-4">Market Statistics</h2>
               <p className="text-lg text-muted-foreground">
@@ -86,10 +86,10 @@ const Market = () => {
                 </Card>
               ))}
             </div>
-          </div>
+          </div> */}
 
           {/* Market Opportunities */}
-          <div className="mb-16">
+          {/* <div className="mb-16">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-foreground mb-4">Market Opportunities</h2>
               <p className="text-lg text-muted-foreground">
@@ -114,10 +114,10 @@ const Market = () => {
                 </Card>
               ))}
             </div>
-          </div>
+          </div> */}
 
           {/* Market Insights */}
-          <div className="grid lg:grid-cols-2 gap-12">
+          {/* <div className="grid lg:grid-cols-2 gap-12">
             <Card className="p-8">
               <CardHeader className="px-0 pt-0">
                 <CardTitle className="text-2xl mb-4">Global Trends</CardTitle>
@@ -169,9 +169,15 @@ const Market = () => {
                 </div>
               </CardContent>
             </Card>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
+      {/* </div> */}
+      <div>
+        <h1 className="text-3xl font-bold text-center my-10 mb-40 mt-20 text-red-500">
+          This Page is under construction. Please check back later for updates.
+        </h1>
       </div>
+      
 
       <Footer />
       <WhatsAppFloat />

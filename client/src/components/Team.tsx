@@ -1,6 +1,7 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { FadeUp } from '@/components/animations/FadeUp';
 
 export const Team = () => {
   const teamMembers = [
@@ -70,11 +71,13 @@ export const Team = () => {
                   {member.department}
                 </Badge>
               </CardHeader>
+              <FadeUp>
               <CardContent>
                 <p className="text-muted-foreground text-center font-medium">
                   {member.position}
                 </p>
               </CardContent>
+              </FadeUp>
             </Card>
           ))}
         </div>

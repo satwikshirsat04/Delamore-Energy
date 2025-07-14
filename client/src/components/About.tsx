@@ -1,6 +1,7 @@
 
 import { Card, CardContent } from '@/components/ui/card';
 import { Target, Eye, Heart } from 'lucide-react';
+import { FadeUp } from '@/components/animations/FadeUp';
 
 export const About = () => {
   return (
@@ -27,6 +28,7 @@ export const About = () => {
           </div>
           
           <div className="grid grid-cols-2 gap-4">
+            <FadeUp>
             <Card className="p-6 text-center">
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <Target className="h-6 w-6 text-primary" />
@@ -34,7 +36,9 @@ export const About = () => {
               <h4 className="font-semibold text-foreground mb-2">Biorefining</h4>
               <p className="text-sm text-muted-foreground">Advanced processing technology</p>
             </Card>
+            </FadeUp>
             
+            <FadeUp>
             <Card className="p-6 text-center">
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <Eye className="h-6 w-6 text-primary" />
@@ -42,7 +46,10 @@ export const About = () => {
               <h4 className="font-semibold text-foreground mb-2">Green Energy</h4>
               <p className="text-sm text-muted-foreground">Sustainable production</p>
             </Card>
-            
+            </FadeUp>
+
+
+            <FadeUp>
             <Card className="p-6 text-center">
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <Heart className="h-6 w-6 text-primary" />
@@ -50,7 +57,9 @@ export const About = () => {
               <h4 className="font-semibold text-foreground mb-2">Carbon Capture</h4>
               <p className="text-sm text-muted-foreground">Environmental stewardship</p>
             </Card>
+            </FadeUp>
             
+            <FadeUp>
             <Card className="p-6 text-center">
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <Target className="h-6 w-6 text-primary" />
@@ -58,10 +67,12 @@ export const About = () => {
               <h4 className="font-semibold text-foreground mb-2">Super Food</h4>
               <p className="text-sm text-muted-foreground">Nutraceuticals production</p>
             </Card>
+            </FadeUp>
           </div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
+          <FadeUp>
           <Card className="p-8">
             <div className="flex items-center mb-4">
               <Eye className="h-8 w-8 text-primary mr-3" />
@@ -71,7 +82,9 @@ export const About = () => {
               To be instrument of change and innovation in the global persuade of green energy. Driving progress and sustainability through our cutting-edge technology and responsible practices. We envision a future where our endeavours contribute to a cleaner, more efficient, self-sufficient biotransformation frontier fostering economic, social, sustainable growth of mankind.
             </p>
           </Card>
+          </FadeUp>
 
+          <FadeUp>
           <Card className="p-8">
             <div className="flex items-center mb-4">
               <Target className="h-8 w-8 text-primary mr-3" />
@@ -81,6 +94,7 @@ export const About = () => {
               Our mission is to develop a comprehensive platform for biotransformation of waste to wealth by encapsulating our indigenous technologies for social and economic upliftment of mankind. By embracing a circular economy, we strive to valorize biomass into valuable end products that enhance quality of life and livelihood inching towards green economy.
             </p>
           </Card>
+          </FadeUp>
         </div>
       </div>
     </section>
