@@ -8,37 +8,37 @@ export const Team = () => {
       name: "Sanjeev Kumar",
       position: "Chairman",
       department: "Leadership",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      image: "images/team/people.jpg"
     },
     {
       name: "Amit Kapur",
       position: "CVO",
       department: "Vision",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      image: "images/team/people.jpg"
     },
     {
       name: "Gaurav Nahar",
       position: "Chief Technology Officer",
       department: "Technology",
-      image: "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      image: "images/team/people.jpg"
     },
     {
       name: "Anurag Shinde",
       position: "Chief Operation Officer",
       department: "Operations",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      image: "images/team/people.jpg"
     },
     {
       name: "Dharmendra Anand",
       position: "Associate President Public Relations",
       department: "Public Relations",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      image: "images/team/people.jpg"
     },
     {
       name: "Promil Kapoor",
       position: "Vice President Operations Haryana",
       department: "Regional Operations",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      image: "images/team/people.jpg"
     }
   ];
 

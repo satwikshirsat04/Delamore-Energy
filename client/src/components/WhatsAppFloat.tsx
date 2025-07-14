@@ -1,7 +1,7 @@
 
 export const WhatsAppFloat = () => {
   const handleWhatsAppClick = () => {
-    const phoneNumber = '918008905180';
+    const phoneNumber = '9511909997';
     const message = 'Hello! I would like to know more about Delamore Energy services.';
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappURL, '_blank');
