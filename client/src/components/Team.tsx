@@ -20,13 +20,13 @@ export const Team = () => {
       name: "Gaurav Nahar",
       position: "Chief Technology Officer",
       department: "Technology",
-      image: "images/team/people.jpg"
+      image: "images/team/Gaurav_Nahar.png"
     },
     {
       name: "Anurag Shinde",
       position: "Chief Operation Officer",
       department: "Operations",
-      image: "images/team/people.jpg"
+      image: "images/team/Anurag_Shinde.jpg"
     },
     {
       name: "Dharmendra Anand",
