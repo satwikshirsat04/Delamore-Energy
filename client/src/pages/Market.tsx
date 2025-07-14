@@ -11,14 +11,14 @@ const Market = () => {
     {
       icon: Globe,
       title: "Global Biomass Market",
-      value: "$68.4B",
+      value: "₹68.4B",
       description: "Expected to reach by 2025",
       growth: "+8.5% CAGR"
     },
     {
       icon: Leaf,
       title: "Carbon Credits Market",
-      value: "$1T",
+      value: "₹1T",
       description: "Projected market size by 2037",
       growth: "+15% CAGR"
     },
