@@ -11,10 +11,14 @@ export const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <Link to="/" className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <Leaf className="h-5 w-5 text-primary-foreground" />
-              </div>
-              <span className="text-lg font-bold text-white">Delamore Energy</span>
+              <div className="w-10 h-10 rounded-full overflow-hidden">
+              <img 
+                src="images/delamore.jpg" 
+                alt="Delamore Energy Logo"
+                className="w-full h-full object-cover"
+              />
+            </div>
+              <span className="text-lg font-bold text-white">Delamore Energy Pvt Ltd</span>
             </Link>
             <p className="text-gray-300 text-sm leading-relaxed">
               World's 1st sustainable circular biomass economy, transforming waste into wealth through innovative biotechnology.
@@ -49,17 +53,17 @@ export const Footer = () => {
             <h3 className="font-semibold text-white mb-4">Contact Info</h3>
             <div className="space-y-3">
               <div className="flex items-start space-x-2">
-                <MapPin className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
+                <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
                 <span className="text-gray-300 text-sm">
                   Kant Helix, Bhoir Colony, Chinchwad, Pune 411033
                 </span>
               </div>
               <div className="flex items-center space-x-2">
-                <Mail className="h-4 w-4 text-primary flex-shrink-0" />
+                <Mail className="h-4 w-4 flex-shrink-0" />
                 <span className="text-gray-300 text-sm">info@delamoreenergy.com</span>
               </div>
               <div className="flex items-center space-x-2">
-                <Phone className="h-4 w-4 text-primary flex-shrink-0" />
+                <Phone className="h-4 w-4 flex-shrink-0" />
                 <span className="text-gray-300 text-sm">18008905180</span>
               </div>
             </div>
@@ -68,7 +72,7 @@ export const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © {currentYear} Delamore Energy. All rights reserved.
+            © {currentYear} Delamore Energy Private Limited. All rights reserved.
           </p>
         </div>
       </div>
