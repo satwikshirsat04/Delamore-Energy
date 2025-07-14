@@ -5,6 +5,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { MapPin, Mail, Phone, Clock, ExternalLink, HelpCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { FadeUp } from './animations/FadeUp';
 
 export const Contact = () => {
   const locations = [
@@ -185,14 +186,16 @@ export const Contact = () => {
           </div>
 
           {/* FAQ Button */}
-          <div className="mt-12 text-center">
-            <Button asChild variant="outline" className="gap-2">
+          <FadeUp>
+          <div className="mt-12 text-center bg-color">
+            <Button asChild variant="outline" className="gap-2 bg-color red">
               <Link to="/FAQs">
                 <HelpCircle className="h-5 w-5" />
                 Visit FAQ Page
               </Link>
             </Button>
           </div>
+          </FadeUp>
         </div>
 
 

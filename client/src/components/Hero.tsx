@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight, Leaf } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+import { FadeUp } from './animations/FadeUp';
 
 const AnimatedCounter = ({ end, duration = 2000, suffix = "" }: { end: number; duration?: number; suffix?: string }) => {
   const [count, setCount] = useState(0);
@@ -55,10 +56,11 @@ export const Hero = () => {
               World's 1st Sustainable Circular Biomass Economy
             </span>
           </div>
-          
+          <FadeUp>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight hero-title">
             Harnessing the Power of <span className="text-primary">Biomass</span>
           </h1>
+          </FadeUp>
           
           {/* Animated Counters Section */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 backdrop-blur-sm bg-black/30 p-8 rounded-lg border border-white/10">
