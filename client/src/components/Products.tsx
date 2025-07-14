@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Leaf, Droplets, Apple, Zap, Pill, Award, Recycle, Sprout } from 'lucide-react';
+import { FadeUp } from './animations/FadeUp';
 
 export const Products = () => {
   const products = [
@@ -82,13 +83,16 @@ export const Products = () => {
                 key={index} 
                 className={`group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-gradient-to-br ${product.gradient} border border-gray-700/50`}
               >
+                <FadeUp>
                 <div className="p-6 h-full flex flex-col">
                   <CardHeader className="text-center pb-4 px-0">
                     <div className="w-16 h-16 bg-black/20 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:bg-black/30 transition-colors backdrop-blur-sm border border-gray-700/30">
                       <product.icon className={`h-8 w-8 ${product.icon === Zap ? 'text-yellow-400' : 'text-white'}`} />
                     </div>
                     <div className="flex items-center justify-center gap-2 mb-2">
+                      <FadeUp>
                       <CardTitle className="text-lg text-white">{product.title}</CardTitle>
+                      </FadeUp>
                       <Badge variant="secondary" className="text-xs bg-black/20 text-white/90 border-gray-600">
                         {product.category}
                       </Badge>
@@ -100,6 +104,7 @@ export const Products = () => {
                     </p>
                   </CardContent>
                 </div>
+                </FadeUp>
               </Card>
             ))}
           </div>
@@ -113,12 +118,15 @@ export const Products = () => {
                 key={index} 
                 className={`group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-gradient-to-br ${service.gradient} border border-gray-700/50`}
               >
-                <div className="p-6 h-full flex flex-col">
-                  <CardHeader className="text-center pb-4 px-0">
-                    <div className="w-16 h-16 bg-black/20 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:bg-black/30 transition-colors backdrop-blur-sm border border-gray-700/30">
-                      <service.icon className="h-8 w-8 text-white" />
-                    </div>
+                <FadeUp>
+                  <div className="p-6 h-full flex flex-col">
+                    <CardHeader className="text-center pb-4 px-0">
+                      <div className="w-16 h-16 bg-black/20 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:bg-black/30 transition-colors backdrop-blur-sm border border-gray-700/30">
+                        <service.icon className="h-8 w-8 text-white" />
+                      </div>
+                      <FadeUp>
                     <CardTitle className="text-lg text-white">{service.title}</CardTitle>
+                  </FadeUp>
                   </CardHeader>
                   <CardContent className="px-0 pb-0 flex-grow">
                     <p className="text-white/80 text-center text-sm leading-relaxed">
@@ -126,6 +134,7 @@ export const Products = () => {
                     </p>
                   </CardContent>
                 </div>
+                </FadeUp>
               </Card>
             ))}
           </div>
