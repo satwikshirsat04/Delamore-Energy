@@ -12,7 +12,7 @@ const Services = () => {
       <PageBanner 
         title="Our Services" 
         subtitle="Comprehensive bioenergy solutions that meet the evolving needs of the global market through cutting-edge technology and sustainable practices."
-        backgroundImage="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
+        // backgroundImage="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
       />
       <ServicesSection />
       <Footer />

@@ -55,7 +55,7 @@ const Market = () => {
       <PageBanner 
         title="Market Opportunities" 
         subtitle="Exploring the growing global market for sustainable biomass solutions and circular economy innovations."
-        backgroundImage="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
+        // backgroundImage="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
       />
       
       <div className="py-20">

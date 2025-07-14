@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Leaf } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -31,21 +30,22 @@ const AnimatedCounter = ({ end, duration = 2000, suffix = "" }: { end: number; d
 export const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Dark Video Background */}
-      <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        className="video-background"
-        poster="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
-      >
-        <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-      
+      {/* Video Background - Fixed styling */}
+      <div className="absolute inset-0 z-0">
+        <video 
+          autoPlay 
+          muted 
+          loop 
+          playsInline 
+          className="w-full h-full object-cover"
+        >
+          <source src="/videos/carbon.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/70"></div>
+      <div className="absolute inset-0 bg-black/70 z-0"></div>
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
@@ -91,7 +91,7 @@ export const Hero = () => {
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-white/50 text-white hover:bg-white/20 backdrop-blur-sm">
+            <Button asChild variant="outline" size="lg" className="border-white/50 text-black hover:bg-white/80 backdrop-blur-sm">
               <Link to="/contact">Get in Touch</Link>
             </Button>
           </div>

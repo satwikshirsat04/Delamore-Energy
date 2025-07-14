@@ -40,7 +40,7 @@ const Process = () => {
       <PageBanner 
         title="Our Process" 
         subtitle="Our innovative biorefinery process transforms biomass waste into valuable products through sustainable circular economy principles."
-        backgroundImage="https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
+        // backgroundImage="https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
       />
       
       <div className="py-20">

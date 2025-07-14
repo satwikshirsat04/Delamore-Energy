@@ -13,7 +13,7 @@ const About = () => {
       <PageBanner 
         title="About Us" 
         subtitle="Delamore Renewable Energy is committed to offering practical, economical, and environmentally sustainable solutions in bioenergy through cutting-edge technology."
-        backgroundImage="https://images.unsplash.com/photo-1497436072909-f5e4be853fb6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
+        // backgroundImage="https://images.unsplash.com/photo-1497436072909-f5e4be853fb6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
       />
       <AboutSection />
       <Team />
