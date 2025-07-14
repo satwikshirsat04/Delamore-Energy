@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Factory, Leaf, Zap, Cog, Truck, Users, TreePine, Apple } from 'lucide-react';
+import { FadeUp } from './animations/FadeUp';
 
 export const Services = () => {
   const services = [
@@ -64,29 +65,39 @@ export const Services = () => {
             Comprehensive bioenergy solutions that meet the evolving needs of the global market
           </p>
         </div>
+        
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {services.map((service, index) => (
+              <Card
+                key={index}
+                className={`group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-gradient-to-br ${service.gradient} border border-gray-700/50`}
+              >
+                <FadeUp>
+                  <div className="p-6 h-full flex flex-col">
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {services.map((service, index) => (
-            <Card 
-              key={index} 
-              className={`group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-gradient-to-br ${service.gradient} border border-gray-700/50`}
-            >
-              <div className="p-6 h-full flex flex-col">
-                <CardHeader className="text-center pb-4 px-0">
-                  <div className={`w-16 h-16 bg-black/20 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:bg-black/30 transition-colors backdrop-blur-sm border border-gray-700/30`}>
-                    <service.icon className={`h-8 w-8 ${service.icon === Zap ? 'text-yellow-400' : 'text-white'}`} />
-                  </div>
-                  <CardTitle className="text-lg text-white">{service.title}</CardTitle>
-                </CardHeader>
-                <CardContent className="px-0 pb-0 flex-grow">
-                  <p className="text-white/80 text-center text-sm leading-relaxed">
-                    {service.description}
-                  </p>
-                </CardContent>
-              </div>
-            </Card>
-          ))}
-        </div>
+                  <CardHeader className="text-center pb-4 px-0">
+                    <div className={`w-16 h-16 bg-black/20 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:bg-black/30 transition-colors backdrop-blur-sm border border-gray-700/30`}>
+                      <service.icon className={`h-8 w-8 ${service.icon === Zap ? 'text-yellow-400' : 'text-white'}`} />
+                    </div>
+                    <FadeUp>
+                      <CardTitle className="text-lg text-white">{service.title}</CardTitle>
+                    </FadeUp>
+                  </CardHeader>
+
+
+
+                  <CardContent className="px-0 pb-0 flex-grow">
+                    <p className="text-white/80 text-center text-sm leading-relaxed">
+                      {service.description}
+                    </p>
+                  </CardContent>
+                </div>
+                </FadeUp>
+
+              </Card>
+            ))}
+          </div>
+        
       </div>
     </section>
   );
