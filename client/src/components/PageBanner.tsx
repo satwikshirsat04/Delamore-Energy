@@ -26,7 +26,7 @@ export const PageBanner = ({
       </div>
       
       {/* Subtle green accent gradient (matches your logo) */}
-      {/* <div className="absolute inset-0 bg-gradient-to-r from-green-900/20 via-black to-green-900/20"></div> */}
+      <div className="absolute bg-gradient-to-r from-green-900/20 via-black to-green-900/20"></div>
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center">
@@ -34,7 +34,7 @@ export const PageBanner = ({
             <span className="text-green-500">"</span> {title} <span className="text-green-500">"</span>
           </h1>
           {subtitle && (
-            <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
+            <p className="text-xl md:text-xl text-gray-300 max-w-3xl mx-auto">
               {subtitle}
             </p>
           )}
