@@ -11,7 +11,7 @@ export const Navigation = () => {
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
     { name: 'Services', href: '/services' },
-    { name: 'Market', href: '/market' },
+    // { name: 'Market', href: '/market' },
     { name: 'Process', href: '/process' },
     { name: 'Partners', href: '/partners' },
     { name: 'Contact', href: '/contact' },
