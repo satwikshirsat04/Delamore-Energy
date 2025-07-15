@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Recycle, Zap, Droplets } from 'lucide-react';
 import { useState, useEffect } from 'react';
+import { FadeUp } from './animations/FadeUp';
 
 export const Technology = () => {
   // Animation counters for the numbers
@@ -99,17 +100,23 @@ export const Technology = () => {
             </CardHeader>
             <CardContent className="space-y-6">
               <div className="text-center">
+                <FadeUp>
                 <div className="text-3xl font-bold text-primary mb-2">{biomassUtilization}%</div>
+                </FadeUp>
                 <div className="text-sm text-muted-foreground">Biomass Utilization</div>
               </div>
               
               <div className="text-center">
+                <FadeUp>
                 <div className="text-3xl font-bold text-primary mb-2">{wasteGeneration}%</div>
+                </FadeUp>
                 <div className="text-sm text-muted-foreground">Waste Generation</div>
               </div>
               
               <div className="text-center">
+                <FadeUp>
                 <div className="text-3xl font-bold text-primary mb-2">{valueProducts > 0 ? valueProducts : 'Multiple'}</div>
+                </FadeUp>
                 <div className="text-sm text-muted-foreground">Value Products</div>
               </div>
             </CardContent>
