@@ -87,7 +87,7 @@ const Index = () => {
             <h2 className="text-3xl font-extrabold text-gray-400 text-center mb-9">
               Our Journey
             </h2>
-            <div className="relative w-full aspect-video overflow-hidden rounded-lg shadow-xl mt-0">
+            <div className="relative w-full aspect-video overflow-hidden rounded-lg shadow-xl mt-5">
               <Carousel images={[
                 {
                   src: "images/phases/phase1.jpg",
