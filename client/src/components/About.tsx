@@ -1,9 +1,35 @@
-
 import { Card, CardContent } from '@/components/ui/card';
 import { Target, Eye, Heart } from 'lucide-react';
 import { FadeUp } from '@/components/animations/FadeUp';
 
 export const About = () => {
+  const featureCards = [
+    {
+      icon: Target,
+      title: "Biorefining",
+      description: "Advanced processing technology",
+      image: "/images/about/biorefining.webp"
+    },
+    {
+      icon: Eye,
+      title: "Green Energy",
+      description: "Sustainable production",
+      image: "/images/about/greenenergy.webp"
+    },
+    {
+      icon: Heart,
+      title: "Carbon Capture",
+      description: "Environmental stewardship",
+      image: "/images/about/carbonseq.webp"
+    },
+    {
+      icon: Target,
+      title: "Super Food",
+      description: "Nutraceuticals production",
+      image: "/images/about/superfood.webp"
+    }
+  ];
+
   return (
     <section className="py-20 bg-secondary/20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -28,46 +54,27 @@ export const About = () => {
           </div>
           
           <div className="grid grid-cols-2 gap-4">
-            <FadeUp>
-            <Card className="p-6 text-center">
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <Target className="h-6 w-6 text-primary" />
-              </div>
-              <h4 className="font-semibold text-foreground mb-2">Biorefining</h4>
-              <p className="text-sm text-muted-foreground">Advanced processing technology</p>
-            </Card>
-            </FadeUp>
-            
-            <FadeUp>
-            <Card className="p-6 text-center">
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <Eye className="h-6 w-6 text-primary" />
-              </div>
-              <h4 className="font-semibold text-foreground mb-2">Green Energy</h4>
-              <p className="text-sm text-muted-foreground">Sustainable production</p>
-            </Card>
-            </FadeUp>
-
-
-            <FadeUp>
-            <Card className="p-6 text-center">
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <Heart className="h-6 w-6 text-primary" />
-              </div>
-              <h4 className="font-semibold text-foreground mb-2">Carbon Capture</h4>
-              <p className="text-sm text-muted-foreground">Environmental stewardship</p>
-            </Card>
-            </FadeUp>
-            
-            <FadeUp>
-            <Card className="p-6 text-center">
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <Target className="h-6 w-6 text-primary" />
-              </div>
-              <h4 className="font-semibold text-foreground mb-2">Super Food</h4>
-              <p className="text-sm text-muted-foreground">Nutraceuticals production</p>
-            </Card>
-            </FadeUp>
+            {featureCards.map((card, index) => (
+              <FadeUp key={index}>
+                <Card className="p-6 text-center relative overflow-hidden h-full">
+                  <div 
+                    className="absolute inset-0 bg-cover bg-center z-0"
+                    style={{ backgroundImage: `url(${card.image})` }}
+                  >
+                    <div className="absolute inset-0 bg-black/50" />
+                  </div>
+                  <FadeUp>
+                  <div className="relative z-10">
+                    <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4 backdrop-blur-sm">
+                      <card.icon className="h-6 w-6 text-white" />
+                    </div>
+                    <h4 className="font-semibold text-foreground mb-2 text-white">{card.title}</h4>
+                    <p className="text-sm text-white">{card.description}</p>
+                  </div>
+                  </FadeUp>
+                </Card>
+              </FadeUp>
+            ))}
           </div>
         </div>
 
@@ -95,6 +102,7 @@ export const About = () => {
             </p>
           </Card>
           </FadeUp>
+
         </div>
       </div>
     </section>
