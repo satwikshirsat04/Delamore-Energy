@@ -25,7 +25,8 @@ export const Navigation = () => {
         <div className="flex justify-between items-center py-4">
           <Link to="/" className="flex items-center space-x-3">
             {/* Logo Image */}
-            <div className="w-10 h-10 rounded-full overflow-hidden">
+            {/* corner rounded only */}
+            <div className="w-10 h-10 rounded overflow-hidden">
               <img 
                 src="images/delamore.jpg" 
                 alt="Delamore Energy Logo"
