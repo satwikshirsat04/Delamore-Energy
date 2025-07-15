@@ -1,8 +1,44 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Recycle, Zap, Droplets } from 'lucide-react';
+import { useState, useEffect } from 'react';
 
 export const Technology = () => {
+  // Animation counters for the numbers
+  const [biomassUtilization, setBiomassUtilization] = useState(0);
+  const [wasteGeneration, setWasteGeneration] = useState(0);
+  const [valueProducts, setValueProducts] = useState(0);
+
+  useEffect(() => {
+    // Animation duration in milliseconds
+    const duration = 2000;
+    const startTime = Date.now();
+
+    const animateCounters = () => {
+      const elapsed = Date.now() - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+
+      // Animate to 100%
+      setBiomassUtilization(Math.floor(progress * 100));
+      
+      // Animate to 0% (already starts at 0, but this ensures it stays at 0)
+      setWasteGeneration(0);
+      
+      // Animate to 5 (for "Multiple" products - adjust this number as needed)
+      setValueProducts(Math.floor(progress * 5));
+
+      if (progress < 1) {
+        requestAnimationFrame(animateCounters);
+      }
+    };
+
+    // Start the animation
+    const animationFrame = requestAnimationFrame(animateCounters);
+
+    return () => {
+      cancelAnimationFrame(animationFrame);
+    };
+  }, []);
+
   return (
     <section className="py-20 bg-secondary/20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -63,17 +99,17 @@ export const Technology = () => {
             </CardHeader>
             <CardContent className="space-y-6">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">100%</div>
+                <div className="text-3xl font-bold text-primary mb-2">{biomassUtilization}%</div>
                 <div className="text-sm text-muted-foreground">Biomass Utilization</div>
               </div>
               
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">0%</div>
+                <div className="text-3xl font-bold text-primary mb-2">{wasteGeneration}%</div>
                 <div className="text-sm text-muted-foreground">Waste Generation</div>
               </div>
               
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">Multiple</div>
+                <div className="text-3xl font-bold text-primary mb-2">{valueProducts > 0 ? valueProducts : 'Multiple'}</div>
                 <div className="text-sm text-muted-foreground">Value Products</div>
               </div>
             </CardContent>

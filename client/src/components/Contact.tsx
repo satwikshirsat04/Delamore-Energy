@@ -297,7 +297,7 @@ export const Contact = () => {
                       <h4 className="text-xl font-semibold mb-2">{location.title}</h4>
                       <p className="text-muted-foreground mb-4">{location.description}</p>
                       <div className="flex items-center justify-between">
-                        <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+                        <div className="flex items-center space-x-2 text-sm text-muted-foreground mb-2">
                           <MapPin className="h-4 w-4" />
                           <span>{location.address}</span>
                         </div>
@@ -305,7 +305,7 @@ export const Contact = () => {
                           variant="outline"
                           size="sm"
                           onClick={() => handleViewOnMap(location.address)}
-                          className="flex items-center gap-2"
+                          className="flex items-center justify-center"
                         >
                           <ExternalLink className="h-4 w-4" />
                           View Map
