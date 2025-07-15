@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -6,6 +5,18 @@ import { Label } from '@/components/ui/label';
 import { MapPin, Mail, Phone, Clock, ExternalLink, HelpCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { FadeUp } from './animations/FadeUp';
+import { useForm } from 'react-hook-form';
+import { useState } from 'react';
+import { Loader2 } from 'lucide-react';
+
+type FormData = {
+  firstName: string;
+  lastName: string;
+  email: string;
+  phone: string;
+  company: string;
+  message: string;
+};
 
 export const Contact = () => {
   const locations = [
@@ -17,10 +28,48 @@ export const Contact = () => {
     },
   ];
 
+  const { register, handleSubmit, formState: { errors }, reset } = useForm<FormData>();
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<{ success: boolean; message: string } | null>(null);
+
   const handleViewOnMap = (address?: string) => {
     const mapAddress = address || "Kant Helix, Bhoir Colony, Chinchwad, Pune 411033";
     const mapsUrl = `https://maps.google.com/?q=${encodeURIComponent(mapAddress)}`;
     window.open(mapsUrl, '_blank');
+  };
+
+  const onSubmit = async (data: FormData) => {
+    setIsSubmitting(true);
+    setSubmitStatus(null);
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: `${data.firstName} ${data.lastName}`,
+          email: data.email,
+          phone: data.phone,
+          company: data.company,
+          message: data.message
+        }),
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        setSubmitStatus({ success: true, message: result.message });
+        reset();
+      } else {
+        setSubmitStatus({ success: false, message: result.message || 'Failed to send message' });
+      }
+    } catch (error) {
+      setSubmitStatus({ success: false, message: 'Network error. Please try again.' });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -70,7 +119,18 @@ export const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-2">Email</h3>
-                    <p className="text-muted-foreground">info@delamoreenergy.com</p>
+                    <p className="text-muted-foreground">
+                      <span className="font-medium">General:</span> info@delamoreenergy.com
+                    </p>
+                    <p className="text-muted-foreground">
+                      <span className="font-medium">Sales:</span> anurag@delamoreenergy.com
+                    </p>
+                    <p className="text-muted-foreground">
+                      <span className="font-medium">Support:</span> gaurav@delamoreenergy.com
+                    </p>
+                    <p className="text-muted-foreground">
+                      <span className="font-medium">Careers:</span> kapoor@delamoreenergy.com
+                    </p>
                   </div>
                 </div>
               </Card>
@@ -108,26 +168,76 @@ export const Contact = () => {
                 <CardTitle>Send us a message</CardTitle>
               </CardHeader>
               <CardContent className="px-0 pb-0">
-                <form className="space-y-6">
+                <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
                   <div className="grid grid-cols-2 gap-4">
                     <div>
                       <Label htmlFor="firstName">First Name*</Label>
-                      <Input id="firstName" placeholder="" />
+                      <Input
+                        id="firstName"
+                        {...register('firstName', { required: 'First name is required' })}
+                        className={errors.firstName ? 'border-red-500' : ''}
+                      />
+                      {errors.firstName && (
+                        <p className="text-red-500 text-sm mt-1">{errors.firstName.message}</p>
+                      )}
                     </div>
                     <div>
                       <Label htmlFor="lastName">Last Name*</Label>
-                      <Input id="lastName" placeholder="" />
+                      <Input
+                        id="lastName"
+                        {...register('lastName', { required: 'Last name is required' })}
+                        className={errors.lastName ? 'border-red-500' : ''}
+                      />
+                      {errors.lastName && (
+                        <p className="text-red-500 text-sm mt-1">{errors.lastName.message}</p>
+                      )}
                     </div>
                   </div>
 
                   <div>
                     <Label htmlFor="email">Email*</Label>
-                    <Input id="email" type="email" placeholder="" />
+                    <Input
+                      id="email"
+                      type="email"
+                      {...register('email', {
+                        required: 'Email is required',
+                        pattern: {
+                          value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+                          message: 'Invalid email address'
+                        }
+                      })}
+                      className={errors.email ? 'border-red-500' : ''}
+                    />
+                    {errors.email && (
+                      <p className="text-red-500 text-sm mt-1">{errors.email.message}</p>
+                    )}
+                  </div>
+
+                  <div>
+                    <Label htmlFor="phone">Phone*</Label>
+                    <Input
+                      id="phone"
+                      type="tel"
+                      {...register('phone', {
+                        required: 'Phone number is required',
+                        pattern: {
+                          value: /^[0-9]{10,15}$/,
+                          message: 'Invalid phone number'
+                        }
+                      })}
+                      className={errors.phone ? 'border-red-500' : ''}
+                    />
+                    {errors.phone && (
+                      <p className="text-red-500 text-sm mt-1">{errors.phone.message}</p>
+                    )}
                   </div>
 
                   <div>
                     <Label htmlFor="company">Company</Label>
-                    <Input id="company" placeholder="" />
+                    <Input
+                      id="company"
+                      {...register('company')}
+                    />
                   </div>
 
                   <div>
@@ -135,13 +245,30 @@ export const Contact = () => {
                     <textarea
                       id="message"
                       rows={4}
-                      className="flex w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                      {...register('message', { required: 'Message is required' })}
+                      className={`flex w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 ${errors.message ? 'border-red-500' : ''}`}
                       placeholder="Tell us about your project..."
                     />
+                    {errors.message && (
+                      <p className="text-red-500 text-sm mt-1">{errors.message.message}</p>
+                    )}
                   </div>
 
-                  <Button type="submit" className="w-full">
-                    Send Message
+                  {submitStatus && (
+                    <div className={`p-4 rounded-md ${submitStatus.success ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}>
+                      {submitStatus.message}
+                    </div>
+                  )}
+
+                  <Button type="submit" className="w-full" disabled={isSubmitting}>
+                    {isSubmitting ? (
+                      <>
+                        <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                        Sending...
+                      </>
+                    ) : (
+                      'Send Message'
+                    )}
                   </Button>
                 </form>
               </CardContent>
@@ -203,8 +330,6 @@ export const Contact = () => {
             </div>
           </FadeUp>
         </div>
-
-
       </div>
     </section>
   );
