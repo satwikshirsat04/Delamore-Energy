@@ -10,35 +10,40 @@ export const Products = () => {
       title: "CBG",
       description: "High-quality compressed biogas for clean energy applications",
       category: "Energy",
-      gradient: "from-gray-800 to-gray-900"
+      gradient: "from-gray-800 to-gray-900",
+      bgImage: "/images/products/cbg.webp"
     },
     {
       icon: Droplets,
       title: "Protein",
       description: "Plant-based protein for nutritional and industrial applications",
       category: "Nutrition",
-      gradient: "from-green-900 to-green-800"
+      gradient: "from-green-900 to-green-800",
+      bgImage: "/images/products/protein.webp"
     },
     {
       icon: Apple,
       title: "Superfood",
       description: "Nutrient-rich superfood products for enhanced health benefits",
       category: "Health",
-      gradient: "from-red-900 to-red-800"
+      gradient: "from-red-900 to-red-800",
+      bgImage: "/images/products/superfood.webp"
     },
     {
       icon: Zap,
       title: "Prom",
       description: "Specialized bio-materials for various industrial applications",
       category: "Materials",
-      gradient: "from-yellow-900 to-yellow-800"
+      gradient: "from-yellow-900 to-yellow-800",
+      bgImage: "/images/products/prom.webp"
     },
     {
       icon: Pill,
       title: "Nutraceuticals",
       description: "Health-promoting compounds with therapeutic benefits",
       category: "Health",
-      gradient: "from-purple-900 to-purple-800"
+      gradient: "from-purple-900 to-purple-800",
+      bgImage: "/images/products/nutra.webp"
     }
   ];
 
@@ -83,29 +88,37 @@ export const Products = () => {
             {products.map((product, index) => (
               <Card 
                 key={index} 
-                className={`group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-gradient-to-br ${product.gradient} border border-gray-700/50`}
+                className={`group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border border-gray-700/50 relative overflow-hidden`}
               >
+                {/* Background Image */}
+                <div 
+                  className="absolute inset-0 bg-cover bg-center z-0 opacity-95"
+                  style={{ backgroundImage: `url(${product.bgImage})` }}
+                />
+                {/* Gradient Overlay */}
+                <div className={`absolute inset-0 bg-gradient-to-br ${product.gradient} z-0 opacity-70`} />
+                
                 <FadeUp>
-                <div className="p-6 h-full flex flex-col">
-                  <CardHeader className="text-center pb-4 px-0">
-                    <div className="w-16 h-16 bg-black/20 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:bg-black/30 transition-colors backdrop-blur-sm border border-gray-700/30">
-                      <product.icon className={`h-8 w-8 ${product.icon === Zap ? 'text-yellow-400' : 'text-white'}`} />
-                    </div>
-                    <div className="flex items-center justify-center gap-2 mb-2">
-                      <FadeUp>
-                      <CardTitle className="text-lg text-white">{product.title}</CardTitle>
-                      </FadeUp>
-                      <Badge variant="secondary" className="text-xs bg-black/20 text-white/90 border-gray-600">
-                        {product.category}
-                      </Badge>
-                    </div>
-                  </CardHeader>
-                  <CardContent className="px-0 pb-0 flex-grow">
-                    <p className="text-white/80 text-center text-sm leading-relaxed">
-                      {product.description}
-                    </p>
-                  </CardContent>
-                </div>
+                  <div className="p-6 h-full flex flex-col relative z-10">
+                    <CardHeader className="text-center pb-4 px-0">
+                      <div className="w-16 h-16 bg-black/20 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:bg-black/30 transition-colors backdrop-blur-sm border border-gray-700/30">
+                        <product.icon className={`h-8 w-8 ${product.icon === Zap ? 'text-yellow-400' : 'text-white'}`} />
+                      </div>
+                      <div className="flex items-center justify-center gap-2 mb-2">
+                        <FadeUp>
+                          <CardTitle className="text-lg text-white">{product.title}</CardTitle>
+                        </FadeUp>
+                        <Badge variant="secondary" className="text-xs bg-black/20 text-white/90 border-gray-600">
+                          {product.category}
+                        </Badge>
+                      </div>
+                    </CardHeader>
+                    <CardContent className="px-0 pb-0 flex-grow">
+                      <p className="text-white/80 text-center text-sm leading-relaxed">
+                        {product.description}
+                      </p>
+                    </CardContent>
+                  </div>
                 </FadeUp>
               </Card>
             ))}
@@ -126,7 +139,7 @@ export const Products = () => {
                   style={{ backgroundImage: `url(${service.bgImage})` }}
                 />
                 {/* Gradient Overlay */}
-                <div className={`absolute inset-0 bg-gradient-to-br ${service.gradient} z-0 opacity-60`} />
+                <div className={`absolute inset-0 bg-gradient-to-br ${service.gradient} z-0 opacity-70`} />
                 
                 <FadeUp>
                   <div className="p-6 h-full flex flex-col relative z-10">
