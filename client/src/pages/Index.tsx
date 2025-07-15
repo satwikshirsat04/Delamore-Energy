@@ -86,9 +86,9 @@ const Index = () => {
       </FadeUp>
 
       <FadeUp>
-        <div className="bg-gradient-to-r from-blue-500 to-indigo-600 py-20 text-white">
+        {/* <div className="bg-gradient-to-r from-blue-500 to-indigo-600 py-20 text-white"> */}
           <Contact />
-        </div>
+        {/* </div> */}
       </FadeUp>
 
       <Footer />
