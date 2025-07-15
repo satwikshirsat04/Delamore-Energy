@@ -44,8 +44,8 @@ export const Footer = () => {
               <li><Link to="/terms" className="text-gray-400 hover:text-primary text-sm transition-colors">Terms & Conditions</Link></li>
               <li><Link to="/privacy" className="text-gray-400 hover:text-primary text-sm transition-colors">Privacy Policy</Link></li>
               <li><Link to="/faqs" className="text-gray-400 hover:text-primary text-sm transition-colors">FAQs</Link></li>
-              <li><span className="text-gray-400 text-sm">Biorefining</span></li>
-              <li><span className="text-gray-400 text-sm">Carbon Credits</span></li>
+              {/* <li><span className="text-gray-400 text-sm">Biorefining</span></li>
+              <li><span className="text-gray-400 text-sm">Carbon Credits</span></li> */}
             </ul>
           </div>
 
