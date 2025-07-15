@@ -18,7 +18,7 @@ export const Products = () => {
       title: "Protein",
       description: "Plant-based protein for nutritional and industrial applications",
       category: "Nutrition",
-      gradient: "from-green-900 to-green-800",
+      gradient: "from-gray-800 to-gray-900",
       bgImage: "/images/products/protein.webp"
     },
     {
@@ -26,7 +26,7 @@ export const Products = () => {
       title: "Superfood",
       description: "Nutrient-rich superfood products for enhanced health benefits",
       category: "Health",
-      gradient: "from-red-900 to-red-800",
+      gradient: "from-gray-800 to-gray-900",
       bgImage: "/images/products/superfood.webp"
     },
     {
@@ -34,7 +34,7 @@ export const Products = () => {
       title: "Prom",
       description: "Specialized bio-materials for various industrial applications",
       category: "Materials",
-      gradient: "from-yellow-900 to-yellow-800",
+      gradient: "from-gray-800 to-gray-900",
       bgImage: "/images/products/prom.webp"
     },
     {
@@ -42,7 +42,7 @@ export const Products = () => {
       title: "Nutraceuticals",
       description: "Health-promoting compounds with therapeutic benefits",
       category: "Health",
-      gradient: "from-purple-900 to-purple-800",
+      gradient: "from-gray-800 to-gray-900",
       bgImage: "/images/products/nutra.webp"
     }
   ];
@@ -52,21 +52,21 @@ export const Products = () => {
       icon: Award,
       title: "Carbon Credits",
       description: "Environmental credits through carbon sequestration",
-      gradient: "from-teal-900 to-teal-800",
+      gradient: "from-teal-900 to-teal-00",
       bgImage: "/images/products/carboncredits.webp"
     },
     {
       icon: Recycle,
       title: "Waste to Wealth",
       description: "Converting waste materials into valuable products",
-      gradient: "from-blue-900 to-blue-800",
+      gradient: "from-blue-900 to-blue-00",
       bgImage: "/images/products/wtw.webp"
     },
     {
       icon: Sprout,
       title: "Carbon Sequestration",
       description: "Capturing and storing carbon for environmental benefit",
-      gradient: "from-emerald-900 to-emerald-800",
+      gradient: "from-emerald-900 to-emerald-00",
       bgImage: "/images/products/carbonseq.webp"
     }
   ];
