@@ -42,13 +42,13 @@ export const Carousel = ({ images }: CarouselProps) => {
           )}
         </div>
       ))}
-       <div className="flex justify-center gap-2 mb-8"> {/* Added margin-bottom */}
+       <div className="flex justify-center gap-2 mb-4"> {/* Added margin-bottom */}
         {images.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrentIndex(index)}
             className={`w-3 h-3 rounded-full transition-colors ${
-              index === currentIndex ? 'bg-black/80' : 'bg-gray-300'
+              index === currentIndex ? 'bg-white' : 'bg-white/80'
             }`}
             aria-label={`Go to slide ${index + 1}`}
           />
