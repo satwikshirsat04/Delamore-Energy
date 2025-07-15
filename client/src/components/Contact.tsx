@@ -193,7 +193,7 @@ export const Contact = () => {
 
           {/* FAQ Button */}
           <FadeUp>
-            <div className="mt-12 text-center bg-color">
+            <div className="mt-12 text-white bg-black rounded">
               <Button asChild variant="outline" className="gap-2 bg-color red">
                 <Link to="/FAQs">
                   <HelpCircle className="h-5 w-5" />
