@@ -47,19 +47,22 @@ export const Products = () => {
       icon: Award,
       title: "Carbon Credits",
       description: "Environmental credits through carbon sequestration",
-      gradient: "from-teal-900 to-teal-800"
+      gradient: "from-teal-900 to-teal-800",
+      bgImage: "/images/products/carboncredits.webp"
     },
     {
       icon: Recycle,
       title: "Waste to Wealth",
       description: "Converting waste materials into valuable products",
-      gradient: "from-blue-900 to-blue-800"
+      gradient: "from-blue-900 to-blue-800",
+      bgImage: "/images/products/wtw.webp"
     },
     {
       icon: Sprout,
       title: "Carbon Sequestration",
       description: "Capturing and storing carbon for environmental benefit",
-      gradient: "from-emerald-900 to-emerald-800"
+      gradient: "from-emerald-900 to-emerald-800",
+      bgImage: "/images/products/carbonseq.webp"
     }
   ];
 
@@ -76,7 +79,6 @@ export const Products = () => {
         </div>
 
         <div className="mb-16">
-          {/* <h3 className="text-2xl font-bold text-foreground mb-8 text-center">Products</h3> */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {products.map((product, index) => (
               <Card 
@@ -116,24 +118,32 @@ export const Products = () => {
             {services.map((service, index) => (
               <Card 
                 key={index} 
-                className={`group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-gradient-to-br ${service.gradient} border border-gray-700/50`}
+                className={`group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border border-gray-700/50 relative overflow-hidden`}
               >
+                {/* Background Image */}
+                <div 
+                  className="absolute inset-0 bg-cover bg-center z-0 opacity-95"
+                  style={{ backgroundImage: `url(${service.bgImage})` }}
+                />
+                {/* Gradient Overlay */}
+                <div className={`absolute inset-0 bg-gradient-to-br ${service.gradient} z-0 opacity-60`} />
+                
                 <FadeUp>
-                  <div className="p-6 h-full flex flex-col">
+                  <div className="p-6 h-full flex flex-col relative z-10">
                     <CardHeader className="text-center pb-4 px-0">
                       <div className="w-16 h-16 bg-black/20 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:bg-black/30 transition-colors backdrop-blur-sm border border-gray-700/30">
                         <service.icon className="h-8 w-8 text-white" />
                       </div>
                       <FadeUp>
-                    <CardTitle className="text-lg text-white">{service.title}</CardTitle>
-                  </FadeUp>
-                  </CardHeader>
-                  <CardContent className="px-0 pb-0 flex-grow">
-                    <p className="text-white/80 text-center text-sm leading-relaxed">
-                      {service.description}
-                    </p>
-                  </CardContent>
-                </div>
+                        <CardTitle className="text-lg text-white">{service.title}</CardTitle>
+                      </FadeUp>
+                    </CardHeader>
+                    <CardContent className="px-0 pb-0 flex-grow">
+                      <p className="text-white/80 text-center text-sm leading-relaxed">
+                        {service.description}
+                      </p>
+                    </CardContent>
+                  </div>
                 </FadeUp>
               </Card>
             ))}
