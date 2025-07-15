@@ -11,6 +11,7 @@ import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 import { FadeUp } from "@/components/animations/FadeUp";
 // Add these imports for the carousel
 import { Carousel } from "@/components/Carousel";
+import { FloatingButtons } from "@/components/FloatingActionButtons";
 
 const Index = () => {
 
@@ -116,6 +117,7 @@ const Index = () => {
       </FadeUp>
 
       <Footer />
+      <FloatingButtons />
       <WhatsAppFloat />
     </div>
   );
