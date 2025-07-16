@@ -57,10 +57,6 @@ const Index = () => {
         </svg>
       </div>
 
-
-
-
-
       {/* Waste to Energy Section */}
       <FadeUp>
         <div className="mx-auto px-4 sm:px-6 lg:px-8 py-16 bg-gradient-to-b from-blue-40 to-indigo-100">
@@ -77,17 +73,22 @@ const Index = () => {
             <ChakraImage size="lg" className="my-8" />
 
             <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-                <h3 className="text-xl font-bold text-blue-600 mb-3">Waste Reduction</h3>
-                <p className="text-gray-600">Diverting tons of organic waste from landfills annually</p>
+              {/* Waste Reduction Card - 25% Gray */}
+              <div className="bg-blue-100 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Waste Reduction</h3>
+                <p className="text-gray-800">Diverting tons of organic waste from landfills annually</p>
               </div>
-              <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-                <h3 className="text-xl font-bold text-purple-600 mb-3">Clean Energy</h3>
-                <p className="text-gray-600">Generating sustainable power for communities</p>
+
+              {/* Clean Energy Card - 50% Gray */}
+              <div className="bg-blue-200 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Clean Energy</h3>
+                <p className="text-gray-800">Generating sustainable power for communities</p>
               </div>
-              <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-                <h3 className="text-xl font-bold text-indigo-600 mb-3">Circular Economy</h3>
-                <p className="text-gray-600">Creating valuable byproducts from waste streams</p>
+
+              {/* Circular Economy Card - 75% Gray */}
+              <div className="bg-blue-300 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Circular Economy</h3>
+                <p className="text-gray-800">Creating valuable byproducts from waste streams</p>
               </div>
             </div>
           </div>
