@@ -285,35 +285,35 @@ export const Contact = () => {
               </h3>
               <div className="grid md:grid-cols-1 gap-8">
                 {locations.map((location, index) => (
-  <Card key={index} className="overflow-hidden">
-    <div className="relative h-48">
-      <img
-        src={location.image}
-        alt={location.title}
-        className="w-full h-full object-cover"
-      />
-    </div>
-    <CardContent className="p-6">
-      <h4 className="text-xl font-semibold mb-2">{location.title}</h4>
-      <p className="text-muted-foreground mb-4">{location.description}</p>
-      <div className="flex flex-col space-y-4">
-        <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-          <MapPin className="h-4 w-4" />
-          <span>{location.address}</span>
-        </div>
-        <Button
-          variant="default"
-          size="sm"
-          onClick={() => handleViewOnMap(location.address)}
-          className="bg-green-600 hover:bg-green-700 w-full sm:w-auto"
-        >
-          <ExternalLink className="h-4 w-4 mr-2" />
-          View on Map
-        </Button>
-      </div>
-    </CardContent>
-  </Card>
-))}
+                  <Card key={index} className="overflow-hidden">
+                    <div className="relative h-48">
+                      <img
+                        src={location.image}
+                        alt={location.title}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                    <CardContent className="p-6">
+                      <h4 className="text-xl font-semibold mb-2">{location.title}</h4>
+                      <p className="text-muted-foreground mb-4">{location.description}</p>
+                      <div className="flex flex-col space-y-4">
+                        <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+                          <MapPin className="h-4 w-4" />
+                          <span>{location.address}</span>
+                        </div>
+                        <Button
+                          variant="default"
+                          size="sm"
+                          onClick={() => handleViewOnMap(location.address)}
+                          className="bg-green-600 hover:bg-green-700 w-full sm:w-auto"
+                        >
+                          <ExternalLink className="h-4 w-4 mr-2" />
+                          View on Map
+                        </Button>
+                      </div>
+                    </CardContent>
+                  </Card>
+                ))}
               </div>
             </div>
           </FadeUp>

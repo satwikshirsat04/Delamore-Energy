@@ -57,7 +57,7 @@ export const Technology = () => {
             <h3 className="text-2xl font-bold text-foreground mb-6">
               Zero Waste Technology
             </h3>
-            <p className="text-muted-foreground mb-6 leading-relaxed">
+            <p className="text-muted-foreground mb-6 leading-relaxed text-justify">
               Our technology maximizes the production of value added products with zero waste generation contributing to more sustainable and circular green economy, reducing reliance on fossil fuels and eliminating waste, converting it into wealth.
             </p>
 

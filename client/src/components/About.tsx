@@ -44,11 +44,11 @@ export const About = () => {
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
-            <h3 className="text-2xl font-bold text-foreground mb-6">What We Do</h3>
-            <p className="text-muted-foreground mb-6 leading-relaxed">
+            <h3 className="text-2xl font-bold text-foreground mb-6 ">What We Do</h3>
+            <p className="text-muted-foreground mb-6 leading-relaxed text-justify">
               As a company we are dedicated to develop & implement SCBE - (Sustainable Circular Biomass Economy). At Delamore, we are passionate in providing comprehensive bioenergy solutions that meet the evolving needs of the global market.
             </p>
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="text-muted-foreground leading-relaxed text-justify">
               Our expertise covers food, energy and water sectors stretching our ability and strength to generate resource and wealth from biomass. Our technology produces valuable super food by carbon capture & sequestration, thus providing economic decarbonization solutions.
             </p>
           </div>
