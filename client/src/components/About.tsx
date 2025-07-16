@@ -85,7 +85,7 @@ export const About = () => {
               <Eye className="h-8 w-8 text-primary mr-3" />
               <h3 className="text-xl font-bold text-foreground">Vision</h3>
             </div>
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="text-muted-foreground leading-relaxed text-justify">
               To be instrument of change and innovation in the global persuade of green energy. Driving progress and sustainability through our cutting-edge technology and responsible practices. We envision a future where our endeavours contribute to a cleaner, more efficient, self-sufficient biotransformation frontier fostering economic, social, sustainable growth of mankind.
             </p>
           </Card>
@@ -97,7 +97,7 @@ export const About = () => {
               <Target className="h-8 w-8 text-primary mr-3" />
               <h3 className="text-xl font-bold text-foreground">Mission</h3>
             </div>
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="text-muted-foreground leading-relaxed text-justify">
               Our mission is to develop a comprehensive platform for biotransformation of waste to wealth by encapsulating our indigenous technologies for social and economic upliftment of mankind. By embracing a circular economy, we strive to valorize biomass into valuable end products that enhance quality of life and livelihood inching towards green economy.
             </p>
           </Card>
