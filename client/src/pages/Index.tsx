@@ -10,6 +10,7 @@ import { Footer } from "@/components/Footer";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 import { FadeUp } from "@/components/animations/FadeUp";
 // Add these imports for the carousel
+import ChakraImage from "@/components/ChakraImage";
 import { Carousel } from "@/components/Carousel";
 import { FloatingButtons } from "@/components/FloatingActionButtons";
 
@@ -56,12 +57,42 @@ const Index = () => {
         </svg>
       </div>
 
-      <FadeUp>
-        {/* center img */}
-        <div className="mx-auto px-4 sm:px-6 lg:px-8 mb-0 justify-center text-center items-center flex">
-          <img src="images/quote.jpg" alt="" />
+      
+
+      
+
+      {/* Waste to Energy Section */}
+<FadeUp>
+  <div className="mx-auto px-4 sm:px-6 lg:px-8 py-16 bg-gradient-to-b from-blue-50 to-indigo-100">
+    <div className="max-w-4xl mx-auto text-center">
+      <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-6">
+        Transforming Waste to Wealth
+      </h2>
+      <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
+        Our innovative technology converts organic waste into clean, renewable energy sources. 
+        By harnessing nature's processes, we're creating sustainable solutions that reduce 
+        landfill waste while generating valuable resources for communities and industries.
+      </p>
+      
+      <ChakraImage size="lg" className="my-8" />
+      
+      <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+          <h3 className="text-xl font-bold text-blue-600 mb-3">Waste Reduction</h3>
+          <p className="text-gray-600">Diverting tons of organic waste from landfills annually</p>
         </div>
-      </FadeUp>
+        <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+          <h3 className="text-xl font-bold text-purple-600 mb-3">Clean Energy</h3>
+          <p className="text-gray-600">Generating sustainable power for communities</p>
+        </div>
+        <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+          <h3 className="text-xl font-bold text-indigo-600 mb-3">Circular Economy</h3>
+          <p className="text-gray-600">Creating valuable byproducts from waste streams</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</FadeUp>
 
       <FadeUp>
         <div className="bg-gradient-to-br from-blue-100 to-indigo-200 py-20">
