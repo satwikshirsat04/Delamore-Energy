@@ -123,13 +123,13 @@ export const Contact = () => {
                       <span className="font-medium">General:</span> info@delamoreenergy.com
                     </p>
                     <p className="text-muted-foreground">
-                      <span className="font-medium">Sales:</span> anurag@delamoreenergy.com
+                      <span className="font-medium">Tech:</span> gaurav@delamoreenergy.com
                     </p>
                     <p className="text-muted-foreground">
-                      <span className="font-medium">Support:</span> gaurav@delamoreenergy.com
+                      <span className="font-medium">Ops:</span> anurag@delamoreenergy.com
                     </p>
                     <p className="text-muted-foreground">
-                      <span className="font-medium">Careers:</span> kapoor@delamoreenergy.com
+                      <span className="font-medium">admin:</span> amit@delamoreenergy.com
                     </p>
                   </div>
                 </div>
