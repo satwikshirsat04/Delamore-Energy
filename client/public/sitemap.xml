@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <url>
+    <loc>https://www.delamoreenergy.com/</loc>
+    <image:image>
+      <image:loc>https://www.delamoreenergy.com/images/logo.jpg</image:loc>
+      <image:caption>Delamore Energy Logo</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.delamoreenergy.com/about</loc>
+  </url>
+  <url>
+    <loc>https://www.delamoreenergy.com/services</loc>
+  </url>
+  <url>
+    <loc>https://www.delamoreenergy.com/partners</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.delamoreenergy.com/contact</loc>
+  </url>
+  <url>
+    <loc>https://www.delamoreenergy.com/faq</loc>
+  </url>
+</urlset>
