@@ -97,10 +97,10 @@ export default {
         }
       },
       animation: {
-        'accordion-down': 'accordion-down 0.2s ease-out',
-        'accordion-up': 'accordion-up 0.2s ease-out',
-        chakraSpin: 'rotateChakra 4s linear infinite alternate',
-        chakraSpinAlt: 'rotateChakraAlt 4s linear infinite alternate'
+        'accordion-down': 'accordion-down 0.4s ease-out',
+        'accordion-up': 'accordion-up 0.4s ease-out',
+        chakraSpin: 'rotateChakra 9s linear infinite alternate',
+        chakraSpinAlt: 'rotateChakraAlt 9s linear infinite alternate'
       }
     }
   },
