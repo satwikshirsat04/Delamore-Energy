@@ -65,7 +65,7 @@ const Index = () => {
 <FadeUp>
   <div className="mx-auto px-4 sm:px-6 lg:px-8 py-16 bg-gradient-to-b from-blue-50 to-indigo-100">
     <div className="max-w-4xl mx-auto text-center">
-      <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-6">
+      <h2 className="text-4xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-6">
         Transforming Waste to Wealth
       </h2>
       <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
