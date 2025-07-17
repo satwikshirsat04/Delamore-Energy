@@ -50,12 +50,12 @@ export const Hero = () => {
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
-          <div className="flex items-center justify-center mb-6 floating-animation">
+          {/* <div className="flex items-center justify-center mb-6 floating-animation">
             <Leaf className="h-12 w-12 text-white mr-3" />
             <span className="text-sm font-semibold text-white bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full border border-white/30">
               World's 1st Sustainable Circular Biomass Economy
             </span>
-          </div>
+          </div> */}
           <FadeUp>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight hero-title">
             Harnessing the Power of <span className="text-primary">Biomass</span>
@@ -66,23 +66,23 @@ export const Hero = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 backdrop-blur-sm bg-black/30 p-8 rounded-lg border border-white/10">
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-white mb-2">
-                <AnimatedCounter end={500} suffix="+" />
+                <AnimatedCounter end={30} suffix="+" />
               </div>
-              <p className="text-white/90 text-lg">Sustainable Solutions Delivered</p>
+              <p className="text-white/90 text-lg">Projects Across India</p>
             </div>
             
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-white mb-2">
                 <AnimatedCounter end={85} suffix="%" />
               </div>
-              <p className="text-white/90 text-lg">Carbon Footprint Reduction</p>
+              <p className="text-white/90 text-lg">Carbon Capture</p>
             </div>
             
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-white mb-2">
-                <AnimatedCounter end={1000} suffix="+" />
+                <AnimatedCounter end={4200000} suffix="" />
               </div>
-              <p className="text-white/90 text-lg">Tons of Waste Converted to Wealth</p>
+              <p className="text-white/90 text-lg">Tons of biomass / year conversion</p>
             </div>
           </div>
           

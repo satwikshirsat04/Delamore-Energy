@@ -78,7 +78,7 @@ export const About = () => {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        {/* <div className="grid md:grid-cols-2 gap-8">
           <FadeUp>
           <Card className="p-8">
             <div className="flex items-center mb-4">
@@ -103,7 +103,7 @@ export const About = () => {
           </Card>
           </FadeUp>
 
-        </div>
+        </div> */}
       </div>
     </section>
   );
