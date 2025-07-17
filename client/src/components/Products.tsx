@@ -92,11 +92,11 @@ export const Products = () => {
               >
                 {/* Background Image */}
                 <div 
-                  className="absolute inset-0 bg-cover bg-center z-0 opacity-95"
+                  className="absolute inset-0 bg-cover bg-center z-0 opacity-100"
                   style={{ backgroundImage: `url(${product.bgImage})` }}
                 />
                 {/* Gradient Overlay */}
-                <div className={`absolute inset-0 bg-gradient-to-br ${product.gradient} z-0 opacity-70`} />
+                <div className={`absolute inset-0 bg-gradient-to-br ${product.gradient} z-0 opacity-40`} />
                 
                 <FadeUp>
                   <div className="p-6 h-full flex flex-col relative z-10">
@@ -139,7 +139,7 @@ export const Products = () => {
                   style={{ backgroundImage: `url(${service.bgImage})` }}
                 />
                 {/* Gradient Overlay */}
-                <div className={`absolute inset-0 bg-gradient-to-br ${service.gradient} z-0 opacity-70`} />
+                <div className={`absolute inset-0 bg-gradient-to-br ${service.gradient} z-0 opacity-40`} />
                 
                 <FadeUp>
                   <div className="p-6 h-full flex flex-col relative z-10">
