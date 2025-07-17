@@ -11,6 +11,8 @@ import Services from "./pages/Services";
 import Products from "./pages/products";
 import Process from "./pages/Process";
 import Partners from "./pages/Partners";
+import BlogsAndPodcasts from './pages/BlogsAndPodcasts';
+import BlogDetail from './pages/BlogDetail';
 import Contact from "./pages/Contact";
 import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
@@ -33,6 +35,8 @@ const App = () => (
           <Route path="/products" element={<Products />} />
           <Route path="/process" element={<Process />} />
           <Route path="/partners" element={<Partners />} />
+          <Route path="/blogs-and-podcasts" element={<BlogsAndPodcasts />} />
+          <Route path="/blogs/:slug" element={<BlogDetail />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/privacy" element={<Privacy />} />
