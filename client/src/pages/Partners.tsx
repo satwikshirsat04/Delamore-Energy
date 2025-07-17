@@ -105,9 +105,9 @@ useDocumentTitle({
 
 
           {/* Benefits & Opportunities */}
-          <FadeUp>
+          {/* <FadeUp>
             <section className="grid lg:grid-cols-2 gap-12">
-              {/* Benefits */}
+           
               <Card className="p-8">
                 <CardHeader className="px-0 pt-0">
                   <div className="flex items-center mb-4">
@@ -132,7 +132,6 @@ useDocumentTitle({
                 </CardContent>
               </Card>
 
-              {/* Opportunities */}
               <Card className="p-8">
                 <CardHeader className="px-0 pt-0">
                   <div className="flex items-center mb-4">
@@ -157,7 +156,7 @@ useDocumentTitle({
                 </CardContent>
               </Card>
             </section>
-          </FadeUp>
+          </FadeUp> */}
 
           {/* CTA Section */}
           <FadeUp>
