@@ -45,10 +45,12 @@ export const Navigation = () => {
               <Link
                 key={item.name}
                 to={item.href}
-                className={`px-3 py-2 text-sm font-medium transition-colors hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md ${
-                  isActive(item.href) 
-                    ? 'text-primary dark:text-primary-foreground bg-gray-100 dark:bg-gray-800 font-semibold' 
-                    : 'text-gray-900 dark:text-gray-300'
+                className={`px-3 py-2 text-sm font-medium transition-colors rounded-md ${
+                  item.name === 'Contact'
+                    ? 'bg-primary text-primary-foreground hover:bg-primary/90'
+                    : isActive(item.href) 
+                      ? 'text-primary dark:text-primary-foreground bg-gray-100 dark:bg-gray-800 font-semibold' 
+                      : 'text-gray-900 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
                 }`}
               >
                 {item.name}
@@ -78,9 +80,11 @@ export const Navigation = () => {
                   key={item.name}
                   to={item.href}
                   className={`block px-3 py-3 text-base font-medium transition-colors rounded-md ${
-                    isActive(item.href) 
-                      ? 'text-primary dark:text-primary-foreground bg-gray-100 dark:bg-gray-800' 
-                      : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
+                    item.name === 'Contact'
+                      ? 'bg-primary text-primary-foreground hover:bg-primary/90'
+                      : isActive(item.href) 
+                        ? 'text-primary dark:text-primary-foreground bg-gray-100 dark:bg-gray-800' 
+                        : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
                   }`}
                   onClick={() => setIsOpen(false)}
                 >
