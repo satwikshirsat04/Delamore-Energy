@@ -45,91 +45,100 @@ const Index = () => {
 
       {/* Vision and Mission */}
       <FadeUp>
-        <div className="relative py-16 overflow-hidden">
-          {/* Decorative background elements */}
-          <div className="absolute inset-0 overflow-hidden opacity-10">
-            <div className="absolute -left-20 -top-20 w-64 h-64 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-2000"></div>
-            <div className="absolute -right-20 -bottom-20 w-64 h-64 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-4000"></div>
-            <div className="absolute right-1/3 bottom-1/2 w-64 h-64 bg-indigo-500 rounded-full mix-blend-multiply filter blur-xl animate-blob"></div>
-          </div>
+        <div className="relative py-24 bg-gray-50">
+          {/* Subtle grid background */}
+          <div className="absolute inset-0 bg-[url('/images/grid-pattern.svg')] bg-[length:100px_100px] opacity-5"></div>
 
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-            {/* Section title */}
-            <div className="text-center mb-16">
-              <h2 className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 sm:text-4xl">
-                Our Core Values
+          <div className="max-w-7xl mx-auto px-6 lg:px-8 relative">
+            {/* Section header */}
+            <div className="text-center mb-20">
+              <span className="inline-block mb-4 text-sm font-semibold tracking-wider text-green-600 uppercase">
+                Our Foundation
+              </span>
+              <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+                Guiding Principles
               </h2>
-              <p className="mt-3 max-w-2xl mx-auto text-gray-600 sm:mt-4">
-                Guiding principles that drive our innovation and sustainability
-              </p>
+              <div className="mx-auto mt-4 max-w-2xl text-xl text-gray-600">
+                The pillars that define our purpose and direction
+              </div>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="grid md:grid-cols-2 gap-12">
               {/* Vision Card */}
               <FadeUp>
                 <div className="relative group">
-                  <div className="absolute -inset-1 bg-gradient-to-r from-blue-400 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-200"></div>
-                  <Card className="relative p-8 bg-white rounded-lg h-full transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
-                    <div className="flex items-center mb-6">
-                      <div className="p-3 rounded-full bg-gradient-to-br from-blue-100 to-blue-200 shadow-md">
-                        <Eye className="h-8 w-8 text-blue-600" />
+                  <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl blur opacity-0 group-hover:opacity-30 transition-opacity duration-300"></div>
+                  <div className="relative h-full bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100">
+                    <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-blue-600"></div>
+                    <div className="p-10">
+                      <div className="flex items-center mb-8">
+                        <div className="flex items-center justify-center w-14 h-14 rounded-lg bg-blue-50">
+                          <Eye className="h-8 w-8 text-blue-600" />
+                        </div>
+                        <h3 className="ml-6 text-2xl font-bold text-gray-900">Vision</h3>
                       </div>
-                      <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 ml-4">
-                        Vision
-                      </h3>
-                    </div>
-                    <CardContent className="p-0">
-                      <p className="text-gray-700 leading-relaxed text-justify">
-                        To be instrument of change and innovation in the global persuade of green energy. Driving progress and sustainability through our cutting-edge technology and responsible practices. We envision a future where our endeavours contribute to a cleaner, more efficient, self-sufficient biotransformation frontier fostering economic, social, sustainable growth of mankind.
-                      </p>
-                    </CardContent>
-                    <div className="mt-6 pt-4 border-t border-gray-100">
-                      <div className="flex space-x-2">
-                        {['Innovation', 'Sustainability', 'Progress'].map((tag, i) => (
-                          <span
-                            key={i}
-                            className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800"
-                          >
-                            {tag}
-                          </span>
-                        ))}
+                      <div className="prose prose-lg text-gray-600 text-justify">
+                        <p>
+                          To be instrument of change and innovation in the global pursuit of green energy.
+                          Driving progress and sustainability through our cutting-edge technology and
+                          responsible practices. We envision a future where our endeavors contribute
+                          to a cleaner, more efficient, self-sufficient biotransformation frontier
+                          fostering economic, social, and sustainable growth for mankind.
+                        </p>
+                      </div>
+                      <div className="mt-8 pt-6 border-t border-gray-100">
+                        <div className="flex flex-wrap gap-2">
+                          {['Innovation', 'Sustainability', 'Progress'].map((tag) => (
+                            <span
+                              key={tag}
+                              className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-50 text-blue-700"
+                            >
+                              {tag}
+                            </span>
+                          ))}
+                        </div>
                       </div>
                     </div>
-                  </Card>
+                  </div>
                 </div>
               </FadeUp>
 
               {/* Mission Card */}
               <FadeUp>
                 <div className="relative group">
-                  <div className="absolute -inset-1 bg-gradient-to-r from-green-400 to-teal-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-200"></div>
-                  <Card className="relative p-8 bg-white rounded-lg h-full transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
-                    <div className="flex items-center mb-6">
-                      <div className="p-3 rounded-full bg-gradient-to-br from-green-100 to-green-200 shadow-md">
-                        <Target className="h-8 w-8 text-green-600" />
+                  <div className="absolute -inset-0.5 bg-gradient-to-r from-green-500 to-green-600 rounded-xl blur opacity-0 group-hover:opacity-30 transition-opacity duration-300"></div>
+                  <div className="relative h-full bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100">
+                    <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-green-500 to-green-600"></div>
+                    <div className="p-10">
+                      <div className="flex items-center mb-8">
+                        <div className="flex items-center justify-center w-14 h-14 rounded-lg bg-green-50">
+                          <Target className="h-8 w-8 text-green-600" />
+                        </div>
+                        <h3 className="ml-6 text-2xl font-bold text-gray-900">Mission</h3>
                       </div>
-                      <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-teal-600 ml-4">
-                        Mission
-                      </h3>
-                    </div>
-                    <CardContent className="p-0">
-                      <p className="text-gray-700 leading-relaxed text-justify">
-                        Our mission is to develop a comprehensive platform for biotransformation of waste to wealth by encapsulating our indigenous technologies for social and economic upliftment of mankind. By embracing a circular economy, we strive to valorize biomass into valuable end products that enhance quality of life and livelihood inching towards green economy.
-                      </p>
-                    </CardContent>
-                    <div className="mt-6 pt-4 border-t border-gray-100">
-                      <div className="flex space-x-2">
-                        {['Transformation', 'Circular Economy', 'Green Future'].map((tag, i) => (
-                          <span
-                            key={i}
-                            className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800"
-                          >
-                            {tag}
-                          </span>
-                        ))}
+                      <div className="prose prose-lg text-gray-600 text-justify">
+                        <p>
+                          Our mission is to develop a comprehensive platform for biotransformation
+                          of waste to wealth by encapsulating our indigenous technologies for
+                          social and economic upliftment. By embracing a circular economy, we
+                          strive to valorize biomass into valuable end products that enhance
+                          quality of life and livelihood while advancing toward a green economy.
+                        </p>
+                      </div>
+                      <div className="mt-8 pt-6 border-t border-gray-100">
+                        <div className="flex flex-wrap gap-2">
+                          {['Transformation', 'Circular Economy', 'Green Future'].map((tag) => (
+                            <span
+                              key={tag}
+                              className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-50 text-green-700"
+                            >
+                              {tag}
+                            </span>
+                          ))}
+                        </div>
                       </div>
                     </div>
-                  </Card>
+                  </div>
                 </div>
               </FadeUp>
             </div>
@@ -160,8 +169,7 @@ const Index = () => {
             </h2>
             <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
               Our innovative technology converts organic waste into clean, renewable energy sources.
-              By harnessing nature's processes, we're creating sustainable solutions that reduce
-              landfill waste while generating valuable resources for communities and industries.
+              We are committed to nation building through socio economic upliftment of society by world' s comprehensive circular biomass energy solutions meeting the evolving needs of the society
             </p>
 
             <ChakraImage size="lg" className="my-8" />
@@ -189,54 +197,7 @@ const Index = () => {
         </div>
       </FadeUp>
 
-      {/* <FadeUp>
-        <div className="bg-gradient-to-br from-blue-100 to-indigo-200 py-20">
-          <Services />
-        </div>
-      </FadeUp> */}
 
-      {/* <FadeUp>
-        <div className="bg-gradient-to-l from-cyan-50 to-blue-100 py-20">
-          <Technology />
-        </div>
-      </FadeUp> */}
-
-      {/* <FadeUp>
-        <div className="bg-gradient-to-r from-purple-50 to-indigo-50 py-20">
-          <Products />
-        </div>
-      </FadeUp> */}
-
-      {/* Company Phases Carousel - Updated Version */}
-      {/* <FadeUp>
-        <div className="py-10 bg-black">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-extrabold text-gray-300 text-center mb-9">
-              Our Process
-            </h2>
-            <div className="relative w-full aspect-video overflow-hidden rounded-lg shadow-xl mt-5">
-              <Carousel images={[
-                {
-                  src: "images/phases/phase1.jpg",
-                  alt: "Some Hours Busy",
-                  // caption: "Some Hours Busy"
-                },
-                {
-                  src: "images/phases/phase2.jpg",
-                  alt: "Books in This Life",
-                  // caption: "Books in This Life"
-                }
-              ]} />
-            </div>
-          </div>
-        </div>
-      </FadeUp> */}
-
-      {/* <FadeUp>
-        <div className="py-20">
-          <Team />
-        </div>
-      </FadeUp> */}
 
       <FadeUp>
         <Contact />
