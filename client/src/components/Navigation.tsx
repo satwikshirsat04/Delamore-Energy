@@ -11,7 +11,7 @@ export const Navigation = () => {
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
     { name: 'Services', href: '/services' },
-    // { name: 'Market', href: '/market' },
+
     { name: 'Process', href: '/process' },
     { name: 'Partners', href: '/partners' },
     { name: 'Contact', href: '/contact' },
@@ -47,7 +47,7 @@ export const Navigation = () => {
                 to={item.href}
                 className={`px-3 py-2 text-sm font-medium transition-colors rounded-md ${
                   item.name === 'Contact'
-                    ? 'bg-primary text-primary-foreground hover:bg-primary/90'
+                    ? 'bg-primary text-primary-foreground hover:bg-black/100'
                     : isActive(item.href) 
                       ? 'text-primary dark:text-primary-foreground bg-gray-100 dark:bg-gray-800 font-semibold' 
                       : 'text-gray-900 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
