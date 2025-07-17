@@ -4,8 +4,14 @@ import { Footer } from "@/components/Footer";
 import { Services as ServicesSection } from "@/components/Services";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 import { PageBanner } from "@/components/PageBanner";
+import { useDocumentTitle } from "@/hooks/useDocumentTitle";
 
 const Services = () => {
+  useDocumentTitle({
+    title: 'Services',
+    description: 'India\'s leading renewable solutions - Carbon-negative technology for agriculture, industry, and environmental applications. Based in Pune.',
+    keywords: 'Biorefining and Processing,Environmental Stewardship,Green Energy Production,Carbon Sequestration,Super Food & Nutraceuticals'
+  });
   return (
     <div className="min-h-screen bg-background">
       <Navigation />

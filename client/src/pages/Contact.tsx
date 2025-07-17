@@ -4,8 +4,16 @@ import { Footer } from "@/components/Footer";
 import { Contact as ContactSection } from "@/components/Contact";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 import { PageBanner } from "@/components/PageBanner";
+import { useDocumentTitle } from "@/hooks/useDocumentTitle";
 
 const Contact = () => {
+  useDocumentTitle({
+  title: 'Contact Us',
+  description: 'Reach Delamore Energy',
+  keywords: 'clean energy, contact, waste to wealth'
+});
+
+
   return (
     <div className="min-h-screen bg-background">
       <Navigation />

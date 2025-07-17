@@ -6,8 +6,14 @@ import { ArrowDown, Recycle, Zap, Leaf, Factory } from "lucide-react";
 import { PageBanner } from "@/components/PageBanner";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 import { FadeUp } from "@/components/animations/FadeUp";
+import { useDocumentTitle } from "@/hooks/useDocumentTitle";
 
 const Process = () => {
+  useDocumentTitle({
+    title: 'Our Process',
+    description: 'Our innovative biorefinery process transforms biomass waste into valuable products through sustainable circular economy principles.',
+    keywords: 'Biomass Collection,Biorefinery Processing,Value Extraction,Circular Economy'
+  });
   const processSteps = [
     {
       step: "01",

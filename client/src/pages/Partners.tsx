@@ -18,8 +18,15 @@ import { PageBanner } from "@/components/PageBanner";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 import { Button } from "@/components/ui/button";
 import { FadeUp } from "@/components/animations/FadeUp";
+import { useDocumentTitle } from "@/hooks/useDocumentTitle";
 
 const Partners = () => {
+useDocumentTitle({
+  title: 'Partner With Us',
+  description: 'We collaborate with leading research institutions and industry partners to drive innovation in sustainable biomass technology.',
+  keywords: 'Partnership Opportunities,Investment and funding partnerships,Joint research and development projects'
+});
+
   const navigate = useNavigate();
 
   const technologyPartners = [

@@ -4,8 +4,14 @@ import { Footer } from "@/components/Footer";
 import { PageBanner } from "@/components/PageBanner";
 import { Card, CardContent } from "@/components/ui/card";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
+import { useDocumentTitle } from "@/hooks/useDocumentTitle";
 
 const Terms = () => {
+  useDocumentTitle({
+    title: 'Terms & Conditions',
+    description: 'Agreement to Terms',
+    keywords: 'Agreement to Terms,Use License,Disclaimer'
+  });
   return (
     <div className="min-h-screen bg-background">
       <Navigation />

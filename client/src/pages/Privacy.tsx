@@ -4,8 +4,13 @@ import { Footer } from "@/components/Footer";
 import { PageBanner } from "@/components/PageBanner";
 import { Card, CardContent } from "@/components/ui/card";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
-
+import { useDocumentTitle } from "@/hooks/useDocumentTitle";
 const Privacy = () => {
+  useDocumentTitle({
+    title: 'Privacy Policy',
+    description: 'Privacy Policy',
+    keywords: 'Privacy Policy'
+  });
   return (
     <div className="min-h-screen bg-background">
       <Navigation />

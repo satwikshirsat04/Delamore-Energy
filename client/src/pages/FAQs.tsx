@@ -5,8 +5,15 @@ import { PageBanner } from "@/components/PageBanner";
 import { Card, CardContent } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
+import { useDocumentTitle } from "@/hooks/useDocumentTitle";
 
 const FAQs = () => {
+  useDocumentTitle({
+  title: 'FAQs',
+  description: 'Frequently asked questions about renewable and environmental benefits answered by Indian experts',
+  keywords: 'carbon removal FAQ, clean energy'
+});
+
   const faqs = [
     {
       question: "What is Sustainable Circular Biomass Economy (SCBE)?",

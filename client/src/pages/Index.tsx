@@ -9,13 +9,17 @@ import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 import { FadeUp } from "@/components/animations/FadeUp";
-// Add these imports for the carousel
+import { useDocumentTitle } from "@/hooks/useDocumentTitle";
 import ChakraImage from "@/components/ChakraImage";
 import { Carousel } from "@/components/Carousel";
 import { FloatingButtons } from "@/components/FloatingActionButtons";
 
 const Index = () => {
-
+  useDocumentTitle({
+    title: 'Home',
+    description: 'Delamore Energy Private Limited | Your trusted partner in energy solutions.',
+    keywords: 'renewable energy, cbg, Green Energy Production, Waste Reduction, clean energy, Bio Refinery'
+  });
 
   return (
     <div className="min-h-screen bg-background">
