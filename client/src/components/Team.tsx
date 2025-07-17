@@ -15,7 +15,7 @@ export const Team = () => {
       name: "Amit Kapur",
       position: "CVO",
       department: "Vision",
-      image: "images/team/people.jpg"
+      image: "images/team/amit_kapur.jpg"
     },
     {
       name: "Gaurav Nahar",
