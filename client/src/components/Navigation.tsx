@@ -83,7 +83,7 @@ export const Navigation = () => {
                     item.name === 'Contact'
                       ? 'bg-primary text-primary-foreground hover:bg-primary/90'
                       : isActive(item.href) 
-                        ? 'text-primary dark:text-primary-foreground bg-gray-100 dark:bg-gray-800' 
+                        ? 'text-primary dark:text-primary-foreground bg-gray-100 dark:bg-gray-800'
                         : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
                   }`}
                   onClick={() => setIsOpen(false)}
