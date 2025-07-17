@@ -197,7 +197,92 @@ const Index = () => {
         </div>
       </FadeUp>
 
+      {/* SDG Goals Section */}
+      <FadeUp>
+        <div className="bg-white py-24">
+          <div className="max-w-7xl mx-auto px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+                Aligning with UN Sustainable Development Goals
+              </h2>
+              <p className="mt-6 max-w-2xl mx-auto text-xl text-gray-600">
+                Our work directly contributes to several key UN SDGs, creating meaningful impact
+              </p>
+            </div>
 
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+              {/* SDG 7 - Affordable and Clean Energy */}
+              <div className="flex flex-col items-center p-6 bg-gray-50 rounded-xl hover:shadow-md transition-shadow">
+                <img
+                  src="/images/sdgs/sdg7.png"
+                  alt="SDG 7 - Affordable and Clean Energy"
+                  className="h-32 w-32 object-contain mb-4"
+                />
+                <h3 className="text-lg font-semibold text-center text-gray-800">Affordable & Clean Energy</h3>
+                <p className="mt-2 text-sm text-gray-600 text-center">Providing renewable energy solutions</p>
+              </div>
+
+              {/* SDG 11 - Sustainable Cities */}
+              <div className="flex flex-col items-center p-6 bg-gray-50 rounded-xl hover:shadow-md transition-shadow">
+                <img
+                  src="/images/sdgs/sdg11.png"
+                  alt="SDG 11 - Sustainable Cities"
+                  className="h-32 w-32 object-contain mb-4"
+                />
+                <h3 className="text-lg font-semibold text-center text-gray-800">Sustainable Cities</h3>
+                <p className="mt-2 text-sm text-gray-600 text-center">Reducing urban waste impact</p>
+              </div>
+
+              {/* SDG 12 - Responsible Consumption */}
+              <div className="flex flex-col items-center p-6 bg-gray-50 rounded-xl hover:shadow-md transition-shadow">
+                <img
+                  src="/images/sdgs/sdg12.png"
+                  alt="SDG 12 - Responsible Consumption"
+                  className="h-32 w-32 object-contain mb-4"
+                />
+                <h3 className="text-lg font-semibold text-center text-gray-800">Responsible Consumption</h3>
+                <p className="mt-2 text-sm text-gray-600 text-center">Promoting circular economy</p>
+              </div>
+
+              {/* SDG 13 - Climate Action */}
+              <div className="flex flex-col items-center p-6 bg-gray-50 rounded-xl hover:shadow-md transition-shadow">
+                <img
+                  src="/images/sdgs/sdg13.png"
+                  alt="SDG 13 - Climate Action"
+                  className="h-32 w-32 object-contain mb-4"
+                />
+                <h3 className="text-lg font-semibold text-center text-gray-800">Climate Action</h3>
+                <p className="mt-2 text-sm text-gray-600 text-center">Reducing carbon emissions</p>
+              </div>
+
+              {/* SDG 15 - Life on Land */}
+              <div className="flex flex-col items-center p-6 bg-gray-50 rounded-xl hover:shadow-md transition-shadow">
+                <img
+                  src="/images/sdgs/sdg15.png"
+                  alt="SDG 15 - Life on Land"
+                  className="h-32 w-32 object-contain mb-4"
+                />
+                <h3 className="text-lg font-semibold text-center text-gray-800">Life on Land</h3>
+                <p className="mt-2 text-sm text-gray-600 text-center">Protecting ecosystems</p>
+              </div>
+            </div>
+
+            <div className="mt-16 text-center">
+              <a
+                href="https://sdgs.un.org/goals"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700"
+              >
+                Learn More About SDGs
+                <svg className="ml-3 -mr-1 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </FadeUp>
 
       <FadeUp>
         <Contact />
