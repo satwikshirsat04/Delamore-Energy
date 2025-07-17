@@ -214,7 +214,7 @@ const Index = () => {
               {/* SDG 7 - Affordable and Clean Energy */}
               <div className="flex flex-col items-center p-6 bg-gray-50 rounded-xl hover:shadow-md transition-shadow">
                 <img
-                  src="/images/sdgs/sdg7.png"
+                  src="/images/services/env.webp"
                   alt="SDG 7 - Affordable and Clean Energy"
                   className="h-32 w-32 object-contain mb-4"
                 />
@@ -225,7 +225,7 @@ const Index = () => {
               {/* SDG 11 - Sustainable Cities */}
               <div className="flex flex-col items-center p-6 bg-gray-50 rounded-xl hover:shadow-md transition-shadow">
                 <img
-                  src="/images/sdgs/sdg11.png"
+                  src="/images/services/env.webp"
                   alt="SDG 11 - Sustainable Cities"
                   className="h-32 w-32 object-contain mb-4"
                 />
@@ -236,7 +236,7 @@ const Index = () => {
               {/* SDG 12 - Responsible Consumption */}
               <div className="flex flex-col items-center p-6 bg-gray-50 rounded-xl hover:shadow-md transition-shadow">
                 <img
-                  src="/images/sdgs/sdg12.png"
+                  src="/images/services/env.webp"
                   alt="SDG 12 - Responsible Consumption"
                   className="h-32 w-32 object-contain mb-4"
                 />
@@ -247,7 +247,7 @@ const Index = () => {
               {/* SDG 13 - Climate Action */}
               <div className="flex flex-col items-center p-6 bg-gray-50 rounded-xl hover:shadow-md transition-shadow">
                 <img
-                  src="/images/sdgs/sdg13.png"
+                  src="/images/services/env.webp"
                   alt="SDG 13 - Climate Action"
                   className="h-32 w-32 object-contain mb-4"
                 />
@@ -258,7 +258,7 @@ const Index = () => {
               {/* SDG 15 - Life on Land */}
               <div className="flex flex-col items-center p-6 bg-gray-50 rounded-xl hover:shadow-md transition-shadow">
                 <img
-                  src="/images/sdgs/sdg15.png"
+                  src="/images/services/env.webp"
                   alt="SDG 15 - Life on Land"
                   className="h-32 w-32 object-contain mb-4"
                 />
