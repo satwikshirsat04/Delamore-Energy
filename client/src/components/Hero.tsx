@@ -80,7 +80,7 @@ export const Hero = () => {
             
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-white mb-2">
-                <AnimatedCounter end={4200000} suffix="" />
+                <AnimatedCounter end={4} suffix="M+" />
               </div>
               <p className="text-white/90 text-lg">Tons of biomass / year conversion</p>
             </div>
