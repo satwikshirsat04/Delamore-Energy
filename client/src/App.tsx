@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import ScrollToTop from "./components/ScrollToTop";
@@ -18,6 +17,8 @@ import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
 import FAQs from "./pages/FAQs";
 import NotFound from "./pages/NotFound";
+import { Team } from "@/components/Team";
+import { TeamMember } from "@/pages/TeamMember";
 
 const queryClient = new QueryClient();
 
@@ -35,6 +36,10 @@ const App = () => (
           <Route path="/products" element={<Products />} />
           <Route path="/process" element={<Process />} />
           <Route path="/partners" element={<Partners />} />
+          {/* Team Routes */}
+          <Route path="/team" element={<Team />} />
+          <Route path="/team/:slug" element={<TeamMember />} />
+          {/* End Team Routes */}
           <Route path="/blogs-and-podcasts" element={<BlogsAndPodcasts />} />
           <Route path="/blogs/:slug" element={<BlogDetail />} />
           <Route path="/contact" element={<Contact />} />
