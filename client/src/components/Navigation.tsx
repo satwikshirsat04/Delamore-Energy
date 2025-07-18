@@ -36,7 +36,7 @@ export const Navigation = () => {
             </div>
             <span className="text-xl font-bold">
               <span className="text-green-800 dark:text-green-600">Dela</span>
-              <span className="text-foreground">more Energy</span>
+              <span className="text-foreground">more Renewable Energy</span>
             </span>
           </Link>
 

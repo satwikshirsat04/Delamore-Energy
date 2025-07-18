@@ -13,7 +13,7 @@ export const useDocumentTitle = ({
 }: MetaTags) => {
   useEffect(() => {
     // Set document title
-    document.title = `${title} | Delamore Energy`;
+    document.title = `${title} | Delamore Renewable Energy`;
 
     // Set or create meta description
     let metaDesc = document.querySelector('meta[name="description"]');

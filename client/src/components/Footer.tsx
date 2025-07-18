@@ -19,7 +19,7 @@ export const Footer = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <span className="text-lg font-bold text-white">Delamore Energy Pvt Ltd</span>
+              <span className="text-lg font-bold text-white">Delamore Renewable Energy Pvt Ltd</span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed">
               World's 1st sustainable circular biomass economy, transforming waste into wealth through innovative biotechnology.
