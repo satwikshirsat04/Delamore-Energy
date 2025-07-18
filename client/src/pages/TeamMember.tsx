@@ -45,7 +45,7 @@ export const TeamMember = () => {
             </div>
             <div className="w-full md:w-2/3">
               <h1 className="text-4xl font-bold mb-2">{member.name}</h1>
-              <p className="text-lg text-muted-foreground mb-2">{member.location}</p>
+              {/* <p className="text-lg text-muted-foreground mb-2">{member.location}</p> */}
               <div className="mb-6">
                 <Badge variant="outline" className="border-primary/30 bg-primary/10 text-primary/80">
                   {member.department}
@@ -54,7 +54,7 @@ export const TeamMember = () => {
               <h2 className="text-2xl text-primary mb-4">{member.position}</h2>
               <p className="text-lg mb-8">{member.description}</p>
               
-              <div className="space-y-4">
+              <div className="space-y-4 text-justify">
                 {member.fullBio?.map((paragraph, index) => (
                   <p key={index} className="text-muted-foreground">{paragraph}</p>
                 ))}

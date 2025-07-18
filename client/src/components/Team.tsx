@@ -26,14 +26,15 @@ export const teamMembers = [
     name: "Sanjeev Kumar",
     position: "Chairman",
     department: "Leadership",
-    location: "Luxembourg",
+    // location: "Luxembourg",
     image: "/images/team/sanjeev_kumar.png",
-    description: "Visionary leader with 3+ years in investment strategy guiding Delamore Capital to unprecedented growth.",
+    description: "Visionary leader with 20+ years of global experience in investment strategy, steering Delamore Capital and diverse ventures toward transformative growth.",
     slug: "sanjeev-kumar",
     fullBio: [
-      "Sanjeev Kumar has been instrumental in shaping Delamore Capital's strategic direction since its inception.",
-      "Based in Luxembourg, he oversees global operations with a focus on sustainable investment strategies.",
-      "Under his leadership, Delamore Capital has achieved consistent 20%+ annual returns for clients."
+      "Sanjeev Kumar is a global award-winning CEO, Chief Visionary Officer, and author of five books, who has transitioned from a Wall Street financial professional to a successful entrepreneur across diverse industries over two decades.",
+      "His passion for healthcare and wellness led him to create the Harley Street Healthcare Group, where his resilience and innovation have positioned him as a modern strategic leader.",
+      "Sharing his life mantra, Sanjeev says: 'You are your biggest investment and the best asset; life is the best teacher, so spend more time with yourself and stop worrying about what you can’t control.'",
+      "As an author and nature enthusiast, Sanjeev has written books like Poems of Self Discovery, Journey of a Human Mind, and more, and regularly contributes to platforms shaping financial markets and global business through www.sonykumar.com."
     ]
   },
   {
@@ -143,7 +144,7 @@ export const Team = () => {
                   <CardTitle className="text-2xl font-medium tracking-tight">
                     {member.name}
                   </CardTitle>
-                  <p className="text-muted-foreground text-sm mt-1">{member.location}</p>
+                  {/* <p className="text-muted-foreground text-sm mt-1">{member.location}</p> */}
                   <Badge variant="outline" className="mx-auto w-fit mt-2 border-primary/30 bg-primary/10 text-primary/80 hover:bg-primary/15">
                     {member.department}
                   </Badge>
@@ -153,7 +154,7 @@ export const Team = () => {
                   <p className="text-muted-foreground text-center font-medium text-lg mb-2">
                     {member.position}
                   </p>
-                  <p className="text-muted-foreground/90 text-center mb-6">
+                  <p className="text-muted-foreground/90 text-center mb-6 text-justify">
                     {member.description}
                   </p>
                   <div className="flex justify-center">
