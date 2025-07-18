@@ -41,13 +41,26 @@ export const teamMembers = [
     position: "CVO",
     department: "Vision",
     image: "/images/team/amit_kapur.jpg",
-    description: "Amit Kapur, Director and Co-Founder: Amit Kapur is B.SC., LL.M., Gold Medallist  , an alumni of prestigious Punjab University, Chandigarh, India having  a rich experience of 30 years in various businesses.",
+    description: "Director and Co-Founder, B.SC., LL.M., Gold Medallist, Agri-Tech & Renewable Energy Visionary, an alumni of prestigious Punjab University, Chandigarh, India having  a rich experience of 30 years in various businesses.",
     slug: "amit-kapur",
     fullBio: [
-      "Joined Delamore Capital in 2008 as Chief Vision Officer.",
-      "Developed the firm's core investment strategies that delivered consistent 20%+ returns.",
-      "Former partner at Blackstone and Bain Capital.",
-      "PhD in Economics from MIT, CFA charterholder."
+      "Delamore Renewable Energy Pvt Ltd is another venture, passion and commitment of Amit Kapur   to valorise waste to wealth by harnessing the power of agri biomass. The company has conceived and developed various technologies to valorise the agri biomass for sustainable social circular economy. This renewable project not only valorises agri biomass to produce methane gas, protein, spirulina, lignin, nano silica, hydrogen, beta carotene, phycocyanin, charcoal, Graphene. The project generates large numbers of carbon credits for mitigating dangerous emission of gases and production of super food, nutraceuticals from waste. The company is setting up initially 30 plants in Maharashtra, Madhya Pradesh, Gujarat, Uttar Pradesh, Haryana and Punjab. This circular economy will be uplifting the social economic conditions of the farming community and will be a huge step in nation building, as India is primarily Agri economy. ",
+      "A trusted advisor to Indian family offices, Amit combines deep corporate law acumen with financial structuring excellence to align legal frameworks with long-term wealth preservation and expansion. His prior role as Associate Director at Baker Tilly (Dubai) underscores his global credibility in compliance and governance.",
+      "Key Ventures & Leadership :",
+      "1. Delamore Capital W.L.L. (Bahrain)",
+      "Manages $500M AUM for ultra-high-net-worth families, focusing on cross-border investments, M&A, and compliance. ",
+      "Pioneering sustainable investment structures in healthcare, real estate, and renewable energy.",
+      "2. Farm2Fork Agritech Pvt Ltd (India)",
+      "Agri-tech disruptor with APMC licenses (Nashik, Bhavnagar, Ludhiana, Batala) and a 72-acre hub on Pune-Nashik Highway.",
+      "Empowering farmers through direct market access, eliminating middlemen, and enhancing profitability.",
+      "3. Delamore Renewable Energy Pvt Ltd (India)",
+      "Circular economy champion: Converts agri-waste into methane, hydrogen, nutraceuticals, and carbon credits.",
+      "Scaling 30 plants across Maharashtra, MP, Gujarat, UP, Punjab, and Haryana to uplift farming communities.",
+      "4. Harley Street Healthcare Group (UK)",
+      "Director of this global hospital chain (16+ countries), expanding to 140+ nations with cutting-edge wellness tech.",
+      " ",
+      "Amit’s work bridges wealth stewardship, sustainable agriculture, and clean energy, driven by a vision to transform India’s agrarian economy while fostering global healthcare resilience.  "
+
     ],
     social: {
       linkedin: "#",
@@ -119,7 +132,7 @@ export const Team = () => {
             <motion.div key={index} variants={item}>
               <Card className="group relative overflow-hidden border border-muted/50 hover:border-primary/30 transition-all duration-500 hover:shadow-xl bg-gradient-to-b from-background to-secondary/5 h-full">
                 <CardHeader className="text-center pb-0">
-                  <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-primary/20 group-hover:border-primary/50 transition-all duration-500 shadow-lg">
+                  <div className="w-32 h-32 mx-auto mb-6 overflow-hidden border-4 border-primary/20 group-hover:border-primary/50 transition-all duration-500 shadow-lg">
                     <motion.img
                       src={member.image}
                       alt={member.name}
