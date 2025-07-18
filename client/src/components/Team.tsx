@@ -27,7 +27,7 @@ export const teamMembers = [
     position: "Chairman",
     department: "Leadership",
     location: "Luxembourg",
-    image: "/images/team/sanjeev_kumar.avif",
+    image: "/images/team/sanjeev_kumar.png",
     description: "Visionary leader with 3+ years in investment strategy guiding Delamore Capital to unprecedented growth.",
     slug: "sanjeev-kumar",
     fullBio: [
@@ -132,7 +132,7 @@ export const Team = () => {
             <motion.div key={index} variants={item}>
               <Card className="group relative overflow-hidden border border-muted/50 hover:border-primary/30 transition-all duration-500 hover:shadow-xl bg-gradient-to-b from-background to-secondary/5 h-full">
                 <CardHeader className="text-center pb-0">
-                  <div className="w-32 h-32 mx-auto mb-6 overflow-hidden border-4 border-primary/20 group-hover:border-primary/50 transition-all duration-500 shadow-lg">
+                  <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-primary/20 group-hover:border-primary/50 transition-all duration-500 shadow-lg">
                     <motion.img
                       src={member.image}
                       alt={member.name}
