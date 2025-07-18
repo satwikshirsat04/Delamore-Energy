@@ -28,7 +28,9 @@ const Index = () => {
       <Navigation />
 
       {/* Hero with gradient background */}
+      
       <div className="bg-gradient-to-br from-blue-500 to-purple-600">
+        
         <Hero />
       </div>
 
@@ -172,7 +174,7 @@ const Index = () => {
               We are committed to nation building through socio-economic upliftment of society by world' s comprehensive circular biomass energy solutions meeting the evolving needs of the society
             </p>
 
-            <ChakraImage size="lg" className="my-8" />
+            {/* <ChakraImage size="lg" className="my-8" /> */}
 
             <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* Waste Reduction Card - 25% Gray */}

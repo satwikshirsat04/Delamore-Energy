@@ -3,6 +3,7 @@ import { ArrowRight, Leaf } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { FadeUp } from './animations/FadeUp';
+import ChakraImage from './ChakraImage';
 
 const AnimatedCounter = ({ end, duration = 2000, suffix = "" }: { end: number; duration?: number; suffix?: string }) => {
   const [count, setCount] = useState(0);
@@ -56,6 +57,7 @@ export const Hero = () => {
               World's 1st Sustainable Circular Biomass Economy
             </span>
           </div> */}
+          <ChakraImage size="sm" className="my-8" />
           <FadeUp>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight hero-title">
             Harnessing the Power of <span className="text-primary">Biomass</span>
