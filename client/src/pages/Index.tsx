@@ -53,7 +53,7 @@ const Index = () => {
             {/* Section header */}
             <div className="text-center mb-20">
               <span className="inline-block mb-4 text-sm font-semibold tracking-wider text-green-600 uppercase">
-                Our Foundation
+                Our Foundation's
               </span>
               <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
                 Guiding Principles
@@ -121,8 +121,8 @@ const Index = () => {
                           Our mission is to develop a comprehensive platform for biotransformation
                           of waste to wealth by encapsulating our indigenous technologies for
                           social and economic upliftment. By embracing a circular economy, we
-                          strive to valorize biomass into valuable end products that enhance
-                          quality of life and livelihood while advancing toward a green economy.
+                          strive to valorize biomass into valuable end products that contributes to
+                          Nation building.
                         </p>
                       </div>
                       <div className="mt-8 pt-6 border-t border-gray-100">
@@ -169,7 +169,7 @@ const Index = () => {
             </h2>
             <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
               Our innovative technology converts organic waste into clean, renewable energy sources.
-              We are committed to nation building through socio economic upliftment of society by world' s comprehensive circular biomass energy solutions meeting the evolving needs of the society
+              We are committed to nation building through socio-economic upliftment of society by world' s comprehensive circular biomass energy solutions meeting the evolving needs of the society
             </p>
 
             <ChakraImage size="lg" className="my-8" />

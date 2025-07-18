@@ -26,7 +26,7 @@ export const About = () => {
       icon: Target,
       title: "Super Food",
       description: "Nutraceuticals production",
-      image: "/images/about/superfood.webp"
+      image: "/images/about/superfood.avif"
     }
   ];
 

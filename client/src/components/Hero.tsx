@@ -73,7 +73,7 @@ export const Hero = () => {
             
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-white mb-2">
-                <AnimatedCounter end={85} suffix="%" />
+                <AnimatedCounter end={67} suffix="M+" />
               </div>
               <p className="text-white/90 text-lg">Carbon Capture</p>
             </div>

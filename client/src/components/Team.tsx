@@ -9,7 +9,7 @@ export const Team = () => {
       name: "Sanjeev Kumar",
       position: "Chairman",
       department: "Leadership",
-      image: "images/team/people.jpg"
+      image: "images/team/sanjeev_kumar.avif"
     },
     {
       name: "Amit Kapur",
@@ -33,13 +33,13 @@ export const Team = () => {
       name: "Dharmendra Anand",
       position: "Associate President Public Relations",
       department: "Public Relations",
-      image: "images/team/people.jpg"
+      image: "images/team/druvendra_anand.jpg"
     },
     {
       name: "Promil Kapoor",
       position: "Vice President Operations Haryana",
       department: "Regional Operations",
-      image: "images/team/people.jpg"
+      image: "images/team/promil_kapoor.jpg"
     }
   ];
 
