@@ -30,7 +30,18 @@ useDocumentTitle({
   const navigate = useNavigate();
 
   const technologyPartners = [
+     {
+      name: "Defiant Renewables",
+      description: "Green Energy Solutions",
+      type: "Industry Partner"
+    },
     {
+      name: "CSMCRI",
+      description:
+        "Central Salt and Marine Chemical Research Institute",
+      type: "Research Institution"
+    },
+    { 
       name: "CSIR - NCL",
       description:
         "Council of Scientific and Industrial Research - National Chemical Laboratory",
@@ -41,12 +52,7 @@ useDocumentTitle({
       description: "Agricultural Research Institute",
       type: "Research Institution"
     },
-    {
-      name: "CMCIR",
-      description:
-        "Chemical and Materials Chemistry Industrial Research",
-      type: "Research Institution"
-    }
+    
   ];
 
   const handleContactClick = () => {

@@ -122,7 +122,7 @@ export const Contact = () => {
                     <p className="text-muted-foreground">
                       <span className="font-medium">General:</span> info@delamoreenergy.com
                     </p>
-                    <p className="text-muted-foreground">
+                    {/* <p className="text-muted-foreground">
                       <span className="font-medium">Tech:</span> gaurav@delamoreenergy.com
                     </p>
                     <p className="text-muted-foreground">
@@ -130,7 +130,7 @@ export const Contact = () => {
                     </p>
                     <p className="text-muted-foreground">
                       <span className="font-medium">admin:</span> amit@delamoreenergy.com
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </Card>

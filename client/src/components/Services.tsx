@@ -38,7 +38,7 @@ export const Services = () => {
       icon: Users,
       title: "Community Engagement",
       description: "Social and economic upliftment through sustainable practices",
-      image: "/images/services/community.webp"
+      image: "/images/services/community2.jpg"
     },
     {
       icon: TreePine,
