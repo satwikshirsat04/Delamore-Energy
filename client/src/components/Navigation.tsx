@@ -29,7 +29,7 @@ export const Navigation = () => {
             {/* corner rounded only */}
             <div className="w-10 h-10 rounded overflow-hidden">
               <img 
-                src="images/delamore.jpg" 
+                src="/images/delamore.jpg" 
                 alt="Delamore Energy Logo"
                 className="w-full h-full object-cover"
               />
