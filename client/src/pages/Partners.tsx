@@ -206,7 +206,7 @@ useDocumentTitle({
       </div>
 
       <Footer />
-      <WhatsAppFloat />
+      {/* <WhatsAppFloat /> */}
     </div>
   );
 };

@@ -110,7 +110,7 @@ const FAQs = () => {
       </div>
 
       <Footer />
-      <WhatsAppFloat />
+      {/* <WhatsAppFloat /> */}
     </div>
   );
 };

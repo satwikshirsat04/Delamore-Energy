@@ -24,7 +24,7 @@ const Contact = () => {
       />
       <ContactSection />
       <Footer />
-      <WhatsAppFloat />
+      {/* <WhatsAppFloat /> */}
     </div>
   );
 };

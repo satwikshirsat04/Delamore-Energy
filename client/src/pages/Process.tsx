@@ -169,7 +169,7 @@ const Process = () => {
 
 
       <Footer />
-      <WhatsAppFloat />
+      {/* <WhatsAppFloat /> */}
     </div >
   );
 };

@@ -96,7 +96,7 @@ const BlogDetail = () => {
       </div>
 
       <Footer />
-      <WhatsAppFloat />
+      {/* <WhatsAppFloat /> */}
     </div>
   );
 };

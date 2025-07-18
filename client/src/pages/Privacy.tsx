@@ -103,7 +103,7 @@ const Privacy = () => {
       </div>
 
       <Footer />
-      <WhatsAppFloat />
+      {/* <WhatsAppFloat /> */}
     </div>
   );
 };

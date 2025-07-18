@@ -180,7 +180,7 @@ const Market = () => {
       
 
       <Footer />
-      <WhatsAppFloat />
+      {/* <WhatsAppFloat /> */}
     </div>
   );
 };

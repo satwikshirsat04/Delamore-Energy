@@ -21,7 +21,7 @@ const Products = () => {
       />
       <ProductsSection />
       <Footer />
-      <WhatsAppFloat />
+      {/* <WhatsAppFloat /> */}
     </div>
   );
 };

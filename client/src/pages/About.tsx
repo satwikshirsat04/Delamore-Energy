@@ -23,7 +23,7 @@ const About = () => {
       <AboutSection />
       <Team />
       <Footer />
-      <WhatsAppFloat />
+      {/* <WhatsAppFloat /> */}
     </div>
   );
 };

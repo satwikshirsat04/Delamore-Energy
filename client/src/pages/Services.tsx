@@ -28,7 +28,7 @@ const Services = () => {
         </div>
       </FadeUp>
       <Footer />
-      <WhatsAppFloat />
+      {/* <WhatsAppFloat /> */}
     </div>
   );
 };

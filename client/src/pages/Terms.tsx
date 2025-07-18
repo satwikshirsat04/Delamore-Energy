@@ -87,7 +87,7 @@ const Terms = () => {
       </div>
 
       <Footer />
-      <WhatsAppFloat />
+      {/* <WhatsAppFloat /> */}
     </div>
   );
 };

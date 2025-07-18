@@ -385,7 +385,7 @@ const Index = () => {
 
       <Footer />
       <FloatingButtons />
-      <WhatsAppFloat />
+      {/* <WhatsAppFloat /> */}
     </div>
   );
 };

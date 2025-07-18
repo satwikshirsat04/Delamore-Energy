@@ -130,7 +130,7 @@ const BlogsAndPodcasts = () => {
       </div>
 
       <Footer />
-      <WhatsAppFloat />
+      {/* <WhatsAppFloat /> */}
     </div>
   );
 };
