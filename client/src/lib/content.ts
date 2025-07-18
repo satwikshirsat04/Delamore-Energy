@@ -9,6 +9,7 @@ export type ContentItem = {
     content?: string;
     author?: string;
     slug?: string;
+    readMoreUrl?: string;
     // Podcast specific
     youtubeId?: string;
     duration?: string;
@@ -79,12 +80,13 @@ This circular economy model not only solves waste problems but creates valuable 
         duration: "10 min",
         imageUrl: "/images/podcasts/circular-economy.jpg"
     },
+
     {
-        id: "5",
-        type: "blog",
-        title: "Biochar: Revolutionizing Soil Health",
-        description: "How our biochar technology is increasing crop yields by 30%",
-        content: `Biochar, a byproduct of our biomass gasification process, is proving to be a game-changer for Indian agriculture. Field trials across Maharashtra have demonstrated:
+    id: "5",
+    type: "blog",
+    title: "Biochar: Revolutionizing Soil Health",
+    description: "How our biochar technology is increasing crop yields by 30%",
+    content: `Biochar, a byproduct of our biomass gasification process, is proving to be a game-changer for Indian agriculture. Field trials across Maharashtra have demonstrated:
 
 Key Benefits:
 ✓ 30-35% increase in crop yields
@@ -99,11 +101,13 @@ The technology is particularly effective in:
 - Arid regions with poor soil quality
 - Areas with intensive farming
 - Organic cultivation systems`,
-        date: "2025-05-22",
-        author: "Tengoku Solutions",
-        imageUrl: "/images/blogs/b-smart.jpg",
-        slug: "biochar-revolution"
-    },
+    readMoreUrl: "https://www.tengokusolutions.com/blog/biochar-powder-vs-pellets",
+    date: "2025-05-22",
+    author: "Tengoku Solutions",
+    imageUrl: "/images/blogs/b-smart.jpg",
+    slug: "biochar-revolution"
+},
+
     {
         id: "6",
         type: "podcast",

@@ -62,6 +62,23 @@ const BlogDetail = () => {
             {post.content?.split('\n').map((paragraph, i) => (
               <p key={i} className="mb-6 text-gray-700 leading-relaxed">{paragraph}</p>
             ))}
+            
+            {/* Add the Read Full Article button here */}
+            {post.readMoreUrl && (
+              <div className="mt-10 text-center">
+                <a
+                  href={post.readMoreUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors shadow-md"
+                >
+                  Read Full Article
+                  <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                  </svg>
+                </a>
+              </div>
+            )}
           </article>
 
           <div className="mt-16 pt-8 border-t border-gray-200">
