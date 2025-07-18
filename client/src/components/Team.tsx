@@ -41,7 +41,7 @@ export const teamMembers = [
     position: "CVO",
     department: "Vision",
     image: "/images/team/amit_kapur.jpg",
-    description: "Architect of Delamore's global investment philosophy, blending traditional wisdom with innovative approaches.",
+    description: "Amit Kapur, Director and Co-Founder: Amit Kapur is B.SC., LL.M., Gold Medallist  , an alumni of prestigious Punjab University, Chandigarh, India having  a rich experience of 30 years in various businesses.",
     slug: "amit-kapur",
     fullBio: [
       "Joined Delamore Capital in 2008 as Chief Vision Officer.",
