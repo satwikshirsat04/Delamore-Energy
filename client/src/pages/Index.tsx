@@ -28,9 +28,8 @@ const Index = () => {
       <Navigation />
 
       {/* Hero with gradient background */}
-      
+
       <div className="bg-gradient-to-br from-blue-500 to-purple-600">
-        
         <Hero />
       </div>
 
@@ -162,7 +161,7 @@ const Index = () => {
         </svg>
       </div> */}
 
-      {/* Waste to Energy Section */}
+      {/* Waste to wealth Section */}
       <FadeUp>
         <div className="mx-auto px-4 sm:px-6 lg:px-8 py-16 bg-gradient-to-b from-blue-40 to-indigo-100">
           <div className="max-w-4xl mx-auto text-center">
@@ -208,163 +207,319 @@ const Index = () => {
                 Aligning with <span className="text-green-600">UN Sustainable Development Goals</span>
               </h2>
               <p className="mt-6 max-w-2xl mx-auto text-xl text-gray-600">
-                Our work directly contributes to several key UN SDGs, creating meaningful global impact
+                Our work contributes to all 17 UN SDGs, creating meaningful global impact
               </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
-              {/* SDG 7 - Affordable and Clean Energy */}
-              <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 h-80 flex flex-col">
-                <div className="absolute inset-0 bg-gradient-to-br from-indigo-900 to-blue-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 px-4">
+              {/* SDG 1 - No Poverty */}
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
+                <div className="absolute inset-0 bg-gradient-to-br from-red-900 to-red-700 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
-                  src="/images/sgds/sgd7.jpg"
+                  src="/images/sdgs/sdg1.jpg"
+                  alt="SDG 1"
+                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-40 group-hover:opacity-20 transition-all duration-500"
+                />
+                <div className="relative h-full flex flex-col justify-between p-6">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
+                    <span className="text-white font-bold text-lg">1</span>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-white">No Poverty</h3>
+                    <div className="h-0 group-hover:h-auto overflow-hidden transition-all duration-300">
+                      <ul className="mt-3 space-y-2">
+                        <li className="text-white/90 text-sm flex items-start">
+                          <svg className="flex-shrink-0 h-4 w-4 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                          </svg>
+                          <span>Eradicating extreme poverty</span>
+                        </li>
+                        <li className="text-white/90 text-sm flex items-start">
+                          <svg className="flex-shrink-0 h-4 w-4 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                          </svg>
+                          <span>Implementing social protection systems</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* SDG 2 - Zero Hunger */}
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
+                <div className="absolute inset-0 bg-gradient-to-br from-amber-900 to-amber-700 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <img
+                  src="/images/sdgs/sdg2.jpg"
+                  alt="SDG 2"
+                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-40 group-hover:opacity-20 transition-all duration-500"
+                />
+                <div className="relative h-full flex flex-col justify-between p-6">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
+                    <span className="text-white font-bold text-lg">2</span>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-white">Zero Hunger</h3>
+                    <div className="h-0 group-hover:h-auto overflow-hidden transition-all duration-300">
+                      <ul className="mt-3 space-y-2">
+                        <li className="text-white/90 text-sm flex items-start">
+                          <svg className="flex-shrink-0 h-4 w-4 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                          </svg>
+                          <span>Ending hunger and malnutrition</span>
+                        </li>
+                        <li className="text-white/90 text-sm flex items-start">
+                          <svg className="flex-shrink-0 h-4 w-4 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                          </svg>
+                          <span>Promoting sustainable agriculture</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* SDG 3 - Good Health */}
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
+                <div className="absolute inset-0 bg-gradient-to-br from-green-900 to-green-700 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <img
+                  src="/images/sdgs/sdg3.jpg"
+                  alt="SDG 3"
+                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-40 group-hover:opacity-20 transition-all duration-500"
+                />
+                <div className="relative h-full flex flex-col justify-between p-6">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
+                    <span className="text-white font-bold text-lg">3</span>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-white">Good Health</h3>
+                    <div className="h-0 group-hover:h-auto overflow-hidden transition-all duration-300">
+                      <ul className="mt-3 space-y-2">
+                        <li className="text-white/90 text-sm flex items-start">
+                          <svg className="flex-shrink-0 h-4 w-4 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                          </svg>
+                          <span>Ensuring healthy lives for all</span>
+                        </li>
+                        <li className="text-white/90 text-sm flex items-start">
+                          <svg className="flex-shrink-0 h-4 w-4 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                          </svg>
+                          <span>Reducing maternal and child mortality</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* SDG 4 - Quality Education */}
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
+                <div className="absolute inset-0 bg-gradient-to-br from-red-800 to-red-600 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <img
+                  src="/images/sdgs/sdg4.jpg"
+                  alt="SDG 4"
+                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-40 group-hover:opacity-20 transition-all duration-500"
+                />
+                <div className="relative h-full flex flex-col justify-between p-6">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
+                    <span className="text-white font-bold text-lg">4</span>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-white">Quality Education</h3>
+                    <div className="h-0 group-hover:h-auto overflow-hidden transition-all duration-300">
+                      <ul className="mt-3 space-y-2">
+                        <li className="text-white/90 text-sm flex items-start">
+                          <svg className="flex-shrink-0 h-4 w-4 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                          </svg>
+                          <span>Inclusive and equitable education</span>
+                        </li>
+                        <li className="text-white/90 text-sm flex items-start">
+                          <svg className="flex-shrink-0 h-4 w-4 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                          </svg>
+                          <span>Lifelong learning opportunities</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* SDG 5 - Gender Equality */}
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
+                <div className="absolute inset-0 bg-gradient-to-br from-orange-600 to-orange-500 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <img
+                  src="/images/sdgs/sdg5.jpg"
+                  alt="SDG 5"
+                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-40 group-hover:opacity-20 transition-all duration-500"
+                />
+                <div className="relative h-full flex flex-col justify-between p-6">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
+                    <span className="text-white font-bold text-lg">5</span>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-white">Gender Equality</h3>
+                    <div className="h-0 group-hover:h-auto overflow-hidden transition-all duration-300">
+                      <ul className="mt-3 space-y-2">
+                        <li className="text-white/90 text-sm flex items-start">
+                          <svg className="flex-shrink-0 h-4 w-4 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                          </svg>
+                          <span>Empowering women and girls</span>
+                        </li>
+                        <li className="text-white/90 text-sm flex items-start">
+                          <svg className="flex-shrink-0 h-4 w-4 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                          </svg>
+                          <span>Ending all discrimination</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* SDG 6 - Clean Water */}
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
+                <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-blue-400 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <img
+                  src="/images/sdgs/sdg6.jpg"
+                  alt="SDG 6"
+                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-40 group-hover:opacity-20 transition-all duration-500"
+                />
+                <div className="relative h-full flex flex-col justify-between p-6">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
+                    <span className="text-white font-bold text-lg">6</span>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-white">Clean Water</h3>
+                    <div className="h-0 group-hover:h-auto overflow-hidden transition-all duration-300">
+                      <ul className="mt-3 space-y-2">
+                        <li className="text-white/90 text-sm flex items-start">
+                          <svg className="flex-shrink-0 h-4 w-4 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                          </svg>
+                          <span>Safe drinking water for all</span>
+                        </li>
+                        <li className="text-white/90 text-sm flex items-start">
+                          <svg className="flex-shrink-0 h-4 w-4 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                          </svg>
+                          <span>Sustainable water management</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* SDG 7 - Affordable Energy */}
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
+                <div className="absolute inset-0 bg-gradient-to-br from-yellow-600 to-yellow-400 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <img
+                  src="/images/sdgs/sdg7.jpg"
                   alt="SDG 7"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-40 group-hover:opacity-30 transition-all duration-500"
+                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-40 group-hover:opacity-20 transition-all duration-500"
                 />
-                <div className="relative h-full flex flex-col justify-end p-6 flex-grow">
-                  <div className="bg-white/10 backdrop-blur-sm rounded-full w-16 h-16 flex items-center justify-center mb-4 border-2 border-white/30">
-                    <span className="text-white font-bold text-xl">7</span>
+                <div className="relative h-full flex flex-col justify-between p-6">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
+                    <span className="text-white font-bold text-lg">7</span>
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-2">Affordable & Clean Energy</h3>
-                  <ul className="space-y-2 mb-4">
-                    <li className="text-white/90 flex items-start">
-                      <svg className="flex-shrink-0 h-5 w-5 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span>Providing renewable energy solutions</span>
-                    </li>
-                    <li className="text-white/90 flex items-start">
-                      <svg className="flex-shrink-0 h-5 w-5 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span>Expanding access to sustainable power</span>
-                    </li>
-                  </ul>
+                  <div>
+                    <h3 className="text-xl font-bold text-white">Affordable Energy</h3>
+                    <div className="h-0 group-hover:h-auto overflow-hidden transition-all duration-300">
+                      <ul className="mt-3 space-y-2">
+                        <li className="text-white/90 text-sm flex items-start">
+                          <svg className="flex-shrink-0 h-4 w-4 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                          </svg>
+                          <span>Access to modern energy</span>
+                        </li>
+                        <li className="text-white/90 text-sm flex items-start">
+                          <svg className="flex-shrink-0 h-4 w-4 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                          </svg>
+                          <span>Increase renewable energy share</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
 
-              {/* SDG 11 - Sustainable Cities */}
-              <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 h-80 flex flex-col">
-                <div className="absolute inset-0 bg-gradient-to-br from-green-900 to-green-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+              {/* SDG 8 - Decent Work */}
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
+                <div className="absolute inset-0 bg-gradient-to-br from-red-700 to-red-500 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
-                  src="/images/sgds/sgd11.jpg"
-                  alt="SDG 11"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-60 group-hover:opacity-30 transition-all duration-500"
+                  src="/images/sdgs/sdg8.jpg"
+                  alt="SDG 8"
+                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-40 group-hover:opacity-20 transition-all duration-500"
                 />
-                <div className="relative h-full flex flex-col justify-end p-6 flex-grow">
-                  <div className="bg-white/10 backdrop-blur-sm rounded-full w-16 h-16 flex items-center justify-center mb-4 border-2 border-white/30">
-                    <span className="text-white font-bold text-xl">11</span>
+                <div className="relative h-full flex flex-col justify-between p-6">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
+                    <span className="text-white font-bold text-lg">8</span>
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-2">Sustainable Cities</h3>
-                  <ul className="space-y-2 mb-4">
-                    <li className="text-white/90 flex items-start">
-                      <svg className="flex-shrink-0 h-5 w-5 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span>Reducing urban waste impact</span>
-                    </li>
-                    <li className="text-white/90 flex items-start">
-                      <svg className="flex-shrink-0 h-5 w-5 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span>Creating resilient urban environments</span>
-                    </li>
-                  </ul>
+                  <div>
+                    <h3 className="text-xl font-bold text-white">Decent Work</h3>
+                    <div className="h-0 group-hover:h-auto overflow-hidden transition-all duration-300">
+                      <ul className="mt-3 space-y-2">
+                        <li className="text-white/90 text-sm flex items-start">
+                          <svg className="flex-shrink-0 h-4 w-4 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                          </svg>
+                          <span>Sustainable economic growth</span>
+                        </li>
+                        <li className="text-white/90 text-sm flex items-start">
+                          <svg className="flex-shrink-0 h-4 w-4 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                          </svg>
+                          <span>Full employment and decent work</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
 
-              {/* SDG 12 - Responsible Consumption */}
-              <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 h-80 flex flex-col">
-                <div className="absolute inset-0 bg-gradient-to-br from-red-900 to-red-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+              {/* SDG 17 - Partnerships */}
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
+                <div className="absolute inset-0 bg-gradient-to-br from-blue-900 to-blue-700 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
-                  src="/images/sgds/sgd12.jpg"
-                  alt="SDG 12"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-60 group-hover:opacity-30 transition-all duration-500"
+                  src="/images/sdgs/sdg17.jpg"
+                  alt="SDG 17"
+                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-40 group-hover:opacity-20 transition-all duration-500"
                 />
-                <div className="relative h-full flex flex-col justify-end p-6 flex-grow">
-                  <div className="bg-white/10 backdrop-blur-sm rounded-full w-16 h-16 flex items-center justify-center mb-4 border-2 border-white/30">
-                    <span className="text-white font-bold text-xl">12</span>
+                <div className="relative h-full flex flex-col justify-between p-6">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
+                    <span className="text-white font-bold text-lg">17</span>
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-2">Responsible Consumption</h3>
-                  <ul className="space-y-2 mb-4">
-                    <li className="text-white/90 flex items-start">
-                      <svg className="flex-shrink-0 h-5 w-5 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span>Promoting circular economy</span>
-                    </li>
-                    <li className="text-white/90 flex items-start">
-                      <svg className="flex-shrink-0 h-5 w-5 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span>Sustainable production patterns</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              {/* SDG 13 - Climate Action */}
-              <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 h-80 flex flex-col">
-                <div className="absolute inset-0 bg-gradient-to-br from-green-900 to-green-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <img
-                  src="/images/sgds/sgd13.jpg"
-                  alt="SDG 13"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-60 group-hover:opacity-30 transition-all duration-500"
-                />
-                <div className="relative h-full flex flex-col justify-end p-6 flex-grow">
-                  <div className="bg-white/10 backdrop-blur-sm rounded-full w-16 h-16 flex items-center justify-center mb-4 border-2 border-white/30">
-                    <span className="text-white font-bold text-xl">13</span>
+                  <div>
+                    <h3 className="text-xl font-bold text-white">Partnerships</h3>
+                    <div className="h-0 group-hover:h-auto overflow-hidden transition-all duration-300">
+                      <ul className="mt-3 space-y-2">
+                        <li className="text-white/90 text-sm flex items-start">
+                          <svg className="flex-shrink-0 h-4 w-4 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                          </svg>
+                          <span>Strengthening global partnerships</span>
+                        </li>
+                        <li className="text-white/90 text-sm flex items-start">
+                          <svg className="flex-shrink-0 h-4 w-4 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                          </svg>
+                          <span>Enhancing international cooperation</span>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-2">Climate Action</h3>
-                  <ul className="space-y-2 mb-4">
-                    <li className="text-white/90 flex items-start">
-                      <svg className="flex-shrink-0 h-5 w-5 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span>Reducing carbon emissions</span>
-                    </li>
-                    <li className="text-white/90 flex items-start">
-                      <svg className="flex-shrink-0 h-5 w-5 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span>Combating climate change</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              {/* SDG 13 - Climate Action */}
-              <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 h-80 flex flex-col">
-                <div className="absolute inset-0 bg-gradient-to-br from-indigo-900 to-green-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <img
-                  src="/images/sgds/sgd15.jpg"
-                  alt="SDG 13"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-60 group-hover:opacity-30 transition-all duration-500"
-                />
-                <div className="relative h-full flex flex-col justify-end p-6 flex-grow">
-                  <div className="bg-white/10 backdrop-blur-sm rounded-full w-16 h-16 flex items-center justify-center mb-4 border-2 border-white/30">
-                    <span className="text-white font-bold text-xl">15</span>
-                  </div>
-                  <h3 className="text-2xl font-bold text-white mb-2">Life & Land</h3>
-                  <ul className="space-y-2 mb-4">
-                    <li className="text-white/90 flex items-start">
-                      <svg className="flex-shrink-0 h-5 w-5 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span>Protecting ecosystems</span>
-                    </li>
-                    <li className="text-white/90 flex items-start">
-                      <svg className="flex-shrink-0 h-5 w-5 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span>Sustainably managing forests and biodiversity</span>
-                    </li>
-                  </ul>
                 </div>
               </div>
             </div>
 
-            <div className="mt-16 text-center px-4">
+            {/* <div className="mt-16 text-center px-4">
               <a
                 href="https://sdgs.un.org/goals"
                 target="_blank"
@@ -376,7 +531,7 @@ const Index = () => {
                   <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
                 </svg>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </FadeUp>
