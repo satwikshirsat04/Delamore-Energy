@@ -197,73 +197,123 @@ const Index = () => {
         </div>
       </FadeUp>
 
-      {/* SDG Goals Section */}
+      {/* SDG Goals Section - Premium Design */}
       <FadeUp>
-        <div className="bg-white py-24">
-          <div className="max-w-7xl mx-auto px-6 lg:px-8">
+        <div className="bg-gradient-to-b from-gray-50 to-white py-24 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                Aligning with UN Sustainable Development Goals
+                Aligning with <span className="text-green-600">UN Sustainable Development Goals</span>
               </h2>
               <p className="mt-6 max-w-2xl mx-auto text-xl text-gray-600">
-                Our work directly contributes to several key UN SDGs, creating meaningful impact
+                Our work directly contributes to several key UN SDGs, creating meaningful global impact
               </p>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
               {/* SDG 7 - Affordable and Clean Energy */}
-              <div className="flex flex-col items-center p-6 bg-gray-50 rounded-xl hover:shadow-md transition-shadow">
+              <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 h-80">
+                <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-700 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
                   src="/images/sgds/sgd7.jpg"
-                  alt="SDG 7 - Affordable and Clean Energy"
-                  className="h-32 w-32 object-contain mb-4"
+                  alt="SDG 7"
+                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-20 group-hover:opacity-30 transition-all duration-500"
                 />
-                <h3 className="text-lg font-semibold text-center text-gray-800">Affordable & Clean Energy</h3>
-                <p className="mt-2 text-sm text-gray-600 text-center">Providing renewable energy solutions</p>
+                <div className="relative h-full flex flex-col justify-end p-6">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-full w-16 h-16 flex items-center justify-center mb-4 border-2 border-white/30">
+                    <span className="text-white font-bold text-xl">7</span>
+                  </div>
+                  <h3 className="text-2xl font-bold text-white mb-2">Affordable & Clean Energy</h3>
+                  <p className="text-white/90 mb-4">Providing renewable energy solutions</p>
+                  <div className="h-px w-full bg-white/30 mb-4 group-hover:w-0 transition-all duration-500"></div>
+                  <p className="text-white/70 text-sm group-hover:text-white/90 transition-colors duration-300">
+                    Expanding access to sustainable power sources
+                  </p>
+                </div>
               </div>
 
               {/* SDG 11 - Sustainable Cities */}
-              <div className="flex flex-col items-center p-6 bg-gray-50 rounded-xl hover:shadow-md transition-shadow">
+              <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 h-80">
+                <div className="absolute inset-0 bg-gradient-to-br from-amber-500 to-amber-700 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
                   src="/images/sgds/sgd11.jpg"
-                  alt="SDG 11 - Sustainable Cities"
-                  className="h-32 w-32 object-contain mb-4"
+                  alt="SDG 11"
+                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-20 group-hover:opacity-30 transition-all duration-500"
                 />
-                <h3 className="text-lg font-semibold text-center text-gray-800">Sustainable Cities</h3>
-                <p className="mt-2 text-sm text-gray-600 text-center">Reducing urban waste impact</p>
+                <div className="relative h-full flex flex-col justify-end p-6">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-full w-16 h-16 flex items-center justify-center mb-4 border-2 border-white/30">
+                    <span className="text-white font-bold text-xl">11</span>
+                  </div>
+                  <h3 className="text-2xl font-bold text-white mb-2">Sustainable Cities</h3>
+                  <p className="text-white/90 mb-4">Reducing urban waste impact</p>
+                  <div className="h-px w-full bg-white/30 mb-4 group-hover:w-0 transition-all duration-500"></div>
+                  <p className="text-white/70 text-sm group-hover:text-white/90 transition-colors duration-300">
+                    Creating resilient urban environments
+                  </p>
+                </div>
               </div>
 
               {/* SDG 12 - Responsible Consumption */}
-              <div className="flex flex-col items-center p-6 bg-gray-50 rounded-xl hover:shadow-md transition-shadow">
+              <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 h-80">
+                <div className="absolute inset-0 bg-gradient-to-br from-red-500 to-red-700 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
                   src="/images/sgds/sgd12.jpg"
-                  alt="SDG 12 - Responsible Consumption"
-                  className="h-32 w-32 object-contain mb-4"
+                  alt="SDG 12"
+                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-20 group-hover:opacity-30 transition-all duration-500"
                 />
-                <h3 className="text-lg font-semibold text-center text-gray-800">Responsible Consumption</h3>
-                <p className="mt-2 text-sm text-gray-600 text-center">Promoting circular economy</p>
+                <div className="relative h-full flex flex-col justify-end p-6">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-full w-16 h-16 flex items-center justify-center mb-4 border-2 border-white/30">
+                    <span className="text-white font-bold text-xl">12</span>
+                  </div>
+                  <h3 className="text-2xl font-bold text-white mb-2">Responsible Consumption</h3>
+                  <p className="text-white/90 mb-4">Promoting circular economy</p>
+                  <div className="h-px w-full bg-white/30 mb-4 group-hover:w-0 transition-all duration-500"></div>
+                  <p className="text-white/70 text-sm group-hover:text-white/90 transition-colors duration-300">
+                    Sustainable production and consumption patterns
+                  </p>
+                </div>
               </div>
 
               {/* SDG 13 - Climate Action */}
-              <div className="flex flex-col items-center p-6 bg-gray-50 rounded-xl hover:shadow-md transition-shadow">
+              <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 h-80">
+                <div className="absolute inset-0 bg-gradient-to-br from-green-600 to-green-800 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
                   src="/images/sgds/sgd13.jpg"
-                  alt="SDG 13 - Climate Action"
-                  className="h-32 w-32 object-contain mb-4"
+                  alt="SDG 13"
+                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-20 group-hover:opacity-30 transition-all duration-500"
                 />
-                <h3 className="text-lg font-semibold text-center text-gray-800">Climate Action</h3>
-                <p className="mt-2 text-sm text-gray-600 text-center">Reducing carbon emissions</p>
+                <div className="relative h-full flex flex-col justify-end p-6">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-full w-16 h-16 flex items-center justify-center mb-4 border-2 border-white/30">
+                    <span className="text-white font-bold text-xl">13</span>
+                  </div>
+                  <h3 className="text-2xl font-bold text-white mb-2">Climate Action</h3>
+                  <p className="text-white/90 mb-4">Reducing carbon emissions</p>
+                  <div className="h-px w-full bg-white/30 mb-4 group-hover:w-0 transition-all duration-500"></div>
+                  <p className="text-white/70 text-sm group-hover:text-white/90 transition-colors duration-300">
+                    Combating climate change and its impacts
+                  </p>
+                </div>
               </div>
 
               {/* SDG 15 - Life on Land */}
-              <div className="flex flex-col items-center p-6 bg-gray-50 rounded-xl hover:shadow-md transition-shadow">
+              <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 h-80">
+                <div className="absolute inset-0 bg-gradient-to-br from-brown-500 to-brown-700 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
                   src="/images/sgds/sgd15.jpg"
-                  alt="SDG 15 - Life on Land"
-                  className="h-32 w-32 object-contain mb-4"
+                  alt="SDG 15"
+                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-20 group-hover:opacity-30 transition-all duration-500"
                 />
-                <h3 className="text-lg font-semibold text-center text-gray-800">Life on Land</h3>
-                <p className="mt-2 text-sm text-gray-600 text-center">Protecting ecosystems</p>
+                <div className="relative h-full flex flex-col justify-end p-6">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-full w-16 h-16 flex items-center justify-center mb-4 border-2 border-white/30">
+                    <span className="text-white font-bold text-xl">15</span>
+                  </div>
+                  <h3 className="text-2xl font-bold text-white mb-2">Life on Land</h3>
+                  <p className="text-white/90 mb-4">Protecting ecosystems</p>
+                  <div className="h-px w-full bg-white/30 mb-4 group-hover:w-0 transition-all duration-500"></div>
+                  <p className="text-white/70 text-sm group-hover:text-white/90 transition-colors duration-300">
+                    Sustainably managing forests and biodiversity
+                  </p>
+                </div>
               </div>
             </div>
 
@@ -272,10 +322,10 @@ const Index = () => {
                 href="https://sdgs.un.org/goals"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700"
+                className="inline-flex items-center px-8 py-4 border border-transparent text-lg font-semibold rounded-xl shadow-sm text-white bg-gradient-to-r from-green-600 to-green-800 hover:from-green-700 hover:to-green-900 transition-all duration-300 group"
               >
-                Learn More About SDGs
-                <svg className="ml-3 -mr-1 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                Explore All SDG Goals
+                <svg className="ml-3 -mr-1 h-6 w-6 group-hover:translate-x-1 transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                   <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
                 </svg>
               </a>
