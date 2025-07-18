@@ -30,8 +30,8 @@ Key benefits include:
 - 40% lower carbon emissions compared to fossil fuels
 
 The government's new Bioenergy Policy 2023 aims to increase bioenergy's share in India's energy mix to 15% by 2030. This presents enormous opportunities for farmers, entrepreneurs, and investors alike.`,
-        date: "2023-11-15",
-        author: "Dr. Ananya Sharma, Chief Scientist",
+        date: "2025-7-15",
+        author: "Chief Scientist",
         imageUrl: "/images/blogs/bioenergy.jpg",
         slug: "future-of-bioenergy"
     },
@@ -54,8 +54,8 @@ Our Pune plant currently processes 200 tonnes of waste daily, producing:
 - Enough electricity to power 500 homes
 
 This circular economy model not only solves waste problems but creates valuable resources from what was previously considered garbage.`,
-        date: "2023-10-28",
-        author: "Rahul Mehta, Operations Head",
+        date: "2025-6-28",
+        author: "Anurag Shinde, Operations Head",
         imageUrl: "/images/blogs/wastemanagement.jpg",
         slug: "waste-bioconversion"
     },
@@ -75,8 +75,8 @@ This circular economy model not only solves waste problems but creates valuable 
         title: "The Economics of Circular Bioeconomy",
         description: "Panel discussion with industry leaders on profitable sustainability",
         youtubeId: "V9xUQWo4vN",
-        date: "2023-10-25",
-        duration: "45 min",
+        date: "2025-05-22",
+        duration: "10 min",
         imageUrl: "/images/podcasts/circular-economy.jpg"
     },
     {
@@ -99,8 +99,8 @@ The technology is particularly effective in:
 - Arid regions with poor soil quality
 - Areas with intensive farming
 - Organic cultivation systems`,
-        date: "2023-09-12",
-        author: "Priya Deshpande, Agronomy Specialist",
+        date: "2025-05-22",
+        author: "Tengoku Solutions",
         imageUrl: "/images/blogs/b-smart.jpg",
         slug: "biochar-revolution"
     },
