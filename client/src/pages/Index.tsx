@@ -213,11 +213,11 @@ const Index = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
               {/* SDG 7 - Affordable and Clean Energy */}
               <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 h-80 flex flex-col">
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-700 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-indigo-900 to-blue-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
                   src="/images/sgds/sgd7.jpg"
                   alt="SDG 7"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-20 group-hover:opacity-30 transition-all duration-500"
+                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-40 group-hover:opacity-30 transition-all duration-500"
                 />
                 <div className="relative h-full flex flex-col justify-end p-6 flex-grow">
                   <div className="bg-white/10 backdrop-blur-sm rounded-full w-16 h-16 flex items-center justify-center mb-4 border-2 border-white/30">
@@ -243,11 +243,11 @@ const Index = () => {
 
               {/* SDG 11 - Sustainable Cities */}
               <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 h-80 flex flex-col">
-                <div className="absolute inset-0 bg-gradient-to-br from-amber-500 to-amber-700 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-green-900 to-green-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
                   src="/images/sgds/sgd11.jpg"
                   alt="SDG 11"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-20 group-hover:opacity-30 transition-all duration-500"
+                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-60 group-hover:opacity-30 transition-all duration-500"
                 />
                 <div className="relative h-full flex flex-col justify-end p-6 flex-grow">
                   <div className="bg-white/10 backdrop-blur-sm rounded-full w-16 h-16 flex items-center justify-center mb-4 border-2 border-white/30">
@@ -273,11 +273,11 @@ const Index = () => {
 
               {/* SDG 12 - Responsible Consumption */}
               <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 h-80 flex flex-col">
-                <div className="absolute inset-0 bg-gradient-to-br from-red-500 to-red-700 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-red-900 to-red-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
                   src="/images/sgds/sgd12.jpg"
                   alt="SDG 12"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-20 group-hover:opacity-30 transition-all duration-500"
+                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-60 group-hover:opacity-30 transition-all duration-500"
                 />
                 <div className="relative h-full flex flex-col justify-end p-6 flex-grow">
                   <div className="bg-white/10 backdrop-blur-sm rounded-full w-16 h-16 flex items-center justify-center mb-4 border-2 border-white/30">
@@ -303,11 +303,11 @@ const Index = () => {
 
               {/* SDG 13 - Climate Action */}
               <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 h-80 flex flex-col">
-                <div className="absolute inset-0 bg-gradient-to-br from-green-600 to-green-800 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-green-900 to-green-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
                   src="/images/sgds/sgd13.jpg"
                   alt="SDG 13"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-20 group-hover:opacity-30 transition-all duration-500"
+                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-60 group-hover:opacity-30 transition-all duration-500"
                 />
                 <div className="relative h-full flex flex-col justify-end p-6 flex-grow">
                   <div className="bg-white/10 backdrop-blur-sm rounded-full w-16 h-16 flex items-center justify-center mb-4 border-2 border-white/30">
@@ -333,11 +333,11 @@ const Index = () => {
 
               {/* SDG 13 - Climate Action */}
               <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 h-80 flex flex-col">
-                <div className="absolute inset-0 bg-gradient-to-br from-green-600 to-green-800 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-indigo-900 to-green-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
                   src="/images/sgds/sgd15.jpg"
                   alt="SDG 13"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-20 group-hover:opacity-30 transition-all duration-500"
+                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-60 group-hover:opacity-30 transition-all duration-500"
                 />
                 <div className="relative h-full flex flex-col justify-end p-6 flex-grow">
                   <div className="bg-white/10 backdrop-blur-sm rounded-full w-16 h-16 flex items-center justify-center mb-4 border-2 border-white/30">
