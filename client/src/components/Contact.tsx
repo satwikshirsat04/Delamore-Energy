@@ -85,82 +85,7 @@ export const Contact = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
-          <div className="space-y-8">
-            <FadeUp>
-              <Card className="p-6">
-                <div className="flex items-start justify-between">
-                  <div className="flex items-start space-x-4 flex-1">
-                    <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <MapPin className="h-6 w-6 text-primary" />
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="font-semibold text-foreground mb-2">Address</h3>
-                      <p className="text-muted-foreground">
-                        Kant Helix, Bhoir Colony, Chinchwad, Pune 411033
-                      </p>
-                    </div>
-                  </div>
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    onClick={() => handleViewOnMap()}
-                    className="ml-4 flex items-center gap-2"
-                  >
-                    <ExternalLink className="h-4 w-4" />
-                    View on Map
-                  </Button>
-                </div>
-              </Card>
 
-              <Card className="p-6">
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Mail className="h-6 w-6 text-primary" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground mb-2">Email</h3>
-                    <p className="text-muted-foreground">
-                      <span className="font-medium">General:</span> info@delamoreenergy.com
-                    </p>
-                    {/* <p className="text-muted-foreground">
-                      <span className="font-medium">Tech:</span> gaurav@delamoreenergy.com
-                    </p>
-                    <p className="text-muted-foreground">
-                      <span className="font-medium">Ops:</span> anurag@delamoreenergy.com
-                    </p>
-                    <p className="text-muted-foreground">
-                      <span className="font-medium">admin:</span> amit@delamoreenergy.com
-                    </p> */}
-                  </div>
-                </div>
-              </Card>
-
-              <Card className="p-6">
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Phone className="h-6 w-6 text-primary" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground mb-2">Phone</h3>
-                    <p className="text-muted-foreground">+91 9115100007</p>
-                  </div>
-                </div>
-              </Card>
-
-              <Card className="p-6">
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Clock className="h-6 w-6 text-primary" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground mb-2">Business Hours</h3>
-                    <p className="text-muted-foreground">Mon - Fri: 9:00 AM - 6:00 PM</p>
-                    <p className="text-muted-foreground">Sat: 9:00 AM - 2:00 PM</p>
-                  </div>
-                </div>
-              </Card>
-            </FadeUp>
-          </div>
 
           <FadeUp>
             <Card className="p-8">
@@ -274,6 +199,83 @@ export const Contact = () => {
               </CardContent>
             </Card>
           </FadeUp>
+
+          <div className="space-y-8">
+            <FadeUp>
+              <Card className="p-6">
+                <div className="flex items-start justify-between">
+                  <div className="flex items-start space-x-4 flex-1">
+                    <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <MapPin className="h-6 w-6 text-primary" />
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="font-semibold text-foreground mb-2">Address</h3>
+                      <p className="text-muted-foreground">
+                        Kant Helix, Bhoir Colony, Chinchwad, Pune 411033
+                      </p>
+                    </div>
+                  </div>
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={() => handleViewOnMap()}
+                    className="ml-4 flex items-center gap-2"
+                  >
+                    <ExternalLink className="h-4 w-4" />
+                    View on Map
+                  </Button>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Mail className="h-6 w-6 text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">Email</h3>
+                    <p className="text-muted-foreground">
+                      <span className="font-medium">General:</span> info@delamoreenergy.com
+                    </p>
+                    {/* <p className="text-muted-foreground">
+                      <span className="font-medium">Tech:</span> gaurav@delamoreenergy.com
+                    </p>
+                    <p className="text-muted-foreground">
+                      <span className="font-medium">Ops:</span> anurag@delamoreenergy.com
+                    </p>
+                    <p className="text-muted-foreground">
+                      <span className="font-medium">admin:</span> amit@delamoreenergy.com
+                    </p> */}
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Phone className="h-6 w-6 text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">Phone</h3>
+                    <p className="text-muted-foreground">+91 9115100007</p>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Clock className="h-6 w-6 text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">Business Hours</h3>
+                    <p className="text-muted-foreground">Mon - Fri: 9:00 AM - 6:00 PM</p>
+                    <p className="text-muted-foreground">Sat: 9:00 AM - 2:00 PM</p>
+                  </div>
+                </div>
+              </Card>
+            </FadeUp>
+          </div>
         </div>
 
         {/* Centered Location Section with FAQ Button */}
