@@ -10,7 +10,7 @@ interface PageBannerProps {
 export const PageBanner = ({ 
   title, 
   subtitle, 
-  backgroundImage = "/images/windmill.webp" 
+  backgroundImage = "/images/banner/windmill.webp" 
 }: PageBannerProps) => {
   const bgRef = useRef<HTMLDivElement>(null);
 
