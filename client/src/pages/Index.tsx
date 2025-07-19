@@ -2,7 +2,7 @@ import { Hero } from "@/components/Hero";
 import { Card, CardContent } from '@/components/ui/card';
 import { Target, Eye, Heart } from 'lucide-react';
 import { About } from "@/components/About";
-import { Services } from "@/components/Services";
+import { Services } from "@/components/Solutions";
 import { Technology } from "@/components/Technology";
 import { Products } from "@/components/Products";
 import { Team } from "@/components/Team";
