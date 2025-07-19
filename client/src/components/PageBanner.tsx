@@ -57,7 +57,7 @@ export const PageBanner = ({
       <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-green-400 to-blue-500"></div>
 
       {/* Add CSS for animation (or place in global CSS) */}
-      <style jsx>{`
+      <style>{`
         @keyframes zoomPan {
           0% {
             transform: scale(1.1);
