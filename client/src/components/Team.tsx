@@ -74,7 +74,13 @@ export const teamMembers = [
       department: "Technology",
       image: "/images/team/Gaurav_Nahar.png",
       description: "Fintech pioneer implementing cutting-edge technologies to revolutionize capital management.",
-      slug: "gaurav-nahar"
+      slug: "gaurav-nahar",
+      fullBio: [
+        "Director & Scientist: A competent professional with more than 10 years of work experience in University of Leeds, UK, and University of Birmingham, UK, in product and process development within the domain of renewable energy, reformer technology and solid oxide fuel cell.",
+        "Gaurav Nahar is a visionary technologist and entrepreneur with over 15 years of experience in the fintech industry. He has a proven track record of building and scaling innovative technology solutions that drive business growth and enhance customer experiences.",
+        "He is a scientist in the areas of biomass conversion to biogas, hydrogen production technologies, fuel cells and biofuels.",
+        " Presently he is involved in the process design and development, catalytic reactor design."
+      ]
     },
     {
       name: "Anurag Shinde",
