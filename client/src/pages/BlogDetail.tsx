@@ -4,12 +4,21 @@ import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
 import { WhatsAppFloat } from '@/components/WhatsAppFloat';
 import { PageBanner } from '@/components/PageBanner';
+import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 
 const BlogDetail = () => {
+ 
+
   const { slug } = useParams();
   const post = contentItems.find(item => 
     item.type === 'blog' && item.slug === slug
   );
+
+  useDocumentTitle({
+  title: post?.title || "Blog Article",
+  description: "Read this interesting blog article",
+  keywords: "blog, article, read"
+});
 
   if (!post) {
     return (
