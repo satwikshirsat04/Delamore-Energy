@@ -40,9 +40,9 @@ export const Footer = () => {
             </div>
           </div>
 
-          {/* Pages */}
+          {/* Quick Links */}
           <div>
-            <h3 className="font-semibold text-white mb-4 text-lg">Pages</h3>
+            <h3 className="font-semibold text-white mb-4 text-lg">Quick Links</h3>
             <ul className="space-y-3">
               <li><Link to="/" className="text-gray-400 hover:text-primary transition-colors block py-1">- Home</Link></li>
               <li><Link to="/about" className="text-gray-400 hover:text-primary transition-colors block py-1">- About</Link></li>
@@ -50,6 +50,7 @@ export const Footer = () => {
               <li><Link to="/products" className="text-gray-400 hover:text-primary transition-colors block py-1">- Products</Link></li>
               <li><Link to="/partners" className="text-gray-400 hover:text-primary transition-colors block py-1">- Partners</Link></li>
               <li><Link to="/contact" className="text-gray-400 hover:text-primary transition-colors block py-1">- Contact</Link></li>
+              <li><Link to="/faqs" className="text-gray-400 hover:text-primary transition-colors block py-1">- FAQs</Link></li>
             </ul>
           </div>
 
@@ -59,7 +60,6 @@ export const Footer = () => {
             <ul className="space-y-3">
               <li><Link to="/terms" className="text-gray-400 hover:text-primary transition-colors block py-1">- Terms & Conditions</Link></li>
               <li><Link to="/privacy" className="text-gray-400 hover:text-primary transition-colors block py-1">- Privacy Policy</Link></li>
-              <li><Link to="/faqs" className="text-gray-400 hover:text-primary transition-colors block py-1">- FAQs</Link></li>
             </ul>
           </div>
 
@@ -87,8 +87,8 @@ export const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 flex-shrink-0 text-gray-400" />
-                <a href="tel:18008905180" className="text-gray-400 hover:text-primary transition-colors">
-                  18008905180
+                <a href="tel:9115100007" className="text-gray-400 hover:text-primary transition-colors">
+                  +91 9115100007
                 </a>
               </div>
             </div>

@@ -232,7 +232,7 @@ const Index = () => {
             <FadeUp>
               <div className="mt-16 text-center">
                 <Link
-                  to="/solutions"
+                  to="/services"
                   className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-semibold rounded-xl shadow-sm text-white bg-gradient-to-r from-yellow-700 to-orange-900 hover:from-yellow-800 hover:to-orange-900 transition-all duration-300 group"
                 >
                   Learn More About Our Process
