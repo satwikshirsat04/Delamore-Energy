@@ -218,7 +218,7 @@ const Index = () => {
                 <img
                   src="/images/sdgs/sdg1.jpg"
                   alt="SDG 1"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-90 group-hover:opacity-20 transition-all duration-500"
+                  className="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-20 transition-all duration-500"
                 />
                 <div className="relative h-full flex flex-col justify-between p-6">
                   <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
@@ -248,11 +248,11 @@ const Index = () => {
 
               {/* SDG 2 - Zero Hunger */}
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
-                <div className="absolute inset-0 bg-gradient-to-br from-amber-900 to-amber-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-black to-red-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
                   src="/images/sdgs/sdg2.jpg"
                   alt="SDG 2"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-90 group-hover:opacity-20 transition-all duration-500"
+                  className="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-20 transition-all duration-500"
                 />
                 <div className="relative h-full flex flex-col justify-between p-6">
                   <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
@@ -282,11 +282,11 @@ const Index = () => {
 
               {/* SDG 3 - Good Health */}
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
-                <div className="absolute inset-0 bg-gradient-to-br from-green-900 to-green-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-black to-red-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
                   src="/images/sdgs/sdg3.jpg"
                   alt="SDG 3"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-90 group-hover:opacity-20 transition-all duration-500"
+                  className="absolute inset-0 w-full h-full object-cover  opacity-90 group-hover:opacity-20 transition-all duration-500"
                 />
                 <div className="relative h-full flex flex-col justify-between p-6">
                   <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
@@ -320,7 +320,7 @@ const Index = () => {
                 <img
                   src="/images/sdgs/sdg4.jpg"
                   alt="SDG 4"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-90 group-hover:opacity-20 transition-all duration-500"
+                  className="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-20 transition-all duration-500"
                 />
                 <div className="relative h-full flex flex-col justify-between p-6">
                   <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
@@ -350,11 +350,11 @@ const Index = () => {
 
               {/* SDG 5 - Gender Equality */}
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
-                <div className="absolute inset-0 bg-gradient-to-br from-orange-900 to-orange-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-black to-red-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
                   src="/images/sdgs/sdg5.jpg"
                   alt="SDG 5"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-90 group-hover:opacity-20 transition-all duration-500"
+                  className="absolute inset-0 w-full h-full object-cover  opacity-90 group-hover:opacity-20 transition-all duration-500"
                 />
                 <div className="relative h-full flex flex-col justify-between p-6">
                   <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
@@ -384,11 +384,11 @@ const Index = () => {
 
               {/* SDG 6 - Clean Water */}
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-900 to-black opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-black to-red-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
                   src="/images/sdgs/sdg6.gif"
                   alt="SDG 6"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-90 group-hover:opacity-20 transition-all duration-500"
+                  className="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-20 transition-all duration-500"
                 />
                 <div className="relative h-full flex flex-col justify-between p-6">
                   <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
@@ -418,11 +418,11 @@ const Index = () => {
 
               {/* SDG 7 - Affordable Energy */}
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
-                <div className="absolute inset-0 bg-gradient-to-br from-green-900 to-green-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-black to-green-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
                   src="/images/sdgs/sdg7.jpg"
                   alt="SDG 7"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-90 group-hover:opacity-20 transition-all duration-500"
+                  className="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-20 transition-all duration-500"
                 />
                 <div className="relative h-full flex flex-col justify-between p-6">
                   <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
@@ -452,11 +452,11 @@ const Index = () => {
 
               {/* SDG 8 - Decent Work */}
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
-                <div className="absolute inset-0 bg-gradient-to-br from-black to-yellow-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-black to-red-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
                   src="/images/sdgs/sdg8.jpg"
                   alt="SDG 8"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-90 group-hover:opacity-20 transition-all duration-500"
+                  className="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-20 transition-all duration-500"
                 />
                 <div className="relative h-full flex flex-col justify-between p-6">
                   <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
@@ -486,11 +486,11 @@ const Index = () => {
 
               {/* SDG 9 - Industry, Innovation & Infrastructure */}
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-900 to-orange-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-black to-red-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
                   src="/images/sdgs/sdg9.jpg"
                   alt="SDG 9"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-90 group-hover:opacity-20 transition-all duration-500"
+                  className="absolute inset-0 w-full h-full object-cover  opacity-90 group-hover:opacity-20 transition-all duration-500"
                 />
                 <div className="relative h-full flex flex-col justify-between p-6">
                   <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
@@ -520,7 +520,7 @@ const Index = () => {
 
               {/* SDG 10 - Reduced Inequalities */}
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
-                <div className="absolute inset-0 bg-gradient-to-br from-red-900 to-green-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-black to-red-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
                   src="/images/sdgs/sdg10.jpg"
                   alt="SDG 10"
@@ -554,11 +554,11 @@ const Index = () => {
 
               {/* SDG 11 - Sustainable Cities */}
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
-                <div className="absolute inset-0 bg-gradient-to-br from-green-900 to-green-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-black to-green-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
                   src="/images/sdgs/sdg11.jpg"
                   alt="SDG 11"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-90 group-hover:opacity-20 transition-all duration-500"
+                  className="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-20 transition-all duration-500"
                 />
                 <div className="relative h-full flex flex-col justify-between p-6">
                   <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
@@ -588,11 +588,11 @@ const Index = () => {
 
               {/* SDG 12 - Responsible Consumption */}
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
-                <div className="absolute inset-0 bg-gradient-to-br from-amber-900 to-amber-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-black to-red-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
                   src="/images/sdgs/sdg12.jpg"
                   alt="SDG 12"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-90 group-hover:opacity-20 transition-all duration-500"
+                  className="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-20 transition-all duration-500"
                 />
                 <div className="relative h-full flex flex-col justify-between p-6">
                   <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
@@ -622,11 +622,11 @@ const Index = () => {
 
               {/* SDG 13 - Climate Action */}
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
-                <div className="absolute inset-0 bg-gradient-to-br from-green-900 to-green-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-black to-green-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
                   src="/images/sdgs/sdg13.jpg"
                   alt="SDG 13"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-90 group-hover:opacity-20 transition-all duration-500"
+                  className="absolute inset-0 w-full h-full object-cover  opacity-90 group-hover:opacity-20 transition-all duration-500"
                 />
                 <div className="relative h-full flex flex-col justify-between p-6">
                   <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
@@ -660,7 +660,7 @@ const Index = () => {
                 <img
                   src="/images/sdgs/sdg14.jpg"
                   alt="SDG 14"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-90 group-hover:opacity-20 transition-all duration-500"
+                  className="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-20 transition-all duration-500"
                 />
                 <div className="relative h-full flex flex-col justify-between p-6">
                   <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
@@ -690,11 +690,11 @@ const Index = () => {
 
               {/* SDG 15 - Life on Land */}
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
-                <div className="absolute inset-0 bg-gradient-to-br from-green-900 to-black opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-black to-red-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
                   src="/images/sdgs/sdg15.jpg"
                   alt="SDG 15"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-90 group-hover:opacity-20 transition-all duration-500"
+                  className="absolute inset-0 w-full h-full object-cover  opacity-90 group-hover:opacity-20 transition-all duration-500"
                 />
                 <div className="relative h-full flex flex-col justify-between p-6">
                   <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
@@ -728,7 +728,7 @@ const Index = () => {
                 <img
                   src="/images/sdgs/sdg16.jpg"
                   alt="SDG 16"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-90 group-hover:opacity-20 transition-all duration-500"
+                  className="absolute inset-0 w-full h-full object-cover  opacity-90 group-hover:opacity-20 transition-all duration-500"
                 />
                 <div className="relative h-full flex flex-col justify-between p-6">
                   <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
@@ -759,11 +759,11 @@ const Index = () => {
 
               {/* SDG 17 - Partnerships */}
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
-                <div className="absolute inset-0 bg-gradient-to-br from-green-900 to-blue-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-black to-green-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
                   src="/images/sdgs/sdg17.jpg"
                   alt="SDG 17"
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-90 group-hover:opacity-20 transition-all duration-500"
+                  className="absolute inset-0 w-full h-full object-cover  opacity-90 group-hover:opacity-20 transition-all duration-500"
                 />
                 <div className="relative h-full flex flex-col justify-between p-6">
                   <div className="bg-white/10 backdrop-blur-sm rounded-full w-14 h-14 flex items-center justify-center mb-4 border-2 border-white/30">
