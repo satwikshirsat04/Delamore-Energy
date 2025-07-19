@@ -5,8 +5,15 @@ import { Navigation } from '@/components/Navigation';
 import { PageBanner } from '@/components/PageBanner';
 import { Footer } from '@/components/Footer';
 import { WhatsAppFloat } from '@/components/WhatsAppFloat';
+import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 
 const BlogsAndPodcasts = () => {
+  useDocumentTitle({
+  title: 'Blogs & Podcasts',
+  description: 'Discover our latest insights, articles, and discussions on renewable energy and sustainable solutions',
+  keywords: 'blogs, podcasts,The Future of Bioenergy in India,Biochar: Revolutionizing Soil Health'
+});
+
   const [activeTab, setActiveTab] = useState<'all' | 'blog' | 'podcast'>('all');
 
   const filteredItems = contentItems.filter(item => {
