@@ -88,6 +88,7 @@ const Index = () => {
                           fostering economic, social, and sustainable growth for mankind.
                         </p>
                       </div>
+                      
                       <div className="mt-8 pt-6 border-t border-gray-100">
                         <div className="flex flex-wrap gap-2">
                           {['Innovation', 'Sustainability', 'Progress'].map((tag) => (
@@ -170,7 +171,7 @@ const Index = () => {
             <img
               src="/images/home/waste-to-wealth.png"
               alt="Waste to Wealth Background"
-              className="w-full h-full object-cover opacity-30"
+              className="w-full h-full object-cover opacity-20"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-blue-50 to-indigo-100 mix-blend-overlay"></div>
           </div>
@@ -188,50 +189,59 @@ const Index = () => {
 
             <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* Waste Reduction Card */}
-              <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-white/30 hover:border-blue-200/50">
-                <div className="bg-blue-100/30 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
-                  <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path>
-                  </svg>
+              <FadeUp>
+                <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-white/30 hover:border-blue-200/50">
+                  <div className="bg-blue-100/30 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                    <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path>
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Waste Reduction</h3>
+                  <p className="text-gray-700 text-center">Diverting tons of organic waste from landfills annually through our advanced conversion processes</p>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Waste Reduction</h3>
-                <p className="text-gray-700 text-center">Diverting tons of organic waste from landfills annually through our advanced conversion processes</p>
-              </div>
+              </FadeUp>
 
               {/* Clean Energy Card */}
-              <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-white/30 hover:border-blue-200/50">
-                <div className="bg-blue-200/30 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
-                  <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                  </svg>
+              <FadeUp>
+                <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-white/30 hover:border-blue-200/50">
+                  <div className="bg-blue-200/30 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                    <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Clean Energy</h3>
+                  <p className="text-gray-700 text-center">Generating sustainable power for communities while reducing carbon emissions by 60%</p>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Clean Energy</h3>
-                <p className="text-gray-700 text-center">Generating sustainable power for communities while reducing carbon emissions by 60%</p>
-              </div>
+              </FadeUp>
+
 
               {/* Circular Economy Card */}
-              <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-white/30 hover:border-blue-200/50">
-                <div className="bg-blue-300/30 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
-                  <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
-                  </svg>
+              <FadeUp>
+                <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-white/30 hover:border-blue-200/50">
+                  <div className="bg-blue-300/30 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                    <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Circular Economy</h3>
+                  <p className="text-gray-700 text-center">Creating valuable byproducts from waste streams, completing the sustainability cycle</p>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Circular Economy</h3>
-                <p className="text-gray-700 text-center">Creating valuable byproducts from waste streams, completing the sustainability cycle</p>
-              </div>
+              </FadeUp>
             </div>
 
-            <div className="mt-16 text-center">
-              <Link
-                to="/solutions"
-                className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-semibold rounded-xl shadow-sm text-white bg-gradient-to-r from-red-700 to-purple-900 hover:from-green-700 hover:to-purple-900 transition-all duration-300 group"
-              >
-                Learn More About Our Process
-                <svg className="ml-3 -mr-1 h-6 w-6 group-hover:translate-x-1 transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                  <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                </svg>
-              </Link>
-            </div>
+            <FadeUp>
+              <div className="mt-16 text-center">
+                <Link
+                  to="/solutions"
+                  className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-semibold rounded-xl shadow-sm text-white bg-gradient-to-r from-red-700 to-purple-900 hover:from-green-700 hover:to-purple-900 transition-all duration-300 group"
+                >
+                  Learn More About Our Process
+                  <svg className="ml-3 -mr-1 h-6 w-6 group-hover:translate-x-1 transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                    <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                  </svg>
+                </Link>
+              </div>
+            </FadeUp>
           </div>
         </div>
       </FadeUp>
