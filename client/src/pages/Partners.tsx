@@ -69,7 +69,7 @@ useDocumentTitle({
       <PageBanner
         title="Our Partners"
         subtitle="We collaborate with leading research institutions and industry partners to drive innovation in sustainable biomass technology."
-        backgroundImage="/images/banner/partners.jpg"
+        backgroundImage="/images/banner/windmill.webp"
       />
 
       <div className="py-20">
