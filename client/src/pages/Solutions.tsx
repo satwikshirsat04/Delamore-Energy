@@ -9,7 +9,7 @@ import { FadeUp } from "@/components/animations/FadeUp";
 import { Technology } from "@/components/Technology";
 const Services = () => {
   useDocumentTitle({
-    title: 'Services',
+    title: 'Solutions',
     description: 'India\'s leading renewable solutions - Carbon-negative technology for agriculture, industry, and environmental applications. Based in Pune.',
     keywords: 'Biorefining and Processing,Environmental Stewardship,Green Energy Production,Carbon Sequestration,Super Food & Nutraceuticals'
   });
