@@ -16,9 +16,11 @@ const About = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
+    
       <PageBanner 
-        title="About Us"
+        title="About Us" 
         subtitle="Delamore Renewable Energy is committed to offering practical, economical, and environmentally sustainable solutions in bioenergy through cutting-edge technology."
+        backgroundImage="/images/banner/windmill.webp" // Custom image
       />
       <AboutSection />
       <Team />
