@@ -79,7 +79,7 @@ useDocumentTitle({
           <section className="mb-20">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Technology Partners</h2>
-              <p className="text-lg text-muted-foreground">
+              <p className="text-lg ">
                 Strategic partnerships with premier research institutions
               </p>
             </div>

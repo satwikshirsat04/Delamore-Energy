@@ -37,7 +37,7 @@ export const About = () => {
           {/* <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             About Delamore Energy
           </h2> */}
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-lg  max-w-3xl mx-auto">
             We utilize our cutting-edge technology and wide industrial expertise to responsibly address the increasing global demand for green energy.
           </p>
         </div>
