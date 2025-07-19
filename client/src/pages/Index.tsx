@@ -386,7 +386,7 @@ const Index = () => {
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-blue-400 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
-                  src="/images/sdgs/sdg6.jpg"
+                  src="/images/sdgs/sdg6.gif"
                   alt="SDG 6"
                   className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-40 group-hover:opacity-20 transition-all duration-500"
                 />
@@ -484,6 +484,9 @@ const Index = () => {
                 </div>
               </div>
 
+
+
+
               {/* SDG 17 - Partnerships */}
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-900 to-blue-700 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -517,6 +520,7 @@ const Index = () => {
                   </div>
                 </div>
               </div>
+
             </div>
 
             {/* <div className="mt-16 text-center px-4">
