@@ -15,6 +15,7 @@ import { useDocumentTitle } from "@/hooks/useDocumentTitle";
 import ChakraImage from "@/components/ChakraImage";
 import { Carousel } from "@/components/Carousel";
 import { FloatingButtons } from "@/components/FloatingActionButtons";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   useDocumentTitle({
@@ -161,38 +162,75 @@ const Index = () => {
         </svg>
       </div> */}
 
-      {/* Waste to wealth Section */}
+      {/* Waste to Wealth Section */}
       <FadeUp>
-        <div className="mx-auto px-4 sm:px-6 lg:px-8 py-16 bg-gradient-to-b from-blue-40 to-indigo-100">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-6">
-              Transforming Waste to Wealth
-            </h2>
-            <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
-              Our innovative technology converts organic waste into clean, renewable energy sources.
-              We are committed to nation building through socio-economic upliftment of society by world' s comprehensive circular biomass energy solutions meeting the evolving needs of the society
-            </p>
+        <div className="relative mx-auto px-4 sm:px-6 lg:px-8 py-24 bg-gradient-to-b from-blue-50 to-indigo-100 overflow-hidden">
+          {/* Background Image */}
+          <div className="absolute inset-0 z-0">
+            <img
+              src="/images/home/waste-to-wealth.png"
+              alt="Waste to Wealth Background"
+              className="w-full h-full object-cover opacity-30"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-blue-50 to-indigo-100 mix-blend-overlay"></div>
+          </div>
 
-            {/* <ChakraImage size="lg" className="my-8" /> */}
+          <div className="relative z-10 max-w-7xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-700 to-purple-900 mb-6">
+                Transforming Waste to Wealth
+              </h2>
+              <p className="text-lg md:text-xl text-gray-800 mb-10 max-w-3xl mx-auto leading-relaxed">
+                Our innovative technology converts organic waste into clean, renewable energy sources.
+                We are committed to nation building through socio-economic upliftment of society by world's comprehensive circular biomass energy solutions.
+              </p>
+            </div>
 
             <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
-              {/* Waste Reduction Card - 25% Gray */}
-              <div className="bg-blue-100 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Waste Reduction</h3>
-                <p className="text-gray-800">Diverting tons of organic waste from landfills annually</p>
+              {/* Waste Reduction Card */}
+              <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-white/30 hover:border-blue-200/50">
+                <div className="bg-blue-100/30 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                  <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path>
+                  </svg>
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Waste Reduction</h3>
+                <p className="text-gray-700 text-center">Diverting tons of organic waste from landfills annually through our advanced conversion processes</p>
               </div>
 
-              {/* Clean Energy Card - 50% Gray */}
-              <div className="bg-blue-200 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Clean Energy</h3>
-                <p className="text-gray-800">Generating sustainable power for communities</p>
+              {/* Clean Energy Card */}
+              <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-white/30 hover:border-blue-200/50">
+                <div className="bg-blue-200/30 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                  <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                  </svg>
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Clean Energy</h3>
+                <p className="text-gray-700 text-center">Generating sustainable power for communities while reducing carbon emissions by 60%</p>
               </div>
 
-              {/* Circular Economy Card - 75% Gray */}
-              <div className="bg-blue-300 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Circular Economy</h3>
-                <p className="text-gray-800">Creating valuable byproducts from waste streams</p>
+              {/* Circular Economy Card */}
+              <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-white/30 hover:border-blue-200/50">
+                <div className="bg-blue-300/30 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                  <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+                  </svg>
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Circular Economy</h3>
+                <p className="text-gray-700 text-center">Creating valuable byproducts from waste streams, completing the sustainability cycle</p>
               </div>
+            </div>
+
+            <div className="mt-16 text-center">
+              <Link
+                to="/solutions"
+                className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-semibold rounded-xl shadow-sm text-white bg-gradient-to-r from-red-700 to-purple-900 hover:from-green-700 hover:to-purple-900 transition-all duration-300 group"
+              >
+                Learn More About Our Process
+                <svg className="ml-3 -mr-1 h-6 w-6 group-hover:translate-x-1 transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                </svg>
+              </Link>
             </div>
           </div>
         </div>
