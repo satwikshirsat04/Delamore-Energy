@@ -94,11 +94,16 @@ export default {
           '0%': { transform: 'rotate(0deg)' },
           '50%': { transform: 'rotate(-360deg)' },
           '100%': { transform: 'rotate(0deg)' },
+        },
+        'zoom-in': {
+          '0%, 100%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.5)' },
         }
       },
       animation: {
         'accordion-down': 'accordion-down 0.4s ease-out',
         'accordion-up': 'accordion-up 0.4s ease-out',
+        'zoom-in': 'zoom-in 20s ease infinite',
         chakraSpin: 'rotateChakra 9s linear infinite alternate',
         chakraSpinAlt: 'rotateChakraAlt 9s linear infinite alternate'
       }

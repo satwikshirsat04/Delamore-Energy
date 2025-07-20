@@ -171,7 +171,7 @@ const Index = () => {
             <img
               src="/images/home/waste-to-wealth.png"
               alt="Waste to Wealth Background"
-              className="w-full h-full object-cover opacity-20"
+              className="w-full h-full object-cover opacity-20 animate-[zoom-in_20s_ease-in-out_infinite]"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-blue-50 to-indigo-100 mix-blend-overlay"></div>
           </div>
