@@ -69,19 +69,20 @@ export const teamMembers = [
     }
   },
   {
-      name: "Gaurav Nahar",
-      position: "Chief Technology Officer",
-      department: "Technology",
-      image: "/images/team/Gaurav_Nahar.png",
-      description: "Fintech pioneer implementing cutting-edge technologies to revolutionize capital management.",
-      slug: "gaurav-nahar",
-      fullBio: [
-        "Director & Scientist: A competent professional with more than 10 years of work experience in University of Leeds, UK, and University of Birmingham, UK, in product and process development within the domain of renewable energy, reformer technology and solid oxide fuel cell.",
-        "Gaurav Nahar is a visionary technologist and entrepreneur with over 15 years of experience in the fintech industry. He has a proven track record of building and scaling innovative technology solutions that drive business growth and enhance customer experiences.",
-        "He is a scientist in the areas of biomass conversion to biogas, hydrogen production technologies, fuel cells and biofuels.",
-        " Presently he is involved in the process design and development, catalytic reactor design."
-      ]
-    },
+  name: "Gaurav Nahar",
+  position: "Chief Technology Officer",
+  department: "Technology",
+  image: "/images/team/Gaurav_Nahar.png",
+  description: "Expert in Chemical and Process Engineering with a focus on sustainable energy and innovation.",
+  slug: "gaurav-nahar",
+  fullBio: [
+    "Dr. Gaurav Nahar is a distinguished expert in chemical and process engineering, with a specialized focus on bioenergy and hydrogen energy systems. With over 15 years of experience in biomass valorization and bioprocess engineering, he brings a unique blend of academic excellence and industry-driven innovation to the clean technology sector.",
+    "He earned his doctorate in Chemical and Process Engineering from the prestigious University of Leeds, UK, where he laid the foundation for his pioneering research in sustainable energy solutions. Dr. Nahar's work has consistently centered on transforming renewable resources into viable energy alternatives, contributing significantly to the global transition towards a greener economy.",
+    "As a visionary technologist and entrepreneur, Dr. Nahar has an exceptional track record of conceptualizing, developing, and implementing cutting-edge solutions that drive both environmental impact and commercial success. His strategic leadership and technical acumen have been instrumental in advancing biomass valorization projects under the banner of Delamore Renewable Energy, where he plays a critical role in shaping the future of sustainable energy.",
+    "Dr. Nahar is widely recognized for his ability to bridge scientific research with industrial application, building scalable, innovative technologies that foster business growth while enhancing user and community outcomes."
+  ]
+},
+
     {
       name: "Anurag Shinde",
       position: "Chief Operation Officer",
