@@ -111,7 +111,7 @@ const Projects = () => {
             </div>
 
             {/* Projects Grid */}
-            <div className="container mx-auto px-6 py-0">
+            <div className="container mx-auto px-6 py-0 mb-20">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                     {projects.map((project, index) => (
                         <motion.div
@@ -141,10 +141,6 @@ const Projects = () => {
                                     </div>
 
                                     <p className="text-gray-600 mb-4">{project.description}</p>
-
-                                    {/* <button className="text-blue-600 font-medium hover:text-blue-800 transition-colors">
-                  Learn more →
-                </button> */}
                                 </div>
                             </FadeUp>
                         </motion.div>
@@ -153,7 +149,7 @@ const Projects = () => {
             </div>
 
             {/* Team Section */}
-            <div className="bg-gray-50 py-16">
+            <div className="bg-gray-50 py-20">
                 <div className="container mx-auto px-6">
                     <Fade direction="up" triggerOnce>
                         <h2 className="text-4xl font-bold text-center mb-16 text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-blue-800">
