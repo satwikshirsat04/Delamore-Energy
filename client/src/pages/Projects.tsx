@@ -4,41 +4,45 @@ import { Fade } from 'react-awesome-reveal';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
+import { Link } from 'react-router-dom';
+import { ArrowRight } from 'lucide-react';
+import { teamMembers } from '@/components/Team';
+import { TeamMember } from './TeamMember';
 
 const Projects = () => {
   const projects = [
     {
       title: "CBG Plants",
       description: "Setting up 30+ plants by 2030 in MH, MP, GJ, UP, HR and PB primarily based on napier grass and paddy straw. Each plant produces 30 tons of CBG per day using in-house developed technologies.",
-      image: "/images/projects/cbg.jpg",
+      image: "/images/projects/cbg.png",
       stats: "30+ Plants | 30 tons/day each",
       delay: 0.1
     },
     {
       title: "Hydro Power",
       description: "Developing 2 hydro projects of 30.54 MW and 28.68 MW in joint ventures. Power Purchase Agreements (PPA) already signed.",
-      image: "/images/projects/hydro-power.jpg",
+      image: "/images/projects/hydro.jpg",
       stats: "59.22 MW Total Capacity",
       delay: 0.2
     },
     {
       title: "Wind Energy",
       description: "Proposal to install 24 MW wind energy capacity currently under approval process.",
-      image: "/images/projects/wind-energy.jpg",
+      image: "/images/projects/wind.jpg",
       stats: "24 MW Planned Capacity",
       delay: 0.3
     },
     {
       title: "CO2 Capture",
       description: "Prototypes developed and pilot project under rigorous testing in GCC area for carbon capture technology.",
-      image: "/images/projects/co2-capture.jpg",
+      image: "/images/projects/carbon.jpg",
       stats: "Pilot Phase",
       delay: 0.4
     },
     {
       title: "Solar Power",
       description: "150 MW+ solar power installation including rooftop installations in the first phase of development.",
-      image: "/images/projects/solar-power.jpg",
+      image: "/images/projects/solar.jpg",
       stats: "150 MW+ Capacity",
       delay: 0.5
     },
@@ -59,7 +63,7 @@ const Projects = () => {
     {
       title: "Organic Fertilizers",
       description: "Producing 1000 tons of bio fertilizers per day from CBG plants, improving sustainability.",
-      image: "/images/projects/organic-fertilizer.jpg",
+      image: "/images/projects/fertilizers.jpg",
       stats: "1000 tons/day",
       delay: 0.8
     }
@@ -70,13 +74,13 @@ const Projects = () => {
       name: "Dr. Gaurav Nahar",
       role: "Chemical & Process Engineering Expert",
       bio: "Specializing in bio and hydrogen energy with 15+ years experience in biomass valorization. PhD from University of Leeds, UK.",
-      image: "/images/team/gaurav-nahar.jpg"
+      image: "/images/team/Gaurav_Nahar.png"
     },
     {
       name: "Anurag Shinde",
       role: "Operations & Marketing Expert",
       bio: "Mechanical engineer with expertise in sustainable solutions for energy and biomass utilization from grassroots level.",
-      image: "/images/team/anurag-shinde.jpg"
+      image: "/images/team/Anurag_Shinde.jpg"
     }
   ];
 
@@ -169,9 +173,11 @@ const Projects = () => {
                     <h3 className="text-2xl font-bold text-gray-800 mb-2">{member.name}</h3>
                     <p className="text-blue-600 font-medium mb-4">{member.role}</p>
                     <p className="text-gray-600 mb-4">{member.bio}</p>
-                    <button className="text-blue-600 font-medium hover:text-blue-800 transition-colors">
-                      View profile →
-                    </button>
+                    <Link to={`/team`} className="text-blue-600 font-medium hover:text-blue-800 transition-colors">
+                        View profile →
+                        <ArrowRight className="h-4 w-4 ml-1 group-hover/button:translate-x-1 transition-transform duration-300" />
+                      </Link>
+                    
                   </div>
                 </div>
               </motion.div>
