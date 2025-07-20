@@ -155,13 +155,34 @@ export const teamMembers = [
   ]
 },
   {
-    name: "Promil Kapoor",
-    position: "Vice President Operations Haryana & UP",
-    department: "Regional Operations",
-    image: "/images/team/promil_kapoor.jpg",
-    description: "Regional strategist expanding Delamore's footprint across emerging Asian markets.",
-    slug: "promil-kapoor"
-  }
+  name: "Promil Kapoor",
+  position: "Senior Strategic Advisor",
+  department: "Government & International Relations",
+  image: "/images/team/promil_kapoor.jpg",
+  description: "Veteran advisor with 30+ years of experience in government liaison, cross-border facilitation, and project implementation.",
+  slug: "promil-kapoor",
+  fullBio: [
+    "Promil Kapoor is a seasoned Delhi-based strategic advisor with over 30 years of experience in managing high-level relationships across Indian and Nepalese government and semi-government institutions. Known for his deep-rooted connections, he specializes in driving projects from ground zero to completion with precision and strategic oversight.",
+    
+    "He brings unmatched expertise in business development, policy coordination, and cross-border project execution, making him an indispensable asset in navigating complex institutional landscapes and regulatory ecosystems across South Asia.",
+    
+    "✅ Government & Institutional Networking – Maintains strong ties with central/state governments in India, Nepal government departments, and public sector undertakings (PSUs), ensuring smooth project clearances and fast-tracked approvals.",
+    
+    "✅ Project Implementation & Business Expansion – Successfully led the execution of numerous infrastructure, energy, and PPP projects, with a consistent focus on operational efficiency and stakeholder engagement.",
+    
+    "✅ India-Nepal Cross-Border Expertise – Acts as a critical facilitator between Indian and Nepalese corporates, helping them navigate compliance, investment frameworks, and intergovernmental protocols.",
+    
+    "✅ Leadership in UP & Haryana – Currently leading project coordination and implementation efforts in Uttar Pradesh and Haryana while simultaneously expanding associated ventures into new business verticals.",
+    
+    "Core Expertise:",
+    "🔹 Government Relations & Policy Advocacy",
+    "🔹 Project Feasibility, Approvals & Execution",
+    "🔹 Business Development in Regulated Sectors",
+    "🔹 India-Nepal Trade & Investment Facilitation",
+    "🔹 Strategic Partnerships & Joint Ventures"
+  ]
+}
+
   // Add other team members with the same structure
 ];
 
