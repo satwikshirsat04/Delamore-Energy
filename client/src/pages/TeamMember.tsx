@@ -3,6 +3,7 @@ import { teamMembers } from '@/components/Team';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
+import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 
 export const TeamMember = () => {
   const { slug } = useParams();
@@ -21,6 +22,11 @@ export const TeamMember = () => {
   );
 
   return (
+    useDocumentTitle({
+      title: `${slug}`,
+      description: 'Delamore Energy Private Limited | Your trusted partner in renewable energy solutions.',
+      keywords: 'renewable energy, cbg, Green Energy Production, Waste Reduction, clean energy, Bio Refinery'
+    }),
     <section className="py-20 bg-gradient-to-b from-secondary/10 to-background min-h-screen">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-8">
