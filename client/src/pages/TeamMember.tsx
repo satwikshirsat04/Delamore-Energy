@@ -36,8 +36,8 @@ export const TeamMember = () => {
           <div className="flex flex-col md:flex-row gap-12 items-start">
             <div className="w-full md:w-1/3">
               <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-primary/30 shadow-xl mx-auto md:mx-0">
-                <img 
-                  src={member.image} 
+                <img
+                  src={member.image}
                   alt={member.name}
                   className="w-full h-full object-cover"
                 />
@@ -53,11 +53,21 @@ export const TeamMember = () => {
               </div>
               <h2 className="text-2xl text-primary mb-4">{member.position}</h2>
               <p className="text-lg mb-8">{member.description}</p>
-              
+
               <div className="space-y-4 text-justify">
                 {member.fullBio?.map((paragraph, index) => (
                   <p key={index} className="text-muted-foreground">{paragraph}</p>
                 ))}
+              </div>
+              <div className="py-2 mt-10">
+                <a
+                  href="https://www.sonykumar.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-6 py-3 bg-green-600 hover:bg-green-900 text-white font-medium rounded-lg  transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
+                >
+                  Blogs
+                </a>
               </div>
             </div>
           </div>
