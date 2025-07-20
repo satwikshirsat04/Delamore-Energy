@@ -46,7 +46,7 @@ export const Footer = () => {
             <ul className="space-y-3">
               <li><Link to="/" className="text-gray-400 hover:text-primary transition-colors block py-1">- Home</Link></li>
               <li><Link to="/about" className="text-gray-400 hover:text-primary transition-colors block py-1">- About</Link></li>
-              <li><Link to="/services" className="text-gray-400 hover:text-primary transition-colors block py-1">- Services</Link></li>
+              <li><Link to="/solutions" className="text-gray-400 hover:text-primary transition-colors block py-1">- Solutions</Link></li>
               <li><Link to="/products" className="text-gray-400 hover:text-primary transition-colors block py-1">- Products</Link></li>
               <li><Link to="/partners" className="text-gray-400 hover:text-primary transition-colors block py-1">- Partners</Link></li>
               <li><Link to="/contact" className="text-gray-400 hover:text-primary transition-colors block py-1">- Contact</Link></li>
