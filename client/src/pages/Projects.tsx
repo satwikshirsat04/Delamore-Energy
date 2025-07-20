@@ -174,7 +174,7 @@ const Projects = () => {
                     <p className="text-blue-600 font-medium mb-4">{member.role}</p>
                     <p className="text-gray-600 mb-4">{member.bio}</p>
                     <Link to={`/team`} className="text-blue-600 font-medium hover:text-blue-800 transition-colors">
-                        View profile →
+                        View profile
                         <ArrowRight className="h-4 w-4 ml-1 group-hover/button:translate-x-1 transition-transform duration-300" />
                       </Link>
                     
