@@ -192,14 +192,14 @@ export const Team = () => {
   
     <section className="py-0 bg-gradient-to-b from-secondary/10 to-background">
       <Navigation />
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 mt-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 to-orange-900 mb-6">
             The Delamore Elite
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
