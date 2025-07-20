@@ -69,50 +69,99 @@ export const teamMembers = [
     }
   },
   {
-  name: "Gaurav Nahar",
-  position: "Chief Technology Officer",
-  department: "Technology",
-  image: "/images/team/Gaurav_Nahar.png",
-  description: "Expert in Chemical and Process Engineering with a focus on sustainable energy and innovation.",
-  slug: "gaurav-nahar",
-  fullBio: [
-    "Dr. Gaurav Nahar is a distinguished expert in chemical and process engineering, with a specialized focus on bioenergy and hydrogen energy systems. With over 15 years of experience in biomass valorization and bioprocess engineering, he brings a unique blend of academic excellence and industry-driven innovation to the clean technology sector.",
-    "He earned his doctorate in Chemical and Process Engineering from the prestigious University of Leeds, UK, where he laid the foundation for his pioneering research in sustainable energy solutions. Dr. Nahar's work has consistently centered on transforming renewable resources into viable energy alternatives, contributing significantly to the global transition towards a greener economy.",
-    "As a visionary technologist and entrepreneur, Dr. Nahar has an exceptional track record of conceptualizing, developing, and implementing cutting-edge solutions that drive both environmental impact and commercial success. His strategic leadership and technical acumen have been instrumental in advancing biomass valorization projects under the banner of Delamore Renewable Energy, where he plays a critical role in shaping the future of sustainable energy.",
-    "Dr. Nahar is widely recognized for his ability to bridge scientific research with industrial application, building scalable, innovative technologies that foster business growth while enhancing user and community outcomes."
-  ]
-},
+    name: "Gaurav Nahar",
+    position: "Chief Technology Officer",
+    department: "Technology",
+    image: "/images/team/Gaurav_Nahar.png",
+    description: "Expert in Chemical and Process Engineering with a focus on sustainable energy and innovation.",
+    slug: "gaurav-nahar",
+    fullBio: [
+      "Dr. Gaurav Nahar is a distinguished expert in chemical and process engineering, with a specialized focus on bioenergy and hydrogen energy systems. With over 15 years of experience in biomass valorization and bioprocess engineering, he brings a unique blend of academic excellence and industry-driven innovation to the clean technology sector.",
+      "He earned his doctorate in Chemical and Process Engineering from the prestigious University of Leeds, UK, where he laid the foundation for his pioneering research in sustainable energy solutions. Dr. Nahar's work has consistently centered on transforming renewable resources into viable energy alternatives, contributing significantly to the global transition towards a greener economy.",
+      "As a visionary technologist and entrepreneur, Dr. Nahar has an exceptional track record of conceptualizing, developing, and implementing cutting-edge solutions that drive both environmental impact and commercial success. His strategic leadership and technical acumen have been instrumental in advancing biomass valorization projects under the banner of Delamore Renewable Energy, where he plays a critical role in shaping the future of sustainable energy.",
+      "Dr. Nahar is widely recognized for his ability to bridge scientific research with industrial application, building scalable, innovative technologies that foster business growth while enhancing user and community outcomes."
+    ]
+  },
 
-    {
-  name: "Anurag Shinde",
-  position: "Chief Operations Officer",
-  department: "Operations",
-  image: "/images/team/Anurag_Shinde.jpg",
-  description: "Mechanical Engineer with expertise in business operations, marketing, and sustainable biomass solutions.",
-  slug: "anurag-shinde",
+  {
+    name: "Anurag Shinde",
+    position: "Chief Operations Officer",
+    department: "Operations",
+    image: "/images/team/Anurag_Shinde.jpg",
+    description: "Mechanical Engineer with expertise in business operations, marketing, and sustainable biomass solutions.",
+    slug: "anurag-shinde",
+    fullBio: [
+      "Anurag Shinde is a dynamic mechanical engineer with specialized expertise in business operations management and strategic marketing. Drawing inspiration from his agricultural roots, Anurag has consistently focused on addressing grassroots challenges by developing sustainable and economically viable solutions in the areas of energy, biomass utilization, and waste management.",
+      "Raised in a farming family, Anurag has been closely connected to biomass-rich environments since childhood. This early exposure instilled in him a deep commitment to transforming biomass into productive energy resources and creating scalable, real-world solutions for rural and semi-urban communities.",
+      "His professional journey has been defined by the successful management of large-scale operations and complex projects. With a strong foundation in both technical and business domains, he excels in bridging the gap between on-ground implementation and high-level strategic planning.",
+      "Anurag continues to contribute to the clean energy ecosystem by turning challenges into opportunities and fostering innovation that benefits both people and the planet."
+    ]
+  },
+
+  {
+    name: "Snehil Kapur",
+    position: "Director",
+    department: "Sustainability & Innovation",
+    image: "/images/team/snehil_kapur.jpg",
+    description: "AgriTech entrepreneur driving AI-powered logistics, circular economy, and carbon credit innovation.",
+    slug: "snehil-kapur",
+    fullBio: [
+      "Snehil Kapur is a visionary AgriTech entrepreneur and sustainability champion, serving as the Director of Farm2Fork Agritech Pvt Ltd. He is widely recognized for transforming India’s agricultural supply chain through AI-driven logistics, farmer empowerment, and waste valorization strategies.",
+
+      "Passionate about bridging the gap between farmers, traders, and consumers, Snehil is driving large-scale impact through circular economy models that enhance environmental sustainability and economic resilience across rural India.",
+
+      "✅ Built India’s Largest AgriTech Network – Integrated over 1 million farmers and traders into Farm2Fork’s digital ecosystem, enhancing supply chain transparency and efficiency with AI-powered logistics.",
+
+      "✅ Pioneering Waste-to-Wealth Solutions – Leading initiatives to convert agricultural biomass into economic value, promoting rural upliftment through sustainable waste valorization.",
+
+      "✅ Carbon Credits & Sustainability Leadership – Spearheading the development of ICR-compliant carbon credit validation systems, establishing Farm2Fork as a leader in India’s emerging carbon credit exchange landscape.",
+
+      "✅ Tech-Driven Market Expansion – Scaling Farm2Fork to integrate end consumers, ensuring full-spectrum farm-to-fork traceability and marketplace growth.",
+
+      "Core Expertise:",
+      "🔹 AgriTech & Digital Marketplaces (AI/ML in logistics, farmer-trade-consumer integration)",
+      "🔹 Circular Economy & Biomass Valorization (Converting agri-waste into wealth)",
+      "🔹 Carbon Credit Mechanisms & ICR Compliance",
+      "🔹 Sustainable Agri-Business Models"
+    ]
+  },
+
+ {
+  name: "Dharmendra Anand",
+  position: "Senior Corporate Strategist",
+  department: "Strategy & Alliances",
+  image: "/images/team/dharmendra_anand.jpg",
+  description: "Veteran strategist with 35+ years across hospitality, textiles, fabrication, and agri-tech sectors.",
+  slug: "dharmendra-anand",
   fullBio: [
-    "Anurag Shinde is a dynamic mechanical engineer with specialized expertise in business operations management and strategic marketing. Drawing inspiration from his agricultural roots, Anurag has consistently focused on addressing grassroots challenges by developing sustainable and economically viable solutions in the areas of energy, biomass utilization, and waste management.",
-    "Raised in a farming family, Anurag has been closely connected to biomass-rich environments since childhood. This early exposure instilled in him a deep commitment to transforming biomass into productive energy resources and creating scalable, real-world solutions for rural and semi-urban communities.",
-    "His professional journey has been defined by the successful management of large-scale operations and complex projects. With a strong foundation in both technical and business domains, he excels in bridging the gap between on-ground implementation and high-level strategic planning.",
-    "Anurag continues to contribute to the clean energy ecosystem by turning challenges into opportunities and fostering innovation that benefits both people and the planet."
+    "Dharmendra Anand is a seasoned corporate leader and strategic advisor with over 35 years of experience across multiple industries including hospitality, textiles, fabrication, and agri-tech. Known for his exemplary leadership, strategic foresight, and expansive corporate network, he plays a critical role in connecting businesses with financial institutions and government bodies.",
+    
+    "A distinguished professional, Dharmendra has successfully navigated high-impact roles in both traditional and emerging sectors such as Nano fertilizers, earning a reputation as a high-value asset in complex and evolving business environments.",
+    
+    "✅ Multi-Industry Mastery – Demonstrated excellence across sectors ranging from luxury hospitality to cutting-edge agricultural technologies, proving his deep adaptability and cross-domain expertise.",
+    
+    "✅ Corporate & Financial Networking – Maintains strong relationships with C-level executives, investors, and government officials, facilitating partnerships, funding, and large-scale project execution.",
+    
+    "✅ Leadership Excellence – Acclaimed for mentoring leadership teams, solving operational challenges, and turning around underperforming units with a results-driven mindset.",
+    
+    "✅ Government & Regulatory Liaison – Adept at navigating regulatory landscapes, securing approvals, and engaging in policy advocacy through trusted institutional networks.",
+    
+    "Core Expertise:",
+    "🔹 Corporate Strategy & Business Expansion",
+    "🔹 Stakeholder Management (Investors, Government, Banks)",
+    "🔹 Turnaround Leadership & Operational Efficiency",
+    "🔹 Nano Fertilizers & Agri-Tech Innovations",
+    "🔹 Hospitality & Textile Industry Best Practices"
   ]
 },
-    {
-      name: "Dharmendra Anand",
-      position: "Associate President Public Relations",
-      department: "Public Relations",
-      image: "/images/team/druvendra_anand.jpg",
-      description: "Bridge between Delamore and its global partners, crafting the firm's prestigious public image.",
-      slug: "dharmendra-anand"
-    },
-    {
-      name: "Promil Kapoor",
-      position: "Vice President Operations Haryana",
-      department: "Regional Operations",
-      image: "/images/team/promil_kapoor.jpg",
-      description: "Regional strategist expanding Delamore's footprint across emerging Asian markets.",
-      slug: "promil-kapoor"
-    }
+  {
+    name: "Promil Kapoor",
+    position: "Vice President Operations Haryana & UP",
+    department: "Regional Operations",
+    image: "/images/team/promil_kapoor.jpg",
+    description: "Regional strategist expanding Delamore's footprint across emerging Asian markets.",
+    slug: "promil-kapoor"
+  }
   // Add other team members with the same structure
 ];
 
@@ -162,7 +211,7 @@ export const Team = () => {
                     {member.department}
                   </Badge>
                 </CardHeader>
-                
+
                 <CardContent className="pt-6">
                   <p className="text-muted-foreground text-center font-medium text-lg mb-2">
                     {member.position}
