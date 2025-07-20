@@ -84,13 +84,19 @@ export const teamMembers = [
 },
 
     {
-      name: "Anurag Shinde",
-      position: "Chief Operation Officer",
-      department: "Operations",
-      image: "/images/team/Anurag_Shinde.jpg",
-      description: "Operational mastermind ensuring seamless execution of Delamore's global investment strategies.",
-      slug: "anurag-shinde"
-    },
+  name: "Anurag Shinde",
+  position: "Chief Operations Officer",
+  department: "Operations",
+  image: "/images/team/Anurag_Shinde.jpg",
+  description: "Mechanical Engineer with expertise in business operations, marketing, and sustainable biomass solutions.",
+  slug: "anurag-shinde",
+  fullBio: [
+    "Anurag Shinde is a dynamic mechanical engineer with specialized expertise in business operations management and strategic marketing. Drawing inspiration from his agricultural roots, Anurag has consistently focused on addressing grassroots challenges by developing sustainable and economically viable solutions in the areas of energy, biomass utilization, and waste management.",
+    "Raised in a farming family, Anurag has been closely connected to biomass-rich environments since childhood. This early exposure instilled in him a deep commitment to transforming biomass into productive energy resources and creating scalable, real-world solutions for rural and semi-urban communities.",
+    "His professional journey has been defined by the successful management of large-scale operations and complex projects. With a strong foundation in both technical and business domains, he excels in bridging the gap between on-ground implementation and high-level strategic planning.",
+    "Anurag continues to contribute to the clean energy ecosystem by turning challenges into opportunities and fostering innovation that benefits both people and the planet."
+  ]
+},
     {
       name: "Dharmendra Anand",
       position: "Associate President Public Relations",
