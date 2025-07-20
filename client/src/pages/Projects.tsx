@@ -1,6 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Fade } from 'react-awesome-reveal';
+import { useDocumentTitle } from '@/hooks/useDocumentTitle';
+import { Navigation } from '@/components/Navigation';
+import { Footer } from '@/components/Footer';
 
 const Projects = () => {
   const projects = [
@@ -78,7 +81,13 @@ const Projects = () => {
   ];
 
   return (
+    useDocumentTitle({
+          title: 'Projects',
+          description: 'Pioneering sustainable energy solutions across multiple technologies and geographies',
+          keywords: 'CBG Plants, Hydro Power, Wind Energy, CO2 Capture, Solar Power, Plant-Based Proteins, Micro Algae, Organic Fertilizers'
+        }),
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-indigo-100">
+      <Navigation />
       {/* Hero Section */}
       <div className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 bg-[url('/images/projects-bg.jpg')] bg-cover opacity-10"></div>
@@ -95,7 +104,7 @@ const Projects = () => {
       </div>
 
       {/* Projects Grid */}
-      <div className="container mx-auto px-6 py-12">
+      <div className="container mx-auto px-6 py-0">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {projects.map((project, index) => (
             <motion.div
@@ -121,9 +130,9 @@ const Projects = () => {
                   </span>
                 </div>
                 <p className="text-gray-600 mb-4">{project.description}</p>
-                <button className="text-blue-600 font-medium hover:text-blue-800 transition-colors">
+                {/* <button className="text-blue-600 font-medium hover:text-blue-800 transition-colors">
                   Learn more →
-                </button>
+                </button> */}
               </div>
             </motion.div>
           ))}
@@ -220,8 +229,13 @@ const Projects = () => {
             </motion.div>
           </div>
         </div>
+        
       </div>
+      
+       <Footer />
     </div>
+   
+    
   );
 };
 

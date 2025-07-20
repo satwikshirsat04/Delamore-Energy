@@ -5,6 +5,8 @@ import { ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Navigation } from "@/components/Navigation";
+import { useDocumentTitle } from '@/hooks/useDocumentTitle';
+import { Footer } from '@/components/Footer'
 
 // Animation variants
 const container = {
@@ -189,6 +191,11 @@ export const teamMembers = [
 
 export const Team = () => {
   return (
+    useDocumentTitle({
+      title: 'Team',
+      description: 'The Delamore Elite',
+      keywords: 'renewable energy, cbg, Green Energy Production, Waste Reduction, clean energy, Bio Refinery'
+    }),
   
     <section className="py-0 bg-gradient-to-b from-secondary/10 to-background">
       <Navigation />
@@ -256,7 +263,9 @@ export const Team = () => {
             </motion.div>
           ))}
         </motion.div>
+        
       </div>
+      <Footer/>
     </section>
   );
 };
