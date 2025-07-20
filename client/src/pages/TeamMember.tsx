@@ -12,7 +12,7 @@ export const TeamMember = () => {
     <div className="flex flex-col items-center justify-center min-h-screen">
       <h1 className="text-4xl font-bold mb-4">Member not found</h1>
       <Button asChild variant="outline">
-        <Link to="/about" className="flex items-center gap-1">
+        <Link to="/team" className="flex items-center gap-1">
           <ArrowLeft className="h-4 w-4" />
           Back to Team
         </Link>
@@ -25,7 +25,7 @@ export const TeamMember = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-8">
           <Button asChild variant="outline">
-            <Link to="/about" className="flex items-center gap-1">
+            <Link to="/team" className="flex items-center gap-1">
               <ArrowLeft className="h-4 w-4" />
               Back to Team
             </Link>

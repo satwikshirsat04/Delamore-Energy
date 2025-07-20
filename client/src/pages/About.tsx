@@ -6,6 +6,7 @@ import { Team } from "@/components/Team";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 import { PageBanner } from "@/components/PageBanner";
 import { useDocumentTitle } from "@/hooks/useDocumentTitle";
+import { Technology } from "@/components/Technology";
 
 const About = () => {
   useDocumentTitle({
@@ -23,7 +24,8 @@ const About = () => {
         backgroundImage="/images/banner/windmill.webp" // Custom image
       />
       <AboutSection />
-      <Team />
+      {/* <Team /> */}
+      <Technology />
       <Footer />
       {/* <WhatsAppFloat /> */}
     </div>

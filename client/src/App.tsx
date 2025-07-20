@@ -19,6 +19,7 @@ import FAQs from "./pages/FAQs";
 import NotFound from "./pages/NotFound";
 import { Team } from "@/components/Team";
 import { TeamMember } from "@/pages/TeamMember";
+import Projects from "@/pages/Projects";
 
 const queryClient = new QueryClient();
 
@@ -32,6 +33,8 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+
           <Route path="/solutions" element={<Services />} />
           <Route path="/products" element={<Products />} />
           <Route path="/process" element={<Process />} />
