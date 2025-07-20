@@ -49,14 +49,14 @@ const Projects = () => {
     {
       title: "Plant-Based Proteins",
       description: "30 plants for extraction of plant-based protein with capacity of 35+ tons per day each.",
-      image: "/images/projects/plant-protein.jpg",
+      image: "/images/projects/protein.webp",
       stats: "30 Plants | 35+ tons/day each",
       delay: 0.6
     },
     {
       title: "Micro Algae",
       description: "India's biggest micro-algae production capacity on PBR being installed, valorizing carbon capture.",
-      image: "/images/projects/micro-algae.jpg",
+      image: "/images/projects/algae2.webp",
       stats: "Largest in India",
       delay: 0.7
     },
@@ -72,12 +72,14 @@ const Projects = () => {
   const teamMembers = [
     {
       name: "Dr. Gaurav Nahar",
+      nameid: "gaurav-nahar",
       role: "Chemical & Process Engineering Expert",
       bio: "Specializing in bio and hydrogen energy with 15+ years experience in biomass valorization. PhD from University of Leeds, UK.",
       image: "/images/team/Gaurav_Nahar.png"
     },
     {
       name: "Anurag Shinde",
+      nameid: "anurag-shinde",
       role: "Operations & Marketing Expert",
       bio: "Mechanical engineer with expertise in sustainable solutions for energy and biomass utilization from grassroots level.",
       image: "/images/team/Anurag_Shinde.jpg"
@@ -173,7 +175,7 @@ const Projects = () => {
                     <h3 className="text-2xl font-bold text-gray-800 mb-2">{member.name}</h3>
                     <p className="text-blue-600 font-medium mb-4">{member.role}</p>
                     <p className="text-gray-600 mb-4">{member.bio}</p>
-                    <Link to={`/team`} className="text-blue-600 font-medium hover:text-blue-800 transition-colors">
+                    <Link to={`/team/${member.nameid}`} className="text-blue-600 font-medium hover:text-blue-800 transition-colors">
                         View profile
                         <ArrowRight className="h-4 w-4 ml-1 group-hover/button:translate-x-1 transition-transform duration-300" />
                       </Link>
