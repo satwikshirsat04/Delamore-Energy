@@ -51,7 +51,6 @@ export const TeamMember = () => {
             </div>
             <div className="w-full md:w-2/3">
               <h1 className="text-4xl font-bold mb-2">{member.name}</h1>
-              {/* <p className="text-lg text-muted-foreground mb-2">{member.location}</p> */}
               <div className="mb-6">
                 <Badge variant="outline" className="border-primary/30 bg-primary/10 text-primary/80">
                   {member.department}
@@ -65,16 +64,20 @@ export const TeamMember = () => {
                   <p key={index} className="text-muted-foreground">{paragraph}</p>
                 ))}
               </div>
-              <div className="py-2 mt-10">
-                <a
-                  href="https://www.sonykumar.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block px-6 py-3 bg-green-600 hover:bg-green-900 text-white font-medium rounded-lg  transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
-                >
-                  Blogs
-                </a>
-              </div>
+              
+              {/* Conditionally render Blogs button only for sanjeev-kumar */}
+              {member.slug === 'sanjeev-kumar' && (
+                <div className="py-2 mt-10">
+                  <a
+                    href="https://www.sonykumar.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block px-6 py-3 bg-green-600 hover:bg-green-900 text-white font-medium rounded-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
+                  >
+                    Blogs
+                  </a>
+                </div>
+              )}
             </div>
           </div>
         </div>
