@@ -27,7 +27,7 @@ export const Products = () => {
       description: "Nutrient-rich superfood products for enhanced health benefits",
       category: "Health",
       gradient: "from-gray-800 to-gray-900",
-      bgImage: "/images/products/superfood.webp"
+      bgImage: "/images/products/superfood.jpg"
     },
     {
       icon: Zap,
@@ -35,7 +35,7 @@ export const Products = () => {
       description: "Specialized bio-materials for various industrial applications",
       category: "Materials",
       gradient: "from-gray-800 to-gray-900",
-      bgImage: "/images/products/prom.webp"
+      bgImage: "/images/products/prom.jpg"
     },
     {
       icon: Pill,
