@@ -44,7 +44,7 @@ export const Services = () => {
       icon: TreePine,
       title: "Carbon Sequestration",
       description: "Carbon capture and storage for environmental decarbonization",
-      image: "/images/services/carbonseq.webp"
+      image: "/images/projects/carbon.jpg"
     },
     {
       icon: Apple,
