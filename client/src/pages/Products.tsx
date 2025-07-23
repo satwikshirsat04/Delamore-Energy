@@ -18,7 +18,7 @@ const Products = () => {
       <PageBanner 
         title="Our Products" 
         subtitle="Innovative solutions derived from biomass to power a sustainable future."
-        backgroundImage="/images/banner/hydro2.jpg"
+        backgroundImage="/images/projects/hydro.jpg"
       />
       <ProductsSection />
       <Footer />
