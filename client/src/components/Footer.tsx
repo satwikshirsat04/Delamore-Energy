@@ -51,6 +51,7 @@ export const Footer = () => {
               <li><Link to="/partners" className="text-gray-400 hover:text-primary transition-colors block py-1">- Partners</Link></li>
               <li><Link to="/contact" className="text-gray-400 hover:text-primary transition-colors block py-1">- Contact</Link></li>
               <li><Link to="/faqs" className="text-gray-400 hover:text-primary transition-colors block py-1">- FAQs</Link></li>
+              <li><Link to="/blogs-and-podcasts" className="text-gray-400 hover:text-primary transition-colors block py-1">- Blogs & Podcasts</Link></li>
             </ul>
           </div>
 
