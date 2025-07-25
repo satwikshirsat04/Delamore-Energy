@@ -81,8 +81,8 @@ export const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 flex-shrink-0 text-gray-400" />
-                <a href="mailto:info@delamoreenergy.com" className="text-gray-400 hover:text-primary transition-colors">
-                  admin@delamoreenergy.com
+                <a href="mailto:amit@delamoreenergy.com" className="text-gray-400 hover:text-primary transition-colors">
+                  amit@delamoreenergy.com
                 </a>
               </div>
               <div className="flex items-center space-x-3">
