@@ -129,62 +129,81 @@ export const teamMembers = [
     ]
   },
 
- {
-  name: "Dharmendra Anand",
-  position: "Senior Corporate Strategist",
-  department: "Strategy & Alliances",
-  image: "/images/team/dharmendra_anand.jpg",
-  description: "Veteran strategist with 35+ years across hospitality, textiles, fabrication, and agri-tech sectors.",
-  slug: "dharmendra-anand",
-  fullBio: [
-    "Dharmendra Anand is a seasoned corporate leader and strategic advisor with over 35 years of experience across multiple industries including hospitality, textiles, fabrication, and agri-tech. Known for his exemplary leadership, strategic foresight, and expansive corporate network, he plays a critical role in connecting businesses with financial institutions and government bodies.",
-    
-    "A distinguished professional, Dharmendra has successfully navigated high-impact roles in both traditional and emerging sectors such as Nano fertilizers, earning a reputation as a high-value asset in complex and evolving business environments.",
-    
-    "✅ Multi-Industry Mastery – Demonstrated excellence across sectors ranging from luxury hospitality to cutting-edge agricultural technologies, proving his deep adaptability and cross-domain expertise.",
-    
-    "✅ Corporate & Financial Networking – Maintains strong relationships with C-level executives, investors, and government officials, facilitating partnerships, funding, and large-scale project execution.",
-    
-    "✅ Leadership Excellence – Acclaimed for mentoring leadership teams, solving operational challenges, and turning around underperforming units with a results-driven mindset.",
-    
-    "✅ Government & Regulatory Liaison – Adept at navigating regulatory landscapes, securing approvals, and engaging in policy advocacy through trusted institutional networks.",
-    
-    "Core Expertise:",
-    "🔹 Corporate Strategy & Business Expansion",
-    "🔹 Stakeholder Management (Investors, Government, Banks)",
-    "🔹 Turnaround Leadership & Operational Efficiency",
-    "🔹 Nano Fertilizers & Agri-Tech Innovations",
-    "🔹 Hospitality & Textile Industry Best Practices"
-  ]
-},
   {
-  name: "Promil Kapoor",
-  position: "Senior Strategic Advisor",
-  department: "Government & International Relations",
-  image: "/images/team/promil_kapoor.jpg",
-  description: "Veteran advisor with 30+ years of experience in government liaison, cross-border facilitation, and project implementation.",
-  slug: "promil-kapoor",
-  fullBio: [
-    "Promil Kapoor is a seasoned Delhi-based strategic advisor with over 30 years of experience in managing high-level relationships across Indian and Nepalese government and semi-government institutions. Known for his deep-rooted connections, he specializes in driving projects from ground zero to completion with precision and strategic oversight.",
-    
-    "He brings unmatched expertise in business development, policy coordination, and cross-border project execution, making him an indispensable asset in navigating complex institutional landscapes and regulatory ecosystems across South Asia.",
-    
-    "✅ Government & Institutional Networking – Maintains strong ties with central/state governments in India, Nepal government departments, and public sector undertakings (PSUs), ensuring smooth project clearances and fast-tracked approvals.",
-    
-    "✅ Project Implementation & Business Expansion – Successfully led the execution of numerous infrastructure, energy, and PPP projects, with a consistent focus on operational efficiency and stakeholder engagement.",
-    
-    "✅ India-Nepal Cross-Border Expertise – Acts as a critical facilitator between Indian and Nepalese corporates, helping them navigate compliance, investment frameworks, and intergovernmental protocols.",
-    
-    "✅ Leadership in UP & Haryana – Currently leading project coordination and implementation efforts in Uttar Pradesh and Haryana while simultaneously expanding associated ventures into new business verticals.",
-    
-    "Core Expertise:",
-    "🔹 Government Relations & Policy Advocacy",
-    "🔹 Project Feasibility, Approvals & Execution",
-    "🔹 Business Development in Regulated Sectors",
-    "🔹 India-Nepal Trade & Investment Facilitation",
-    "🔹 Strategic Partnerships & Joint Ventures"
-  ]
-}
+    name: "Dharmendra Anand",
+    position: "Senior Corporate Strategist",
+    department: "Strategy & Alliances",
+    image: "/images/team/dharmendra_anand.jpg",
+    description: "Veteran strategist with 35+ years across hospitality, textiles, fabrication, and agri-tech sectors.",
+    slug: "dharmendra-anand",
+    fullBio: [
+      "Dharmendra Anand is a seasoned corporate leader and strategic advisor with over 35 years of experience across multiple industries including hospitality, textiles, fabrication, and agri-tech. Known for his exemplary leadership, strategic foresight, and expansive corporate network, he plays a critical role in connecting businesses with financial institutions and government bodies.",
+
+      "A distinguished professional, Dharmendra has successfully navigated high-impact roles in both traditional and emerging sectors such as Nano fertilizers, earning a reputation as a high-value asset in complex and evolving business environments.",
+
+      "✅ Multi-Industry Mastery – Demonstrated excellence across sectors ranging from luxury hospitality to cutting-edge agricultural technologies, proving his deep adaptability and cross-domain expertise.",
+
+      "✅ Corporate & Financial Networking – Maintains strong relationships with C-level executives, investors, and government officials, facilitating partnerships, funding, and large-scale project execution.",
+
+      "✅ Leadership Excellence – Acclaimed for mentoring leadership teams, solving operational challenges, and turning around underperforming units with a results-driven mindset.",
+
+      "✅ Government & Regulatory Liaison – Adept at navigating regulatory landscapes, securing approvals, and engaging in policy advocacy through trusted institutional networks.",
+
+      "Core Expertise:",
+      "🔹 Corporate Strategy & Business Expansion",
+      "🔹 Stakeholder Management (Investors, Government, Banks)",
+      "🔹 Turnaround Leadership & Operational Efficiency",
+      "🔹 Nano Fertilizers & Agri-Tech Innovations",
+      "🔹 Hospitality & Textile Industry Best Practices"
+    ]
+  },
+  {
+    name: "Promil Kapoor",
+    position: "Senior Strategic Advisor",
+    department: "Government & International Relations",
+    image: "/images/team/promil_kapoor.jpg",
+    description: "Veteran advisor with 30+ years of experience in government liaison, cross-border facilitation, and project implementation.",
+    slug: "promil-kapoor",
+    fullBio: [
+      "Promil Kapoor is a seasoned Delhi-based strategic advisor with over 30 years of experience in managing high-level relationships across Indian and Nepalese government and semi-government institutions. Known for his deep-rooted connections, he specializes in driving projects from ground zero to completion with precision and strategic oversight.",
+
+      "He brings unmatched expertise in business development, policy coordination, and cross-border project execution, making him an indispensable asset in navigating complex institutional landscapes and regulatory ecosystems across South Asia.",
+
+      "✅ Government & Institutional Networking – Maintains strong ties with central/state governments in India, Nepal government departments, and public sector undertakings (PSUs), ensuring smooth project clearances and fast-tracked approvals.",
+
+      "✅ Project Implementation & Business Expansion – Successfully led the execution of numerous infrastructure, energy, and PPP projects, with a consistent focus on operational efficiency and stakeholder engagement.",
+
+      "✅ India-Nepal Cross-Border Expertise – Acts as a critical facilitator between Indian and Nepalese corporates, helping them navigate compliance, investment frameworks, and intergovernmental protocols.",
+
+      "✅ Leadership in UP & Haryana – Currently leading project coordination and implementation efforts in Uttar Pradesh and Haryana while simultaneously expanding associated ventures into new business verticals.",
+
+      "Core Expertise:",
+      "🔹 Government Relations & Policy Advocacy",
+      "🔹 Project Feasibility, Approvals & Execution",
+      "🔹 Business Development in Regulated Sectors",
+      "🔹 India-Nepal Trade & Investment Facilitation",
+      "🔹 Strategic Partnerships & Joint Ventures"
+    ]
+  },
+  {
+    name: "Amit Joshi",
+    position: "International Business Strategist | Global Growth Architect",
+    department: "Business Development & Strategy",
+    image: "/images/team/amit_joshi.jpg",
+    description: "Seasoned global business executive with 22+ years experience in cross-border investments and strategic expansions across emerging markets.",
+    slug: "amit-joshi",
+    fullBio: [
+      "Visionary global business executive with over 22 years of experience orchestrating high-value international ventures, cross-border investments, and strategic expansions across India, Singapore, Dubai, and emerging global markets. Proven catalyst for business growth, consistently delivering transformational outcomes by aligning capital, strategy, and leadership in complex and competitive environments.",
+
+      "Expert in navigating multifaceted M&A deals, investor syndication, and project financing, with strong track record across Real Estate, Financial Services, Technology, and Consulting. Known for CXO-level engagement, strategic foresight, and building scalable partnerships that drive sustainable, long-term value.",
+
+      "An Influential force behind multinational growth stories—bridging institutional, private equity, and government ecosystems. Brings global mindset with local expertise and precision execution to every engagement.",
+
+      "Core competencies include cross-border deal structuring, capital raising (private equity, debt & project finance), global strategic alliances & joint ventures (Singapore, UAE, SE Asia), enterprise sales & CXO engagement, high-stakes asset advisory, and multisector market penetration strategies.",
+
+      "Professional philosophy: 'Think Global. Act Decisively. Deliver Consistently.' Believes in bridging borders through innovation, integrity, and influence—making him a trusted advisor for businesses scaling internationally with confidence and clarity."
+    ]
+  }
 
   // Add other team members with the same structure
 ];
@@ -196,7 +215,7 @@ export const Team = () => {
       description: 'The Delamore Elite',
       keywords: 'renewable energy, cbg, Green Energy Production, Waste Reduction, clean energy, Bio Refinery'
     }),
-  
+
     <section className="py-0 bg-gradient-to-b from-secondary/10 to-background">
       <Navigation />
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 mt-10 mb-10">
@@ -263,9 +282,9 @@ export const Team = () => {
             </motion.div>
           ))}
         </motion.div>
-        
+
       </div>
-      <Footer/>
+      <Footer />
     </section>
   );
 };
