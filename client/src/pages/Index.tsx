@@ -88,7 +88,7 @@ const Index = () => {
                           fostering economic, social, and sustainable growth for mankind.
                         </p>
                       </div>
-                      
+
                       <div className="mt-8 pt-6 border-t border-gray-100">
                         <div className="flex flex-wrap gap-2">
                           {['Innovation', 'Sustainability', 'Progress'].map((tag) => (
@@ -858,9 +858,11 @@ const Index = () => {
         </div>
       </FadeUp>
 
-      <FadeUp>
-        <Contact />
-      </FadeUp>
+      <div className="bg-gradient-to-r from-blue-50 to-indigo-50">
+        <FadeUp>
+          <Contact />
+        </FadeUp>
+      </div>
 
       <Footer />
       <FloatingButtons />
