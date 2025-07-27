@@ -63,21 +63,21 @@ This circular economy model not only solves waste problems but creates valuable 
     {
         id: "3",
         type: "podcast",
-        title: "Innovations in Agricultural Waste Valorization",
-        description: "Interview with Dr. Kapoor on converting crop residues into biofuels",
-        youtubeId: "LrQhN5eR6S",
-        date: "2023-11-10",
-        duration: "38 min",
+        title: "Watch full Video on YouTube",
+        description: "",
+        youtubeId: "coo2s9YSZ6A",
+        date: "",
+        duration: "",
         imageUrl: "/images/podcasts/agri-waste.jpg"
     },
     {
         id: "4",
         type: "podcast",
-        title: "The Economics of Circular Bioeconomy",
-        description: "Panel discussion with industry leaders on profitable sustainability",
-        youtubeId: "V9xUQWo4vN",
-        date: "2025-05-22",
-        duration: "10 min",
+        title: "Watch full Video on YouTube",
+        description: "",
+        youtubeId: "DSXlQK8C-XM",
+        date: "",
+        duration: "",
         imageUrl: "/images/podcasts/circular-economy.jpg"
     },
 
@@ -111,11 +111,11 @@ The technology is particularly effective in:
     {
         id: "6",
         type: "podcast",
-        title: "Women in Renewable Energy",
-        description: "Conversation with our female engineers leading green tech innovation",
-        youtubeId: "X9JxE5hQ2K",
-        date: "2023-08-18",
-        duration: "52 min",
+        title: "Watch full Video on YouTube",
+        description: "",
+        youtubeId: "prrFtReaFMY",
+        date: "",
+        duration: "",
         imageUrl: "/images/podcasts/women-in-energy.jpg"
     }
 ];
