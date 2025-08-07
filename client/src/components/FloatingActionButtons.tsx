@@ -25,7 +25,7 @@ export const FloatingButtons = () => {
   }, []);
 
   return (
-    <div className="fixed bottom-24 right-8 z-50 flex flex-col gap-3">
+    <div className="fixed bottom-32 right-8 z-50 flex flex-col gap-3">
       {isVisible && (
         <button
           onClick={scrollToTop}
