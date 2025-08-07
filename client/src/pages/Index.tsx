@@ -261,6 +261,7 @@ const Index = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 px-4">
               {/* SDG 1 - No Poverty */}
+              <FadeUp>
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
                 <div className="absolute inset-0 bg-gradient-to-br from-black to-red-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
@@ -293,8 +294,10 @@ const Index = () => {
                   </div>
                 </div>
               </div>
+              </FadeUp>
 
               {/* SDG 2 - Zero Hunger */}
+              <FadeUp>
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
                 <div className="absolute inset-0 bg-gradient-to-br from-black to-red-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
@@ -327,8 +330,10 @@ const Index = () => {
                   </div>
                 </div>
               </div>
+              </FadeUp>
 
               {/* SDG 3 - Good Health */}
+              <FadeUp>
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
                 <div className="absolute inset-0 bg-gradient-to-br from-black to-red-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
@@ -361,8 +366,10 @@ const Index = () => {
                   </div>
                 </div>
               </div>
+              </FadeUp>
 
               {/* SDG 4 - Quality Education */}
+              <FadeUp>
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
                 <div className="absolute inset-0 bg-gradient-to-br from-black to-red-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
@@ -395,8 +402,10 @@ const Index = () => {
                   </div>
                 </div>
               </div>
+              </FadeUp>
 
               {/* SDG 5 - Gender Equality */}
+              <FadeUp>
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
                 <div className="absolute inset-0 bg-gradient-to-br from-black to-red-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
@@ -429,8 +438,10 @@ const Index = () => {
                   </div>
                 </div>
               </div>
+              </FadeUp>
 
               {/* SDG 6 - Clean Water */}
+              <FadeUp>
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
                 <div className="absolute inset-0 bg-gradient-to-br from-black to-red-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
@@ -463,8 +474,10 @@ const Index = () => {
                   </div>
                 </div>
               </div>
+              </FadeUp>
 
               {/* SDG 7 - Affordable Energy */}
+              <FadeUp>
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
                 <div className="absolute inset-0 bg-gradient-to-br from-black to-green-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
@@ -497,8 +510,10 @@ const Index = () => {
                   </div>
                 </div>
               </div>
+              </FadeUp>
 
               {/* SDG 8 - Decent Work */}
+              <FadeUp>
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
                 <div className="absolute inset-0 bg-gradient-to-br from-black to-red-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
@@ -531,8 +546,10 @@ const Index = () => {
                   </div>
                 </div>
               </div>
+              </FadeUp>
 
               {/* SDG 9 - Industry, Innovation & Infrastructure */}
+              <FadeUp>
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
                 <div className="absolute inset-0 bg-gradient-to-br from-black to-red-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
@@ -565,8 +582,10 @@ const Index = () => {
                   </div>
                 </div>
               </div>
+              </FadeUp>
 
               {/* SDG 10 - Reduced Inequalities */}
+              <FadeUp>
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
                 <div className="absolute inset-0 bg-gradient-to-br from-black to-red-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
@@ -599,8 +618,10 @@ const Index = () => {
                   </div>
                 </div>
               </div>
+              </FadeUp>
 
               {/* SDG 11 - Sustainable Cities */}
+              <FadeUp>
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
                 <div className="absolute inset-0 bg-gradient-to-br from-black to-green-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
@@ -633,8 +654,10 @@ const Index = () => {
                   </div>
                 </div>
               </div>
+              </FadeUp>
 
               {/* SDG 12 - Responsible Consumption */}
+              <FadeUp>
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
                 <div className="absolute inset-0 bg-gradient-to-br from-black to-red-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
@@ -667,8 +690,10 @@ const Index = () => {
                   </div>
                 </div>
               </div>
+              </FadeUp>
 
               {/* SDG 13 - Climate Action */}
+              <FadeUp>
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
                 <div className="absolute inset-0 bg-gradient-to-br from-black to-green-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
@@ -701,8 +726,10 @@ const Index = () => {
                   </div>
                 </div>
               </div>
+              </FadeUp>
 
               {/* SDG 14 - Life Below Water */}
+              <FadeUp>
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-900 to-black opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
@@ -735,8 +762,10 @@ const Index = () => {
                   </div>
                 </div>
               </div>
+              </FadeUp>
 
               {/* SDG 15 - Life on Land */}
+              <FadeUp>
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
                 <div className="absolute inset-0 bg-gradient-to-br from-black to-red-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
@@ -769,8 +798,10 @@ const Index = () => {
                   </div>
                 </div>
               </div>
+              </FadeUp>
 
               {/* SDG 16 - Peace & Justice */}
+              <FadeUp>
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-900 to-black opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
@@ -803,9 +834,11 @@ const Index = () => {
                   </div>
                 </div>
               </div>
+              </FadeUp>
 
 
               {/* SDG 17 - Partnerships */}
+              <FadeUp>
               <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col">
                 <div className="absolute inset-0 bg-gradient-to-br from-black to-green-900 opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img
@@ -838,6 +871,7 @@ const Index = () => {
                   </div>
                 </div>
               </div>
+              </FadeUp>
 
             </div>
 
