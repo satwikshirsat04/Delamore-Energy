@@ -186,10 +186,10 @@ const Index = () => {
 
           <div className="relative z-10 max-w-7xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-700 to-purple-900 mb-6">
+              <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-300 mb-6">
                 Transforming Waste to Wealth
               </h2>
-              <p className="text-lg md:text-xl text-gray-800 mb-10 max-w-3xl mx-auto leading-relaxed">
+              <p className="text-lg md:text-xl text-white mb-10 max-w-3xl mx-auto leading-relaxed">
                 Our innovative technology converts organic waste into clean, renewable energy sources.
                 We are committed to nation building through socio-economic upliftment of society by world's comprehensive circular biomass energy solutions.
               </p>
