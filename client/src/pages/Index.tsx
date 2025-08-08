@@ -186,7 +186,7 @@ const Index = () => {
 
           <div className="relative z-10 max-w-7xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-300 mb-6">
+              <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 to-orange-300 mb-6 drop-shadow-[0_2px_4px_rgba(0,0,0,0.2)]">
                 Transforming Waste to Wealth
               </h2>
               <p className="text-lg md:text-xl text-white mb-10 max-w-3xl mx-auto leading-relaxed">
@@ -240,10 +240,10 @@ const Index = () => {
               <div className="mt-16 text-center">
                 <Link
                   to="/solutions"
-                  className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-semibold rounded-xl shadow-sm text-white bg-gradient-to-r from-yellow-700 to-orange-900 hover:from-yellow-800 hover:to-orange-900 transition-all duration-300 group"
+                  className="inline-flex items-center justify-center px-8 py-4 text-sm font-semibold rounded-xl text-white bg-gradient-to-r from-green-600 to-emerald-700 hover:from-green-700 hover:to-emerald-800 transition-all duration-300 group shadow-lg hover:shadow-xl hover:scale-[1.02]"
                 >
-                  Learn More About Our Process
-                  <svg className="ml-3 -mr-1 h-6 w-6 group-hover:translate-x-1 transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                  Learn More
+                  <svg className="ml-3 -mr-1 h- w-6 group-hover:translate-x-2 transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
                   </svg>
                 </Link>
