@@ -49,7 +49,7 @@ useDocumentTitle({
     },
     {
       name: "ARI",
-      description: "Agricultural Research Institute",
+      description: "Agarkar Research Institute ",
       type: "Research Institution"
     },
     
