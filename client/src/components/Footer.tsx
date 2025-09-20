@@ -30,7 +30,7 @@ export const Footer = () => {
               <a href="https://instagram.com/anuurag997" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-pink-500 transition-colors">
                 <FaInstagram className="w-5 h-5" />
               </a>
-              <a href="https://linkedin.com/company/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a href="https://www.linkedin.com/company/delamore-renewable-energy/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors">
                 <FaLinkedin className="w-5 h-5" />
               </a>
               <a href="https://wa.me/9115100007" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-green-400 transition-colors">
