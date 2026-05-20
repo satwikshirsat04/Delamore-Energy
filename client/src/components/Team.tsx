@@ -157,53 +157,53 @@ export const teamMembers = [
       "🔹 Hospitality & Textile Industry Best Practices"
     ]
   },
-  {
-    name: "Promil Kapoor",
-    position: "Senior Strategic Advisor",
-    department: "Government & International Relations",
-    image: "/images/team/promil_kapoor.jpg",
-    description: "Veteran advisor with 30+ years of experience in government liaison, cross-border facilitation, and project implementation.",
-    slug: "promil-kapoor",
-    fullBio: [
-      "Promil Kapoor is a seasoned Delhi-based strategic advisor with over 30 years of experience in managing high-level relationships across Indian and Nepalese government and semi-government institutions. Known for his deep-rooted connections, he specializes in driving projects from ground zero to completion with precision and strategic oversight.",
+  // {
+  //   name: "Promil Kapoor",
+  //   position: "Senior Strategic Advisor",
+  //   department: "Government & International Relations",
+  //   image: "/images/team/promil_kapoor.jpg",
+  //   description: "Veteran advisor with 30+ years of experience in government liaison, cross-border facilitation, and project implementation.",
+  //   slug: "promil-kapoor",
+  //   fullBio: [
+  //     "Promil Kapoor is a seasoned Delhi-based strategic advisor with over 30 years of experience in managing high-level relationships across Indian and Nepalese government and semi-government institutions. Known for his deep-rooted connections, he specializes in driving projects from ground zero to completion with precision and strategic oversight.",
 
-      "He brings unmatched expertise in business development, policy coordination, and cross-border project execution, making him an indispensable asset in navigating complex institutional landscapes and regulatory ecosystems across South Asia.",
+  //     "He brings unmatched expertise in business development, policy coordination, and cross-border project execution, making him an indispensable asset in navigating complex institutional landscapes and regulatory ecosystems across South Asia.",
 
-      "✅ Government & Institutional Networking – Maintains strong ties with central/state governments in India, Nepal government departments, and public sector undertakings (PSUs), ensuring smooth project clearances and fast-tracked approvals.",
+  //     "✅ Government & Institutional Networking – Maintains strong ties with central/state governments in India, Nepal government departments, and public sector undertakings (PSUs), ensuring smooth project clearances and fast-tracked approvals.",
 
-      "✅ Project Implementation & Business Expansion – Successfully led the execution of numerous infrastructure, energy, and PPP projects, with a consistent focus on operational efficiency and stakeholder engagement.",
+  //     "✅ Project Implementation & Business Expansion – Successfully led the execution of numerous infrastructure, energy, and PPP projects, with a consistent focus on operational efficiency and stakeholder engagement.",
 
-      "✅ India-Nepal Cross-Border Expertise – Acts as a critical facilitator between Indian and Nepalese corporates, helping them navigate compliance, investment frameworks, and intergovernmental protocols.",
+  //     "✅ India-Nepal Cross-Border Expertise – Acts as a critical facilitator between Indian and Nepalese corporates, helping them navigate compliance, investment frameworks, and intergovernmental protocols.",
 
-      "✅ Leadership in UP & Haryana – Currently leading project coordination and implementation efforts in Uttar Pradesh and Haryana while simultaneously expanding associated ventures into new business verticals.",
+  //     "✅ Leadership in UP & Haryana – Currently leading project coordination and implementation efforts in Uttar Pradesh and Haryana while simultaneously expanding associated ventures into new business verticals.",
 
-      "Core Expertise:",
-      "🔹 Government Relations & Policy Advocacy",
-      "🔹 Project Feasibility, Approvals & Execution",
-      "🔹 Business Development in Regulated Sectors",
-      "🔹 India-Nepal Trade & Investment Facilitation",
-      "🔹 Strategic Partnerships & Joint Ventures"
-    ]
-  },
-  {
-    name: "Amit Joshi",
-    position: "International Business Strategist | Global Growth Architect",
-    department: "Business Development & Strategy",
-    image: "/images/team/amit_joshi.jpg",
-    description: "Seasoned global business executive with 22+ years experience in cross-border investments and strategic expansions across emerging markets.",
-    slug: "amit-joshi",
-    fullBio: [
-      "Visionary global business executive with over 22 years of experience orchestrating high-value international ventures, cross-border investments, and strategic expansions across India, Singapore, Dubai, and emerging global markets. Proven catalyst for business growth, consistently delivering transformational outcomes by aligning capital, strategy, and leadership in complex and competitive environments.",
+  //     "Core Expertise:",
+  //     "🔹 Government Relations & Policy Advocacy",
+  //     "🔹 Project Feasibility, Approvals & Execution",
+  //     "🔹 Business Development in Regulated Sectors",
+  //     "🔹 India-Nepal Trade & Investment Facilitation",
+  //     "🔹 Strategic Partnerships & Joint Ventures"
+  //   ]
+  // },
+  // {
+  //   name: "Amit Joshi",
+  //   position: "International Business Strategist | Global Growth Architect",
+  //   department: "Business Development & Strategy",
+  //   image: "/images/team/amit_joshi.jpg",
+  //   description: "Seasoned global business executive with 22+ years experience in cross-border investments and strategic expansions across emerging markets.",
+  //   slug: "amit-joshi",
+  //   fullBio: [
+  //     "Visionary global business executive with over 22 years of experience orchestrating high-value international ventures, cross-border investments, and strategic expansions across India, Singapore, Dubai, and emerging global markets. Proven catalyst for business growth, consistently delivering transformational outcomes by aligning capital, strategy, and leadership in complex and competitive environments.",
 
-      "Expert in navigating multifaceted M&A deals, investor syndication, and project financing, with strong track record across Real Estate, Financial Services, Technology, and Consulting. Known for CXO-level engagement, strategic foresight, and building scalable partnerships that drive sustainable, long-term value.",
+  //     "Expert in navigating multifaceted M&A deals, investor syndication, and project financing, with strong track record across Real Estate, Financial Services, Technology, and Consulting. Known for CXO-level engagement, strategic foresight, and building scalable partnerships that drive sustainable, long-term value.",
 
-      "An Influential force behind multinational growth stories—bridging institutional, private equity, and government ecosystems. Brings global mindset with local expertise and precision execution to every engagement.",
+  //     "An Influential force behind multinational growth stories—bridging institutional, private equity, and government ecosystems. Brings global mindset with local expertise and precision execution to every engagement.",
 
-      "Core competencies include cross-border deal structuring, capital raising (private equity, debt & project finance), global strategic alliances & joint ventures (Singapore, UAE, SE Asia), enterprise sales & CXO engagement, high-stakes asset advisory, and multisector market penetration strategies.",
+  //     "Core competencies include cross-border deal structuring, capital raising (private equity, debt & project finance), global strategic alliances & joint ventures (Singapore, UAE, SE Asia), enterprise sales & CXO engagement, high-stakes asset advisory, and multisector market penetration strategies.",
 
-      "Professional philosophy: 'Think Global. Act Decisively. Deliver Consistently.' Believes in bridging borders through innovation, integrity, and influence—making him a trusted advisor for businesses scaling internationally with confidence and clarity."
-    ]
-  }
+  //     "Professional philosophy: 'Think Global. Act Decisively. Deliver Consistently.' Believes in bridging borders through innovation, integrity, and influence—making him a trusted advisor for businesses scaling internationally with confidence and clarity."
+  //   ]
+  // }
 
   // Add other team members with the same structure
 ];
